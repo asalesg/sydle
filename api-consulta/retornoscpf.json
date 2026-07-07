@@ -1,0 +1,1388 @@
+{
+  "data" : {
+    "pets" : [ {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "728892",
+      "raca" : null,
+      "nome" : "ALEK",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-02-25",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Básico",
+        "financial_state" : {
+          "name" : "Inadimplente ou Cancelado",
+          "id" : "597263a3ce027221e4453509"
+        },
+        "status" : "Suspenso"
+      },
+      "id" : "699f49286c125b5f05b3e792"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "742780",
+      "raca" : null,
+      "nome" : "jonas1",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-05-25",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Rotina",
+        "financial_state" : {
+          "name" : "Adimplente",
+          "id" : "5972639bce027221e4453507"
+        },
+        "status" : "Ativo"
+      },
+      "id" : "6a14f2a555bd9e10d94d2e9b"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "743044",
+      "raca" : null,
+      "nome" : "VOLTA",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-05-26",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Rotina",
+        "financial_state" : {
+          "name" : "Adimplente",
+          "id" : "5972639bce027221e4453507"
+        },
+        "status" : "Ativo"
+      },
+      "id" : "6a1646719cd4bf5bfa2c0b18"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "732966",
+      "raca" : null,
+      "nome" : "negao",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-03-26",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Rotina",
+        "financial_state" : {
+          "name" : "Inadimplente ou Cancelado",
+          "id" : "597263a3ce027221e4453509"
+        },
+        "status" : "Suspenso"
+      },
+      "id" : "69c5b329e5a9a960fbf96476"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "742733",
+      "raca" : null,
+      "nome" : "igk",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-05-24",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Rotina",
+        "financial_state" : {
+          "name" : "Inadimplente ou Cancelado",
+          "id" : "597263a3ce027221e4453509"
+        },
+        "status" : "Suspenso"
+      },
+      "id" : "6a13928d3d31551fe425e418"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "742895",
+      "raca" : null,
+      "nome" : "bob2",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-05-25",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Rotina",
+        "financial_state" : {
+          "name" : "Inadimplente ou Cancelado",
+          "id" : "597263a3ce027221e4453509"
+        },
+        "status" : "Suspenso"
+      },
+      "id" : "6a14f86255bd9e10d9a2fb29"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "649961",
+      "raca" : null,
+      "nome" : "ig",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-02-21",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Básico",
+        "financial_state" : {
+          "name" : "Inadimplente ou Cancelado",
+          "id" : "597263a3ce027221e4453509"
+        },
+        "status" : "Suspenso"
+      },
+      "id" : "6999de9e4cfd0f42d7411140"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "729425",
+      "raca" : null,
+      "nome" : "michael",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-03-01",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Básico",
+        "financial_state" : {
+          "name" : "Inadimplente ou Cancelado",
+          "id" : "597263a3ce027221e4453509"
+        },
+        "status" : "Suspenso"
+      },
+      "id" : "69a46e82fa1af072618d45da"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "730164",
+      "raca" : null,
+      "nome" : "NM",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-03-06",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Básico",
+        "financial_state" : {
+          "name" : "Inadimplente ou Cancelado",
+          "id" : "597263a3ce027221e4453509"
+        },
+        "status" : "Suspenso"
+      },
+      "id" : "69ab2948e7f46157dafdfb82"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "730924",
+      "raca" : null,
+      "nome" : "cope",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-03-11",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Rotina",
+        "financial_state" : {
+          "name" : "Inadimplente ou Cancelado",
+          "id" : "597263a3ce027221e4453509"
+        },
+        "status" : "Suspenso"
+      },
+      "id" : "69b2081cc30bc03585128d2e"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "732465",
+      "raca" : null,
+      "nome" : "diego",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-03-23",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Rotina",
+        "financial_state" : {
+          "name" : "Inadimplente ou Cancelado",
+          "id" : "597263a3ce027221e4453509"
+        },
+        "status" : "Suspenso"
+      },
+      "id" : "69c159475739c73639a3bfd0"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "742644",
+      "raca" : null,
+      "nome" : "wet",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-05-23",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Rotina",
+        "financial_state" : {
+          "name" : "Inadimplente ou Cancelado",
+          "id" : "597263a3ce027221e4453509"
+        },
+        "status" : "Suspenso"
+      },
+      "id" : "6a12469b3d31551fe42f4450"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "728809",
+      "raca" : null,
+      "nome" : "TICO",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-02-24",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Básico",
+        "financial_state" : {
+          "name" : "Inadimplente ou Cancelado",
+          "id" : "597263a3ce027221e4453509"
+        },
+        "status" : "Suspenso"
+      },
+      "id" : "699e40c7809f443b37525478"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "729934",
+      "raca" : null,
+      "nome" : "life",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-03-04",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Básico",
+        "financial_state" : {
+          "name" : "Inadimplente ou Cancelado",
+          "id" : "597263a3ce027221e4453509"
+        },
+        "status" : "Suspenso"
+      },
+      "id" : "69a8ccbb3d27be110559bba9"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "649958",
+      "raca" : null,
+      "nome" : "bob",
+      "plano" : {
+        "service_state" : {
+          "name" : "Inativo",
+          "id" : "59726365ce027221e44534ff"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-01-18",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Básico",
+        "financial_state" : {
+          "name" : "Inadimplente ou Cancelado",
+          "id" : "597263a3ce027221e4453509"
+        },
+        "status" : "Cancelado por inadimplência"
+      },
+      "id" : "696cf579a7015f1b964e4f8c"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "649959",
+      "raca" : null,
+      "nome" : "JOHN",
+      "plano" : {
+        "service_state" : {
+          "name" : "Inativo",
+          "id" : "59726365ce027221e44534ff"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-01-18",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Básico",
+        "financial_state" : {
+          "name" : "Inadimplente ou Cancelado",
+          "id" : "597263a3ce027221e4453509"
+        },
+        "status" : "Cancelado por inadimplência"
+      },
+      "id" : "696cf581a7015f1b964e884f"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "650057",
+      "raca" : null,
+      "nome" : "johna",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-01-19",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Básico",
+        "financial_state" : {
+          "name" : "Inadimplente ou Cancelado",
+          "id" : "597263a3ce027221e4453509"
+        },
+        "status" : "Suspenso"
+      },
+      "id" : "696e300ff38ea2735c529c65"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "726458",
+      "raca" : null,
+      "nome" : "jonk",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-02-07",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Básico",
+        "financial_state" : {
+          "name" : "Inadimplente ou Cancelado",
+          "id" : "597263a3ce027221e4453509"
+        },
+        "status" : "Suspenso"
+      },
+      "id" : "6986afa85fdca26b2e02a5fb"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "727234",
+      "raca" : null,
+      "nome" : "LICA",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-02-12",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Básico",
+        "financial_state" : {
+          "name" : "Inadimplente ou Cancelado",
+          "id" : "597263a3ce027221e4453509"
+        },
+        "status" : "Suspenso"
+      },
+      "id" : "698e5fa67addd860fc815575"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "726583",
+      "raca" : null,
+      "nome" : "luock",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-02-21",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Básico",
+        "financial_state" : {
+          "name" : "Inadimplente ou Cancelado",
+          "id" : "597263a3ce027221e4453509"
+        },
+        "status" : "Suspenso"
+      },
+      "id" : "6999e17624eff613731e3f4d"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "729135",
+      "raca" : null,
+      "nome" : "juka",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-02-27",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Básico",
+        "financial_state" : {
+          "name" : "Inadimplente ou Cancelado",
+          "id" : "597263a3ce027221e4453509"
+        },
+        "status" : "Suspenso"
+      },
+      "id" : "69a1aa8367304054d5577984"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "729577",
+      "raca" : null,
+      "nome" : "dane",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-03-02",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Básico",
+        "financial_state" : {
+          "name" : "Inadimplente ou Cancelado",
+          "id" : "597263a3ce027221e4453509"
+        },
+        "status" : "Suspenso"
+      },
+      "id" : "69a5d3187b3d36314f3c63c3"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "727235",
+      "raca" : null,
+      "nome" : "leco",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-03-02",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Básico",
+        "financial_state" : {
+          "name" : "Inadimplente ou Cancelado",
+          "id" : "597263a3ce027221e4453509"
+        },
+        "status" : "Suspenso"
+      },
+      "id" : "69a603cc6c078d5b98c47fc8"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "728310",
+      "raca" : null,
+      "nome" : "jonas",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-03-02",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Básico",
+        "financial_state" : {
+          "name" : "Inadimplente ou Cancelado",
+          "id" : "597263a3ce027221e4453509"
+        },
+        "status" : "Suspenso"
+      },
+      "id" : "69a60aab7daaac4350260315"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "729518",
+      "raca" : null,
+      "nome" : "teco",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-03-02",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Básico",
+        "financial_state" : {
+          "name" : "Adimplente",
+          "id" : "5972639bce027221e4453507"
+        },
+        "status" : "Ativo"
+      },
+      "id" : "69a620d96c078d5b98170dbe"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "729642",
+      "raca" : null,
+      "nome" : "jeni",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-03-03",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Básico",
+        "financial_state" : {
+          "name" : "Inadimplente ou Cancelado",
+          "id" : "597263a3ce027221e4453509"
+        },
+        "status" : "Suspenso"
+      },
+      "id" : "69a71f4455e61e355cac87a8"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "729908",
+      "raca" : null,
+      "nome" : "CHINA",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-03-04",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Básico",
+        "financial_state" : {
+          "name" : "Inadimplente ou Cancelado",
+          "id" : "597263a3ce027221e4453509"
+        },
+        "status" : "Suspenso"
+      },
+      "id" : "69a8ac16eef2b7622a09a931"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "730102",
+      "raca" : null,
+      "nome" : "JAKI",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-03-06",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Básico",
+        "financial_state" : {
+          "name" : "Inadimplente ou Cancelado",
+          "id" : "597263a3ce027221e4453509"
+        },
+        "status" : "Suspenso"
+      },
+      "id" : "69aad98f592a1b1d2e6f2209"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "730152",
+      "raca" : null,
+      "nome" : "JONH",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-03-06",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Básico",
+        "financial_state" : {
+          "name" : "Inadimplente ou Cancelado",
+          "id" : "597263a3ce027221e4453509"
+        },
+        "status" : "Suspenso"
+      },
+      "id" : "69ab1dab6980984d41cfc8bd"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "730153",
+      "raca" : null,
+      "nome" : "UAUK",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-03-06",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Básico",
+        "financial_state" : {
+          "name" : "Inadimplente ou Cancelado",
+          "id" : "597263a3ce027221e4453509"
+        },
+        "status" : "Suspenso"
+      },
+      "id" : "69ab1ec83d3e1c47e0e8fd3b"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "730201",
+      "raca" : null,
+      "nome" : "JOKA",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-03-06",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Básico",
+        "financial_state" : {
+          "name" : "Inadimplente ou Cancelado",
+          "id" : "597263a3ce027221e4453509"
+        },
+        "status" : "Suspenso"
+      },
+      "id" : "69ab5bd2a0b09f5d25b37592"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "730226",
+      "raca" : null,
+      "nome" : "ALL",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-03-07",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Básico",
+        "financial_state" : {
+          "name" : "Inadimplente ou Cancelado",
+          "id" : "597263a3ce027221e4453509"
+        },
+        "status" : "Suspenso"
+      },
+      "id" : "69ac1596e7f46157da97a0cf"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "730227",
+      "raca" : null,
+      "nome" : "LUA",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-03-07",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Básico",
+        "financial_state" : {
+          "name" : "Inadimplente ou Cancelado",
+          "id" : "597263a3ce027221e4453509"
+        },
+        "status" : "Suspenso"
+      },
+      "id" : "69ac16d0e7f46157dab02e99"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "730292",
+      "raca" : null,
+      "nome" : "LOK",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-03-07",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Básico",
+        "financial_state" : {
+          "name" : "Inadimplente ou Cancelado",
+          "id" : "597263a3ce027221e4453509"
+        },
+        "status" : "Suspenso"
+      },
+      "id" : "69ac6b2761d3ec20c84f3707"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "730297",
+      "raca" : null,
+      "nome" : "LUO",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-03-07",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Básico",
+        "financial_state" : {
+          "name" : "Inadimplente ou Cancelado",
+          "id" : "597263a3ce027221e4453509"
+        },
+        "status" : "Suspenso"
+      },
+      "id" : "69ac6c3461d3ec20c87d951c"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "730442",
+      "raca" : null,
+      "nome" : "lick",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-03-09",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Básico",
+        "financial_state" : {
+          "name" : "Adimplente",
+          "id" : "5972639bce027221e4453507"
+        },
+        "status" : "Ativo"
+      },
+      "id" : "69aea3e8f179cb310a5a0f94"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "730599",
+      "raca" : null,
+      "nome" : "bobi",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-03-09",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Rotina",
+        "financial_state" : {
+          "name" : "Inadimplente ou Cancelado",
+          "id" : "597263a3ce027221e4453509"
+        },
+        "status" : "Suspenso"
+      },
+      "id" : "69af76b2d8570f60e77f1649"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "730737",
+      "raca" : null,
+      "nome" : "JEAN",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-03-10",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Rotina",
+        "financial_state" : {
+          "name" : "Inadimplente ou Cancelado",
+          "id" : "597263a3ce027221e4453509"
+        },
+        "status" : "Suspenso"
+      },
+      "id" : "69b08ce69b711775a5795d3d"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "730812",
+      "raca" : null,
+      "nome" : "god",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-03-11",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Rotina",
+        "financial_state" : {
+          "name" : "Inadimplente ou Cancelado",
+          "id" : "597263a3ce027221e4453509"
+        },
+        "status" : "Suspenso"
+      },
+      "id" : "69b1761a4edb562bee140c03"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "730597",
+      "raca" : null,
+      "nome" : "jarro",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-03-11",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Rotina",
+        "financial_state" : {
+          "name" : "Inadimplente ou Cancelado",
+          "id" : "597263a3ce027221e4453509"
+        },
+        "status" : "Suspenso"
+      },
+      "id" : "69b1a8fbc59f1b7b054dd74f"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "730925",
+      "raca" : null,
+      "nome" : "LOP",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-03-11",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Rotina",
+        "financial_state" : {
+          "name" : "Inadimplente ou Cancelado",
+          "id" : "597263a3ce027221e4453509"
+        },
+        "status" : "Suspenso"
+      },
+      "id" : "69b20b1da2e2c467d05b17e6"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "731811",
+      "raca" : null,
+      "nome" : "cad",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-03-18",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Rotina",
+        "financial_state" : {
+          "name" : "Inadimplente ou Cancelado",
+          "id" : "597263a3ce027221e4453509"
+        },
+        "status" : "Suspenso"
+      },
+      "id" : "69bab5a34bc3c24eb8fa8ecb"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "734104",
+      "raca" : null,
+      "nome" : "JENY",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-03-27",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Rotina",
+        "financial_state" : {
+          "name" : "Inadimplente ou Cancelado",
+          "id" : "597263a3ce027221e4453509"
+        },
+        "status" : "Suspenso"
+      },
+      "id" : "69c6f01a3f01b817eaf6638e"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "732676",
+      "raca" : null,
+      "nome" : "adf",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-03-27",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Rotina",
+        "financial_state" : {
+          "name" : "Adimplente",
+          "id" : "5972639bce027221e4453507"
+        },
+        "status" : "Ativo"
+      },
+      "id" : "69c6f443b63fb140c7d2f258"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "734623",
+      "raca" : null,
+      "nome" : "IVO",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-03-31",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Rotina",
+        "financial_state" : {
+          "name" : "Adimplente",
+          "id" : "5972639bce027221e4453507"
+        },
+        "status" : "Ativo"
+      },
+      "id" : "69cc2034fa4a000de326f1fe"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "734763",
+      "raca" : null,
+      "nome" : "jose",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-04-01",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Rotina",
+        "financial_state" : {
+          "name" : "Inadimplente ou Cancelado",
+          "id" : "597263a3ce027221e4453509"
+        },
+        "status" : "Suspenso"
+      },
+      "id" : "69cd33a93601d06a0fb531e4"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "734945",
+      "raca" : null,
+      "nome" : "pasty",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-04-02",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Rotina",
+        "financial_state" : {
+          "name" : "Inadimplente ou Cancelado",
+          "id" : "597263a3ce027221e4453509"
+        },
+        "status" : "Suspenso"
+      },
+      "id" : "69ceaa31b909656f5aef6676"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "735042",
+      "raca" : null,
+      "nome" : "ana",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-04-03",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Rotina",
+        "financial_state" : {
+          "name" : "Inadimplente ou Cancelado",
+          "id" : "597263a3ce027221e4453509"
+        },
+        "status" : "Suspenso"
+      },
+      "id" : "69cfcdcde08d086c37a12242"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "737678",
+      "raca" : null,
+      "nome" : "dieguin",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-04-23",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Rotina",
+        "financial_state" : {
+          "name" : "Inadimplente ou Cancelado",
+          "id" : "597263a3ce027221e4453509"
+        },
+        "status" : "Suspenso"
+      },
+      "id" : "69ea6592d3f34a643f1bbc7c"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "738394",
+      "raca" : null,
+      "nome" : "INTE",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-04-28",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Rotina",
+        "financial_state" : {
+          "name" : "Inadimplente ou Cancelado",
+          "id" : "597263a3ce027221e4453509"
+        },
+        "status" : "Suspenso"
+      },
+      "id" : "69f13943003a8e75cfe6397f"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "738533",
+      "raca" : null,
+      "nome" : "VIVIAN",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-04-29",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Rotina",
+        "financial_state" : {
+          "name" : "Inadimplente ou Cancelado",
+          "id" : "597263a3ce027221e4453509"
+        },
+        "status" : "Suspenso"
+      },
+      "id" : "69f2be20a1b8867ca44b7197"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "738710",
+      "raca" : null,
+      "nome" : "aves",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-05-01",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Rotina",
+        "financial_state" : {
+          "name" : "Adimplente",
+          "id" : "5972639bce027221e4453507"
+        },
+        "status" : "Ativo"
+      },
+      "id" : "69f51d5be84153467a4efb0f"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "738938",
+      "raca" : null,
+      "nome" : "BRITIN",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-05-04",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Rotina",
+        "financial_state" : {
+          "name" : "Adimplente",
+          "id" : "5972639bce027221e4453507"
+        },
+        "status" : "Ativo"
+      },
+      "id" : "69f90992e61c044951a23504"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "741609",
+      "raca" : null,
+      "nome" : "igop",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-05-15",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Rotina",
+        "financial_state" : {
+          "name" : "Inadimplente ou Cancelado",
+          "id" : "597263a3ce027221e4453509"
+        },
+        "status" : "Suspenso"
+      },
+      "id" : "6a0769455b88541876d0eaba"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "741616",
+      "raca" : null,
+      "nome" : "DIGI",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-05-15",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Rotina",
+        "financial_state" : {
+          "name" : "Adimplente",
+          "id" : "5972639bce027221e4453507"
+        },
+        "status" : "Ativo"
+      },
+      "id" : "6a0785d1c60a9a119e3664e2"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "742100",
+      "raca" : null,
+      "nome" : "DOGVET",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-05-19",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Rotina",
+        "financial_state" : {
+          "name" : "Adimplente",
+          "id" : "5972639bce027221e4453507"
+        },
+        "status" : "Ativo"
+      },
+      "id" : "6a0cafbc89bfbb06ed677850"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "742117",
+      "raca" : null,
+      "nome" : "INT2",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-05-19",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Rotina",
+        "financial_state" : {
+          "name" : "Inadimplente ou Cancelado",
+          "id" : "597263a3ce027221e4453509"
+        },
+        "status" : "Suspenso"
+      },
+      "id" : "6a0cc7b13b53c67a23c6132c"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "742299",
+      "raca" : null,
+      "nome" : "PET1",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-05-21",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Rotina",
+        "financial_state" : {
+          "name" : "Adimplente",
+          "id" : "5972639bce027221e4453507"
+        },
+        "status" : "Ativo"
+      },
+      "id" : "6a0f1f167caac70c72d27bc6"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "743470",
+      "raca" : null,
+      "nome" : "jonas2",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-05-29",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Rotina",
+        "financial_state" : {
+          "name" : "Adimplente",
+          "id" : "5972639bce027221e4453507"
+        },
+        "status" : "Ativo"
+      },
+      "id" : "6a1a3adcd90a87686ceb7b77"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "743589",
+      "raca" : null,
+      "nome" : "bob5",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-05-30",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Rotina",
+        "financial_state" : {
+          "name" : "Adimplente",
+          "id" : "5972639bce027221e4453507"
+        },
+        "status" : "Ativo"
+      },
+      "id" : "6a1b7effcc854d6595fd444c"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "744871",
+      "raca" : null,
+      "nome" : "jonas7",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-06-09",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Rotina",
+        "financial_state" : {
+          "name" : "Adimplente",
+          "id" : "5972639bce027221e4453507"
+        },
+        "status" : "Ativo"
+      },
+      "id" : "6a2884365d125b4296d611de"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : "650061",
+      "raca" : null,
+      "nome" : "sid",
+      "plano" : {
+        "service_state" : {
+          "name" : "Ativo",
+          "id" : "59726354ce027221e44534fb"
+        },
+        "codigo" : null,
+        "data_de_vigencia" : "2026-02-06",
+        "data_de_ativacao" : null,
+        "nome" : "WeVets Básico",
+        "financial_state" : {
+          "name" : "Inadimplente ou Cancelado",
+          "id" : "597263a3ce027221e4453509"
+        },
+        "status" : "Suspenso"
+      },
+      "id" : "69864f9650b32b50714e3944"
+    } ],
+    "tutor" : {
+      "telefone" : "+5541991698177",
+      "endereco" : {
+        "cidade" : "Curitiba",
+        "estado" : "PR",
+        "complemento" : null,
+        "numero" : "111",
+        "logradouro" : "Rua Anselmo de Lima Filho",
+        "bairro" : null,
+        "cep" : null,
+        "pais" : "Brasil"
+      },
+      "cpf" : null,
+      "nome" : "LUAN SANTOS",
+      "id" : "696c5cf1a7015f1b969564f0",
+      "email" : null
+    }
+  },
+  "success" : true,
+  "error" : null
+}

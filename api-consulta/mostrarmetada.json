@@ -1,0 +1,1559 @@
+{
+  "implements" : [ {
+    "_id" : "000000000000000000000087",
+    "_classId" : "000000000000000000000000"
+  } ],
+  "_creationUser" : {
+    "_id" : "67c9d45124565c1b516a3871",
+    "_classId" : "000000000000000000000002"
+  },
+  "methods" : [ {
+    "identifier" : "_updateDraft",
+    "accessLevel" : "INHERIT",
+    "documentation" : null,
+    "aclSpecifiedBy" : [ "000000000000000000000035", "000000000000000000000016" ],
+    "icon" : null,
+    "_classRevision" : "1773097389180",
+    "modifiers" : null,
+    "inputParameters" : null,
+    "explicitGroups" : null,
+    "displayConfigs" : [ {
+      "exhibitionMode" : [ ],
+      "_classRevision" : "1772146933498",
+      "location" : "DRAFT",
+      "_class" : {
+        "_id" : "64ca65a62a586d6f47045178",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "65cec396c8a41d67e7552692"
+    } ],
+    "numberMinimumOfObjects" : 1,
+    "engine" : "GRAAL",
+    "executionContext" : [ "DRAFT" ],
+    "name" : "Atualizar Rascunho",
+    "_class" : {
+      "_id" : "000000000000000000000006",
+      "_classId" : "000000000000000000000000"
+    },
+    "_id" : "000000000000000000000024",
+    "scripts" : null,
+    "numberMaximumOfObjects" : 1,
+    "explicitUsers" : null,
+    "outputParameters" : null
+  }, {
+    "identifier" : "_search",
+    "accessLevel" : "INHERIT",
+    "documentation" : null,
+    "aclSpecifiedBy" : [ "000000000000000000000018" ],
+    "icon" : null,
+    "_classRevision" : "1773097389180",
+    "modifiers" : [ "NON_EXTENSIBLE" ],
+    "inputParameters" : null,
+    "explicitGroups" : null,
+    "displayConfigs" : [ {
+      "exhibitionMode" : [ ],
+      "_classRevision" : "1772146933498",
+      "location" : "OBJECT_LIST",
+      "_class" : {
+        "_id" : "64ca65a62a586d6f47045178",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "65cec396c8a41d67e755269b"
+    }, {
+      "exhibitionMode" : [ ],
+      "_classRevision" : "1772146933498",
+      "location" : "PIPELINE",
+      "_class" : {
+        "_id" : "64ca65a62a586d6f47045178",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "65cec396c8a41d67e755269c"
+    } ],
+    "numberMinimumOfObjects" : 1,
+    "engine" : "GRAAL",
+    "executionContext" : [ "CLASS" ],
+    "name" : "Buscar",
+    "_class" : {
+      "_id" : "000000000000000000000006",
+      "_classId" : "000000000000000000000000"
+    },
+    "_id" : "000000000000000000000019",
+    "scripts" : null,
+    "numberMaximumOfObjects" : null,
+    "explicitUsers" : null,
+    "outputParameters" : null
+  }, {
+    "identifier" : "_create",
+    "accessLevel" : "EXPLICIT",
+    "documentation" : null,
+    "aclSpecifiedBy" : null,
+    "icon" : null,
+    "_classRevision" : "1773097389180",
+    "modifiers" : [ "NON_EXTENSIBLE" ],
+    "inputParameters" : null,
+    "explicitGroups" : [ {
+      "_id" : "000000000000000000000039",
+      "_classId" : "000000000000000000000005"
+    } ],
+    "displayConfigs" : [ {
+      "exhibitionMode" : [ ],
+      "_classRevision" : "1772146933498",
+      "location" : "OBJECT_LIST",
+      "_class" : {
+        "_id" : "64ca65a62a586d6f47045178",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "65cec396c8a41d67e75526ad"
+    }, {
+      "exhibitionMode" : [ ],
+      "_classRevision" : "1772146933498",
+      "location" : "PIPELINE",
+      "_class" : {
+        "_id" : "64ca65a62a586d6f47045178",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "65cec396c8a41d67e75526ae"
+    } ],
+    "numberMinimumOfObjects" : 1,
+    "engine" : "GRAAL",
+    "executionContext" : [ "CLASS" ],
+    "name" : "Criar",
+    "_class" : {
+      "_id" : "000000000000000000000006",
+      "_classId" : "000000000000000000000000"
+    },
+    "_id" : "000000000000000000000035",
+    "scripts" : null,
+    "numberMaximumOfObjects" : null,
+    "explicitUsers" : null,
+    "outputParameters" : null
+  }, {
+    "identifier" : "_createDraft",
+    "accessLevel" : "INHERIT",
+    "documentation" : null,
+    "aclSpecifiedBy" : [ "000000000000000000000035", "000000000000000000000016" ],
+    "icon" : null,
+    "_classRevision" : "1773097389180",
+    "modifiers" : null,
+    "inputParameters" : null,
+    "explicitGroups" : null,
+    "displayConfigs" : [ {
+      "exhibitionMode" : [ ],
+      "_classRevision" : "1772146933498",
+      "location" : "OBJECT",
+      "_class" : {
+        "_id" : "64ca65a62a586d6f47045178",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "65cec396c8a41d67e75526be"
+    }, {
+      "exhibitionMode" : [ ],
+      "_classRevision" : "1772146933498",
+      "location" : "OBJECT_LIST",
+      "_class" : {
+        "_id" : "64ca65a62a586d6f47045178",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "65cec396c8a41d67e75526bf"
+    }, {
+      "exhibitionMode" : [ ],
+      "_classRevision" : "1772146933498",
+      "location" : "PIPELINE",
+      "_class" : {
+        "_id" : "64ca65a62a586d6f47045178",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "65cec396c8a41d67e75526c0"
+    } ],
+    "numberMinimumOfObjects" : 1,
+    "engine" : "GRAAL",
+    "executionContext" : [ "OBJECT", "CLASS" ],
+    "name" : "Criar Rascunho",
+    "_class" : {
+      "_id" : "000000000000000000000006",
+      "_classId" : "000000000000000000000000"
+    },
+    "_id" : "000000000000000000000026",
+    "scripts" : null,
+    "numberMaximumOfObjects" : null,
+    "explicitUsers" : null,
+    "outputParameters" : null
+  }, {
+    "identifier" : "_duplicate",
+    "accessLevel" : "INHERIT",
+    "documentation" : null,
+    "aclSpecifiedBy" : [ "000000000000000000000035" ],
+    "icon" : "fa fa-clone",
+    "_classRevision" : "1773097389180",
+    "modifiers" : null,
+    "inputParameters" : null,
+    "explicitGroups" : null,
+    "displayConfigs" : [ {
+      "exhibitionMode" : [ "MENU" ],
+      "_classRevision" : "1772146933498",
+      "location" : "OBJECT",
+      "_class" : {
+        "_id" : "64ca65a62a586d6f47045178",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "65cec396c8a41d67e75526c8"
+    }, {
+      "exhibitionMode" : [ ],
+      "_classRevision" : "1772146933498",
+      "location" : "OBJECT_LIST",
+      "_class" : {
+        "_id" : "64ca65a62a586d6f47045178",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "65cec396c8a41d67e75526c9"
+    }, {
+      "exhibitionMode" : [ ],
+      "_classRevision" : "1772146933498",
+      "location" : "PIPELINE",
+      "_class" : {
+        "_id" : "64ca65a62a586d6f47045178",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "65cec396c8a41d67e75526ca"
+    } ],
+    "numberMinimumOfObjects" : 1,
+    "engine" : "GRAAL",
+    "executionContext" : [ "OBJECT" ],
+    "name" : "Duplicar",
+    "_class" : {
+      "_id" : "000000000000000000000006",
+      "_classId" : "000000000000000000000000"
+    },
+    "_id" : "000000000000000000000188",
+    "scripts" : null,
+    "numberMaximumOfObjects" : 1,
+    "explicitUsers" : null,
+    "outputParameters" : null
+  }, {
+    "identifier" : "_update",
+    "accessLevel" : "EXPLICIT",
+    "documentation" : null,
+    "aclSpecifiedBy" : null,
+    "icon" : "ti-pencil-alt2",
+    "_classRevision" : "1773097389180",
+    "modifiers" : [ "NON_EXTENSIBLE" ],
+    "inputParameters" : null,
+    "explicitGroups" : [ {
+      "_id" : "000000000000000000000039",
+      "_classId" : "000000000000000000000005"
+    } ],
+    "displayConfigs" : [ {
+      "exhibitionMode" : [ "FEATURED", "MENU" ],
+      "_classRevision" : "1772146933498",
+      "location" : "OBJECT",
+      "_class" : {
+        "_id" : "64ca65a62a586d6f47045178",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "65cec396c8a41d67e75526d7"
+    }, {
+      "exhibitionMode" : [ "FEATURED", "MENU" ],
+      "_classRevision" : "1772146933498",
+      "location" : "OBJECT_LIST",
+      "_class" : {
+        "_id" : "64ca65a62a586d6f47045178",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "65cec396c8a41d67e75526d8"
+    }, {
+      "exhibitionMode" : [ ],
+      "_classRevision" : "1772146933498",
+      "location" : "PIPELINE",
+      "_class" : {
+        "_id" : "64ca65a62a586d6f47045178",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "65cec396c8a41d67e75526d9"
+    } ],
+    "numberMinimumOfObjects" : 1,
+    "engine" : "GRAAL",
+    "executionContext" : [ "OBJECT" ],
+    "name" : "Editar",
+    "_class" : {
+      "_id" : "000000000000000000000006",
+      "_classId" : "000000000000000000000000"
+    },
+    "_id" : "000000000000000000000016",
+    "scripts" : null,
+    "numberMaximumOfObjects" : 1,
+    "explicitUsers" : null,
+    "outputParameters" : null
+  }, {
+    "identifier" : "_patch",
+    "accessLevel" : "INHERIT",
+    "documentation" : null,
+    "aclSpecifiedBy" : [ "000000000000000000000058" ],
+    "icon" : null,
+    "_classRevision" : "1773097389180",
+    "modifiers" : [ "NON_EXTENSIBLE" ],
+    "inputParameters" : null,
+    "explicitGroups" : null,
+    "displayConfigs" : [ {
+      "exhibitionMode" : [ ],
+      "_classRevision" : "1772146933498",
+      "location" : "OBJECT",
+      "_class" : {
+        "_id" : "64ca65a62a586d6f47045178",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "65cec396c8a41d67e755274e"
+    }, {
+      "exhibitionMode" : [ ],
+      "_classRevision" : "1772146933498",
+      "location" : "OBJECT_LIST",
+      "_class" : {
+        "_id" : "64ca65a62a586d6f47045178",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "65cec396c8a41d67e755274f"
+    }, {
+      "exhibitionMode" : [ ],
+      "_classRevision" : "1772146933498",
+      "location" : "PIPELINE",
+      "_class" : {
+        "_id" : "64ca65a62a586d6f47045178",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "65cec396c8a41d67e7552750"
+    } ],
+    "numberMinimumOfObjects" : 1,
+    "engine" : "GRAAL",
+    "executionContext" : [ "OBJECT" ],
+    "name" : "Editar parcialmente",
+    "_class" : {
+      "_id" : "000000000000000000000006",
+      "_classId" : "000000000000000000000000"
+    },
+    "_id" : "000000000000000000000032",
+    "scripts" : null,
+    "numberMaximumOfObjects" : 1,
+    "explicitUsers" : null,
+    "outputParameters" : null
+  }, {
+    "identifier" : "_patchDraft",
+    "accessLevel" : "INHERIT",
+    "documentation" : null,
+    "aclSpecifiedBy" : [ "000000000000000000000024", "000000000000000000000026" ],
+    "icon" : null,
+    "_classRevision" : "1773097389180",
+    "modifiers" : [ "NON_EXTENSIBLE" ],
+    "inputParameters" : null,
+    "explicitGroups" : null,
+    "displayConfigs" : [ {
+      "exhibitionMode" : [ ],
+      "_classRevision" : "1772146933498",
+      "location" : "OBJECT",
+      "_class" : {
+        "_id" : "64ca65a62a586d6f47045178",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "65cec396c8a41d67e755275e"
+    }, {
+      "exhibitionMode" : [ ],
+      "_classRevision" : "1772146933498",
+      "location" : "OBJECT_LIST",
+      "_class" : {
+        "_id" : "64ca65a62a586d6f47045178",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "65cec396c8a41d67e755275f"
+    }, {
+      "exhibitionMode" : [ ],
+      "_classRevision" : "1772146933498",
+      "location" : "PIPELINE",
+      "_class" : {
+        "_id" : "64ca65a62a586d6f47045178",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "65cec396c8a41d67e7552760"
+    } ],
+    "numberMinimumOfObjects" : 1,
+    "engine" : "GRAAL",
+    "executionContext" : [ "OBJECT" ],
+    "name" : "Editar rascunho parcialmente",
+    "_class" : {
+      "_id" : "000000000000000000000006",
+      "_classId" : "000000000000000000000000"
+    },
+    "_id" : "000000000000000000000033",
+    "scripts" : null,
+    "numberMaximumOfObjects" : 1,
+    "explicitUsers" : null,
+    "outputParameters" : null
+  }, {
+    "identifier" : "_getHistory",
+    "accessLevel" : "EXPLICIT",
+    "documentation" : null,
+    "aclSpecifiedBy" : null,
+    "icon" : "fa fa-fw fa-history",
+    "_classRevision" : "1773097389180",
+    "modifiers" : [ "NON_EXTENSIBLE" ],
+    "inputParameters" : null,
+    "explicitGroups" : [ {
+      "_id" : "000000000000000000000039",
+      "_classId" : "000000000000000000000005"
+    } ],
+    "displayConfigs" : [ {
+      "exhibitionMode" : [ "MENU" ],
+      "_classRevision" : "1772146933498",
+      "location" : "OBJECT",
+      "_class" : {
+        "_id" : "64ca65a62a586d6f47045178",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "65cec396c8a41d67e75526e5"
+    }, {
+      "exhibitionMode" : [ ],
+      "_classRevision" : "1772146933498",
+      "location" : "OBJECT_LIST",
+      "_class" : {
+        "_id" : "64ca65a62a586d6f47045178",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "65cec396c8a41d67e75526e6"
+    }, {
+      "exhibitionMode" : [ ],
+      "_classRevision" : "1772146933498",
+      "location" : "PIPELINE",
+      "_class" : {
+        "_id" : "64ca65a62a586d6f47045178",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "65cec396c8a41d67e75526e7"
+    } ],
+    "numberMinimumOfObjects" : 1,
+    "engine" : "GRAAL",
+    "executionContext" : [ "OBJECT" ],
+    "name" : "Histórico",
+    "_class" : {
+      "_id" : "000000000000000000000006",
+      "_classId" : "000000000000000000000000"
+    },
+    "_id" : "000000000000000000000021",
+    "scripts" : null,
+    "numberMaximumOfObjects" : 1,
+    "explicitUsers" : null,
+    "outputParameters" : null
+  }, {
+    "identifier" : "_get",
+    "accessLevel" : "EXPLICIT",
+    "documentation" : null,
+    "aclSpecifiedBy" : null,
+    "icon" : null,
+    "_classRevision" : "1773097389180",
+    "modifiers" : [ "NON_EXTENSIBLE" ],
+    "inputParameters" : null,
+    "explicitGroups" : [ {
+      "_id" : "000000000000000000000039",
+      "_classId" : "000000000000000000000005"
+    } ],
+    "displayConfigs" : [ {
+      "exhibitionMode" : [ ],
+      "_classRevision" : "1772146933498",
+      "location" : "OBJECT",
+      "_class" : {
+        "_id" : "64ca65a62a586d6f47045178",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "65cec396c8a41d67e75526f6"
+    }, {
+      "exhibitionMode" : [ ],
+      "_classRevision" : "1772146933498",
+      "location" : "OBJECT_LIST",
+      "_class" : {
+        "_id" : "64ca65a62a586d6f47045178",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "65cec396c8a41d67e75526f7"
+    }, {
+      "exhibitionMode" : [ ],
+      "_classRevision" : "1772146933498",
+      "location" : "PIPELINE",
+      "_class" : {
+        "_id" : "64ca65a62a586d6f47045178",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "65cec396c8a41d67e75526f8"
+    } ],
+    "numberMinimumOfObjects" : 1,
+    "engine" : "GRAAL",
+    "executionContext" : [ "OBJECT", "CLASS" ],
+    "name" : "Obter",
+    "_class" : {
+      "_id" : "000000000000000000000006",
+      "_classId" : "000000000000000000000000"
+    },
+    "_id" : "000000000000000000000018",
+    "scripts" : null,
+    "numberMaximumOfObjects" : null,
+    "explicitUsers" : null,
+    "outputParameters" : null
+  }, {
+    "identifier" : "_getACL",
+    "accessLevel" : "EXPLICIT",
+    "documentation" : null,
+    "aclSpecifiedBy" : [ ],
+    "icon" : null,
+    "_classRevision" : "1773097389180",
+    "modifiers" : null,
+    "inputParameters" : null,
+    "explicitGroups" : null,
+    "displayConfigs" : [ {
+      "exhibitionMode" : [ ],
+      "_classRevision" : "1772146933498",
+      "location" : "OBJECT",
+      "_class" : {
+        "_id" : "64ca65a62a586d6f47045178",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "65cec396c8a41d67e7552706"
+    }, {
+      "exhibitionMode" : [ ],
+      "_classRevision" : "1772146933498",
+      "location" : "OBJECT_LIST",
+      "_class" : {
+        "_id" : "64ca65a62a586d6f47045178",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "65cec396c8a41d67e7552707"
+    }, {
+      "exhibitionMode" : [ ],
+      "_classRevision" : "1772146933498",
+      "location" : "PIPELINE",
+      "_class" : {
+        "_id" : "64ca65a62a586d6f47045178",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "65cec396c8a41d67e7552708"
+    } ],
+    "numberMinimumOfObjects" : 1,
+    "engine" : "GRAAL",
+    "executionContext" : [ "OBJECT", "CLASS" ],
+    "name" : "Obter Controle de Acesso",
+    "_class" : {
+      "_id" : "000000000000000000000006",
+      "_classId" : "000000000000000000000000"
+    },
+    "_id" : "000000000000000000000068",
+    "scripts" : null,
+    "numberMaximumOfObjects" : null,
+    "explicitUsers" : null,
+    "outputParameters" : null
+  }, {
+    "identifier" : "_getMetadata",
+    "accessLevel" : "INHERIT",
+    "documentation" : null,
+    "aclSpecifiedBy" : [ "000000000000000000000019", "000000000000000000000018", "000000000000000000000016", "000000000000000000000035" ],
+    "icon" : null,
+    "_classRevision" : "1773097389180",
+    "modifiers" : null,
+    "inputParameters" : null,
+    "explicitGroups" : null,
+    "displayConfigs" : [ {
+      "exhibitionMode" : [ ],
+      "_classRevision" : "1772146933498",
+      "location" : "OBJECT_LIST",
+      "_class" : {
+        "_id" : "64ca65a62a586d6f47045178",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "65cec396c8a41d67e7552715"
+    }, {
+      "exhibitionMode" : [ ],
+      "_classRevision" : "1772146933498",
+      "location" : "PIPELINE",
+      "_class" : {
+        "_id" : "64ca65a62a586d6f47045178",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "65cec396c8a41d67e7552716"
+    }, {
+      "exhibitionMode" : [ ],
+      "_classRevision" : "1772146933498",
+      "location" : "OBJECT",
+      "_class" : {
+        "_id" : "64ca65a62a586d6f47045178",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "65cec396c8a41d67e7552717"
+    }, {
+      "exhibitionMode" : [ ],
+      "_classRevision" : "1772146933498",
+      "location" : "DRAFT",
+      "_class" : {
+        "_id" : "64ca65a62a586d6f47045178",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "65cec396c8a41d67e7552718"
+    } ],
+    "numberMinimumOfObjects" : 1,
+    "engine" : "GRAAL",
+    "executionContext" : [ "CLASS", "OBJECT", "DRAFT" ],
+    "name" : "Obter Metadata",
+    "_class" : {
+      "_id" : "000000000000000000000006",
+      "_classId" : "000000000000000000000000"
+    },
+    "_id" : "000000000000000000000030",
+    "scripts" : null,
+    "numberMaximumOfObjects" : null,
+    "explicitUsers" : null,
+    "outputParameters" : null
+  }, {
+    "identifier" : "_getDraft",
+    "accessLevel" : "INHERIT",
+    "documentation" : null,
+    "aclSpecifiedBy" : [ "000000000000000000000018" ],
+    "icon" : null,
+    "_classRevision" : "1773097389180",
+    "modifiers" : [ "NON_EXTENSIBLE" ],
+    "inputParameters" : null,
+    "explicitGroups" : null,
+    "displayConfigs" : [ {
+      "exhibitionMode" : [ ],
+      "_classRevision" : "1772146933498",
+      "location" : "DRAFT",
+      "_class" : {
+        "_id" : "64ca65a62a586d6f47045178",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "65cec396c8a41d67e7552723"
+    } ],
+    "numberMinimumOfObjects" : 1,
+    "engine" : "GRAAL",
+    "executionContext" : [ "DRAFT" ],
+    "name" : "Obter Rascunho",
+    "_class" : {
+      "_id" : "000000000000000000000006",
+      "_classId" : "000000000000000000000000"
+    },
+    "_id" : "000000000000000000000029",
+    "scripts" : null,
+    "numberMaximumOfObjects" : 1,
+    "explicitUsers" : null,
+    "outputParameters" : null
+  }, {
+    "identifier" : "_delete",
+    "accessLevel" : "EXPLICIT",
+    "documentation" : null,
+    "aclSpecifiedBy" : null,
+    "icon" : "fa fa-fw fa-trash",
+    "_classRevision" : "1773097389180",
+    "modifiers" : null,
+    "inputParameters" : null,
+    "explicitGroups" : [ {
+      "_id" : "000000000000000000000039",
+      "_classId" : "000000000000000000000005"
+    } ],
+    "displayConfigs" : [ {
+      "exhibitionMode" : [ "MENU" ],
+      "_classRevision" : "1772146933498",
+      "location" : "OBJECT",
+      "_class" : {
+        "_id" : "64ca65a62a586d6f47045178",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "65cec396c8a41d67e755272d"
+    }, {
+      "exhibitionMode" : [ ],
+      "_classRevision" : "1772146933498",
+      "location" : "OBJECT_LIST",
+      "_class" : {
+        "_id" : "64ca65a62a586d6f47045178",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "65cec396c8a41d67e755272e"
+    }, {
+      "exhibitionMode" : [ ],
+      "_classRevision" : "1772146933498",
+      "location" : "PIPELINE",
+      "_class" : {
+        "_id" : "64ca65a62a586d6f47045178",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "65cec396c8a41d67e755272f"
+    } ],
+    "numberMinimumOfObjects" : 1,
+    "engine" : "GRAAL",
+    "executionContext" : [ "OBJECT" ],
+    "name" : "Remover",
+    "_class" : {
+      "_id" : "000000000000000000000006",
+      "_classId" : "000000000000000000000000"
+    },
+    "_id" : "000000000000000000000017",
+    "scripts" : null,
+    "numberMaximumOfObjects" : 1,
+    "explicitUsers" : null,
+    "outputParameters" : null
+  }, {
+    "identifier" : "_save",
+    "accessLevel" : "INHERIT",
+    "documentation" : null,
+    "aclSpecifiedBy" : [ "000000000000000000000035", "000000000000000000000016" ],
+    "icon" : null,
+    "_classRevision" : "1773097389180",
+    "modifiers" : null,
+    "inputParameters" : null,
+    "explicitGroups" : null,
+    "displayConfigs" : [ {
+      "exhibitionMode" : [ ],
+      "_classRevision" : "1772146933498",
+      "location" : "OBJECT",
+      "_class" : {
+        "_id" : "64ca65a62a586d6f47045178",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "65cec396c8a41d67e755273d"
+    }, {
+      "exhibitionMode" : [ ],
+      "_classRevision" : "1772146933498",
+      "location" : "OBJECT_LIST",
+      "_class" : {
+        "_id" : "64ca65a62a586d6f47045178",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "65cec396c8a41d67e755273e"
+    }, {
+      "exhibitionMode" : [ ],
+      "_classRevision" : "1772146933498",
+      "location" : "PIPELINE",
+      "_class" : {
+        "_id" : "64ca65a62a586d6f47045178",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "65cec396c8a41d67e755273f"
+    } ],
+    "numberMinimumOfObjects" : 1,
+    "engine" : "GRAAL",
+    "executionContext" : [ "OBJECT", "CLASS" ],
+    "name" : "Salvar",
+    "_class" : {
+      "_id" : "000000000000000000000006",
+      "_classId" : "000000000000000000000000"
+    },
+    "_id" : "000000000000000000000058",
+    "scripts" : null,
+    "numberMaximumOfObjects" : null,
+    "explicitUsers" : null,
+    "outputParameters" : null
+  } ],
+  "dataExtractor" : null,
+  "_lastUpdateUser" : {
+    "_id" : "67cafc1baca14026eb1171bb",
+    "_classId" : "000000000000000000000002"
+  },
+  "type" : "STANDARD",
+  "allowOfflineCreate" : false,
+  "modifiers" : null,
+  "purgeConfiguration" : null,
+  "objectDetailsView" : null,
+  "fieldGrouping" : "NONE",
+  "_publishedObject" : null,
+  "_lastUpdateDate" : "2026-03-26T17:18:57.818Z",
+  "_protected" : true,
+  "_unprotectedFields" : [ ],
+  "editHelp" : null,
+  "identifier" : "serviceState",
+  "_revision" : "6",
+  "package" : {
+    "_id" : "59a701852dbf6f9f4baadc30",
+    "_classId" : "000000000000000000000015"
+  },
+  "_classRevision" : "1773097389180",
+  "index" : true,
+  "_creationDate" : "2025-04-15T13:11:57.129Z",
+  "sections" : null,
+  "historyExpiration" : 31536000,
+  "objectEditView" : null,
+  "allowOfflineEdit" : false,
+  "name" : "Status de serviço",
+  "_class" : {
+    "_id" : "000000000000000000000000",
+    "_classId" : "000000000000000000000000"
+  },
+  "_id" : "597262c7ce027221e44534e1",
+  "fields" : [ {
+    "valueExpression" : null,
+    "hidden" : false,
+    "additionalConfigs" : {
+      "scriptSyntax" : "javascript",
+      "display" : null,
+      "_classRevision" : "1772146933498",
+      "_class" : {
+        "_id" : "000000000000005550000002",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "5a7cdd07eb8ae645a3c159e4",
+      "placeholder" : "",
+      "contentType" : "simpleText",
+      "maxLength" : null
+    },
+    "defaultValue" : null,
+    "section" : null,
+    "minMultiplicity" : null,
+    "type" : "STRING",
+    "required" : true,
+    "valueOptions" : null,
+    "engine" : "DEFAULT",
+    "shiftable" : true,
+    "relevancy" : "FEATURED",
+    "editHelp" : null,
+    "embedded" : false,
+    "calculated" : false,
+    "identifier" : "identifier",
+    "multiple" : false,
+    "refClass" : null,
+    "maxMultiplicity" : null,
+    "_classRevision" : "1773097389180",
+    "readOnly" : false,
+    "calculationStrategy" : "ON_READ",
+    "searchable" : true,
+    "i18n" : false,
+    "displayOnEditMode" : false,
+    "encrypted" : false,
+    "unique" : true,
+    "encryptionAlgorithmType" : null,
+    "name" : "Identificador",
+    "_class" : {
+      "_id" : "000000000000000000000001",
+      "_classId" : "000000000000000000000000"
+    },
+    "_id" : "597894a3ce027227c4269e5a",
+    "exhibitionConfigs" : {
+      "size" : "lg",
+      "breakLine" : true,
+      "_classRevision" : "1772146933498",
+      "_class" : {
+        "_id" : "fffff0000000000000000004",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6070c9a16f48727c3b88714f",
+      "mask" : null
+    }
+  }, {
+    "valueExpression" : null,
+    "hidden" : false,
+    "additionalConfigs" : {
+      "scriptSyntax" : "javascript",
+      "display" : null,
+      "_classRevision" : "1772146933498",
+      "_class" : {
+        "_id" : "000000000000005550000002",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "5a7cdd07eb8ae645a3c159e5",
+      "placeholder" : "",
+      "contentType" : "simpleText",
+      "maxLength" : null
+    },
+    "defaultValue" : null,
+    "section" : null,
+    "minMultiplicity" : null,
+    "type" : "STRING",
+    "required" : true,
+    "valueOptions" : null,
+    "engine" : "DEFAULT",
+    "shiftable" : true,
+    "relevancy" : "IDENTITY",
+    "editHelp" : null,
+    "embedded" : false,
+    "calculated" : false,
+    "identifier" : "name",
+    "multiple" : false,
+    "refClass" : null,
+    "maxMultiplicity" : null,
+    "_classRevision" : "1773097389180",
+    "readOnly" : false,
+    "calculationStrategy" : "ON_READ",
+    "searchable" : true,
+    "i18n" : true,
+    "displayOnEditMode" : false,
+    "encrypted" : false,
+    "unique" : false,
+    "encryptionAlgorithmType" : null,
+    "name" : "Nome",
+    "_class" : {
+      "_id" : "000000000000000000000001",
+      "_classId" : "000000000000000000000000"
+    },
+    "_id" : "00ff00000000000000000147",
+    "exhibitionConfigs" : {
+      "size" : "lg",
+      "breakLine" : true,
+      "_classRevision" : "1772146933498",
+      "_class" : {
+        "_id" : "fffff0000000000000000004",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6070c9a16f48727c3b88714f",
+      "mask" : null
+    }
+  }, {
+    "valueExpression" : null,
+    "hidden" : false,
+    "additionalConfigs" : null,
+    "defaultValue" : null,
+    "section" : null,
+    "minMultiplicity" : null,
+    "type" : "ID",
+    "required" : false,
+    "valueOptions" : null,
+    "engine" : "DEFAULT",
+    "shiftable" : true,
+    "relevancy" : "SYSTEM",
+    "editHelp" : null,
+    "embedded" : false,
+    "calculated" : false,
+    "identifier" : "_id",
+    "multiple" : false,
+    "refClass" : null,
+    "maxMultiplicity" : null,
+    "_classRevision" : "1773097389180",
+    "readOnly" : true,
+    "calculationStrategy" : "ON_READ",
+    "searchable" : true,
+    "i18n" : false,
+    "displayOnEditMode" : false,
+    "encrypted" : false,
+    "unique" : true,
+    "encryptionAlgorithmType" : null,
+    "name" : "ID",
+    "_class" : {
+      "_id" : "000000000000000000000001",
+      "_classId" : "000000000000000000000000"
+    },
+    "_id" : "_id",
+    "exhibitionConfigs" : {
+      "size" : "lg",
+      "breakLine" : true,
+      "_classRevision" : "1772146933498",
+      "_class" : {
+        "_id" : "fffff0000000000000000001",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "5fae912779b48d52a2664b55"
+    }
+  }, {
+    "valueExpression" : null,
+    "hidden" : true,
+    "additionalConfigs" : {
+      "onDelete" : "BLOCK",
+      "listingOption" : "ONLY_ACCESSIBLE",
+      "indexLevel" : "IDENTITY",
+      "query" : null,
+      "customIndexedFields" : null,
+      "_classRevision" : "1772146933498",
+      "_class" : {
+        "_id" : "000000000000005550000003",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "5a7cdd0aeb8ae645a3c164fb",
+      "indexedFields" : "FILTER_BY_RELEVANCY"
+    },
+    "defaultValue" : null,
+    "section" : null,
+    "minMultiplicity" : null,
+    "type" : "REFERENCE",
+    "required" : false,
+    "valueOptions" : null,
+    "engine" : "DEFAULT",
+    "shiftable" : true,
+    "relevancy" : "SYSTEM",
+    "editHelp" : null,
+    "embedded" : false,
+    "calculated" : false,
+    "identifier" : "_publishedObject",
+    "multiple" : false,
+    "refClass" : {
+      "_id" : "597262c7ce027221e44534e1",
+      "_classId" : "000000000000000000000000"
+    },
+    "maxMultiplicity" : null,
+    "_classRevision" : "1773097389180",
+    "readOnly" : true,
+    "calculationStrategy" : "ON_READ",
+    "searchable" : false,
+    "i18n" : false,
+    "displayOnEditMode" : false,
+    "encrypted" : false,
+    "unique" : false,
+    "encryptionAlgorithmType" : null,
+    "name" : "Publicado",
+    "_class" : {
+      "_id" : "000000000000000000000001",
+      "_classId" : "000000000000000000000000"
+    },
+    "_id" : "00ff00000000000000000170",
+    "exhibitionConfigs" : {
+      "exhibition" : "auto",
+      "size" : "lg",
+      "breakLine" : true,
+      "_classRevision" : "1772146933498",
+      "multipleView" : false,
+      "_class" : {
+        "_id" : "fffff0000000000000000002",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "5fae904779b48d52a2664941"
+    }
+  }, {
+    "valueExpression" : null,
+    "hidden" : false,
+    "additionalConfigs" : {
+      "onDelete" : "BLOCK",
+      "listingOption" : "ONLY_ACCESSIBLE",
+      "indexLevel" : "IDENTITY",
+      "query" : null,
+      "customIndexedFields" : null,
+      "_classRevision" : "1772146933498",
+      "_class" : {
+        "_id" : "000000000000005550000003",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "5a7cdd0aeb8ae645a3c164fc",
+      "indexedFields" : "FILTER_BY_RELEVANCY"
+    },
+    "defaultValue" : null,
+    "section" : null,
+    "minMultiplicity" : null,
+    "type" : "REFERENCE",
+    "required" : false,
+    "valueOptions" : null,
+    "engine" : "DEFAULT",
+    "shiftable" : true,
+    "relevancy" : "SYSTEM",
+    "editHelp" : null,
+    "embedded" : false,
+    "calculated" : false,
+    "identifier" : "_class",
+    "multiple" : false,
+    "refClass" : {
+      "_id" : "000000000000000000000000",
+      "_classId" : "000000000000000000000000"
+    },
+    "maxMultiplicity" : null,
+    "_classRevision" : "1773097389180",
+    "readOnly" : true,
+    "calculationStrategy" : "ON_READ",
+    "searchable" : true,
+    "i18n" : false,
+    "displayOnEditMode" : false,
+    "encrypted" : false,
+    "unique" : false,
+    "encryptionAlgorithmType" : null,
+    "name" : "Classe",
+    "_class" : {
+      "_id" : "000000000000000000000001",
+      "_classId" : "000000000000000000000000"
+    },
+    "_id" : "00ff00000000000000000109",
+    "exhibitionConfigs" : {
+      "exhibition" : "auto",
+      "size" : "lg",
+      "breakLine" : true,
+      "_classRevision" : "1772146933498",
+      "multipleView" : false,
+      "_class" : {
+        "_id" : "fffff0000000000000000002",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "5fae904779b48d52a2664941"
+    }
+  }, {
+    "valueExpression" : null,
+    "hidden" : false,
+    "additionalConfigs" : {
+      "onDelete" : "BLOCK",
+      "listingOption" : "ONLY_ACCESSIBLE",
+      "indexLevel" : "IDENTITY",
+      "query" : null,
+      "customIndexedFields" : null,
+      "_classRevision" : "1772146933498",
+      "_class" : {
+        "_id" : "000000000000005550000003",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "5efb4f211472363673e0306c",
+      "indexedFields" : "REFERENCE_ONLY"
+    },
+    "defaultValue" : null,
+    "section" : null,
+    "minMultiplicity" : null,
+    "type" : "REFERENCE",
+    "required" : false,
+    "valueOptions" : null,
+    "engine" : "DEFAULT",
+    "shiftable" : true,
+    "relevancy" : "SYSTEM",
+    "editHelp" : null,
+    "embedded" : false,
+    "calculated" : false,
+    "identifier" : "_creationUser",
+    "multiple" : false,
+    "refClass" : {
+      "_id" : "000000000000000000000070",
+      "_classId" : "000000000000000000000000"
+    },
+    "maxMultiplicity" : null,
+    "_classRevision" : "1773097389180",
+    "readOnly" : true,
+    "calculationStrategy" : "ON_READ",
+    "searchable" : true,
+    "i18n" : false,
+    "displayOnEditMode" : false,
+    "encrypted" : false,
+    "unique" : false,
+    "encryptionAlgorithmType" : null,
+    "name" : "Criado por",
+    "_class" : {
+      "_id" : "000000000000000000000001",
+      "_classId" : "000000000000000000000000"
+    },
+    "_id" : "00ff00000000000000000150",
+    "exhibitionConfigs" : {
+      "exhibition" : "auto",
+      "size" : "lg",
+      "breakLine" : true,
+      "_classRevision" : "1772146933498",
+      "multipleView" : false,
+      "_class" : {
+        "_id" : "fffff0000000000000000002",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "5fae904779b48d52a2664941"
+    }
+  }, {
+    "valueExpression" : null,
+    "hidden" : false,
+    "additionalConfigs" : {
+      "onDelete" : "BLOCK",
+      "listingOption" : "ONLY_ACCESSIBLE",
+      "indexLevel" : "IDENTITY",
+      "query" : null,
+      "customIndexedFields" : null,
+      "_classRevision" : "1772146933498",
+      "_class" : {
+        "_id" : "000000000000005550000003",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "5a7cdd0aeb8ae645a3c164fd",
+      "indexedFields" : "REFERENCE_ONLY"
+    },
+    "defaultValue" : null,
+    "section" : null,
+    "minMultiplicity" : null,
+    "type" : "REFERENCE",
+    "required" : false,
+    "valueOptions" : null,
+    "engine" : "DEFAULT",
+    "shiftable" : true,
+    "relevancy" : "SYSTEM",
+    "editHelp" : null,
+    "embedded" : false,
+    "calculated" : false,
+    "identifier" : "_lastUpdateUser",
+    "multiple" : false,
+    "refClass" : {
+      "_id" : "000000000000000000000070",
+      "_classId" : "000000000000000000000000"
+    },
+    "maxMultiplicity" : null,
+    "_classRevision" : "1773097389180",
+    "readOnly" : true,
+    "calculationStrategy" : "ON_READ",
+    "searchable" : true,
+    "i18n" : false,
+    "displayOnEditMode" : false,
+    "encrypted" : false,
+    "unique" : false,
+    "encryptionAlgorithmType" : null,
+    "name" : "Alterado por",
+    "_class" : {
+      "_id" : "000000000000000000000001",
+      "_classId" : "000000000000000000000000"
+    },
+    "_id" : "00ff00000000000000000149",
+    "exhibitionConfigs" : {
+      "exhibition" : "auto",
+      "size" : "lg",
+      "breakLine" : true,
+      "_classRevision" : "1772146933498",
+      "multipleView" : false,
+      "_class" : {
+        "_id" : "fffff0000000000000000002",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "5fae904779b48d52a2664941"
+    }
+  }, {
+    "valueExpression" : null,
+    "hidden" : false,
+    "additionalConfigs" : {
+      "noTime" : false,
+      "localGMT" : false,
+      "_classRevision" : "1772146933498",
+      "_class" : {
+        "_id" : "000000000000005550000000",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "5a7cdd0feb8ae645a3c173c7"
+    },
+    "defaultValue" : null,
+    "section" : null,
+    "minMultiplicity" : null,
+    "type" : "DATE",
+    "required" : false,
+    "valueOptions" : null,
+    "engine" : "DEFAULT",
+    "shiftable" : true,
+    "relevancy" : "SYSTEM",
+    "editHelp" : null,
+    "embedded" : true,
+    "calculated" : false,
+    "identifier" : "_creationDate",
+    "multiple" : false,
+    "refClass" : null,
+    "maxMultiplicity" : null,
+    "_classRevision" : "1773097389180",
+    "readOnly" : true,
+    "calculationStrategy" : "ON_READ",
+    "searchable" : true,
+    "i18n" : false,
+    "displayOnEditMode" : false,
+    "encrypted" : false,
+    "unique" : false,
+    "encryptionAlgorithmType" : null,
+    "name" : "Data da criação",
+    "_class" : {
+      "_id" : "000000000000000000000001",
+      "_classId" : "000000000000000000000000"
+    },
+    "_id" : "00ff00000000000000000113",
+    "exhibitionConfigs" : {
+      "size" : "lg",
+      "breakLine" : true,
+      "_classRevision" : "1772146933498",
+      "_class" : {
+        "_id" : "fffff0000000000000000001",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "5fae912779b48d52a2664b55"
+    }
+  }, {
+    "valueExpression" : null,
+    "hidden" : false,
+    "additionalConfigs" : {
+      "noTime" : false,
+      "localGMT" : false,
+      "_classRevision" : "1772146933498",
+      "_class" : {
+        "_id" : "000000000000005550000000",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "5a7cdd0feb8ae645a3c173c8"
+    },
+    "defaultValue" : null,
+    "section" : null,
+    "minMultiplicity" : null,
+    "type" : "DATE",
+    "required" : false,
+    "valueOptions" : null,
+    "engine" : "DEFAULT",
+    "shiftable" : true,
+    "relevancy" : "SYSTEM",
+    "editHelp" : null,
+    "embedded" : true,
+    "calculated" : false,
+    "identifier" : "_lastUpdateDate",
+    "multiple" : false,
+    "refClass" : null,
+    "maxMultiplicity" : null,
+    "_classRevision" : "1773097389180",
+    "readOnly" : true,
+    "calculationStrategy" : "ON_READ",
+    "searchable" : true,
+    "i18n" : false,
+    "displayOnEditMode" : false,
+    "encrypted" : false,
+    "unique" : false,
+    "encryptionAlgorithmType" : null,
+    "name" : "Data da última alteração",
+    "_class" : {
+      "_id" : "000000000000000000000001",
+      "_classId" : "000000000000000000000000"
+    },
+    "_id" : "00ff00000000000000000148",
+    "exhibitionConfigs" : {
+      "size" : "lg",
+      "breakLine" : true,
+      "_classRevision" : "1772146933498",
+      "_class" : {
+        "_id" : "fffff0000000000000000001",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "5fae912779b48d52a2664b55"
+    }
+  }, {
+    "valueExpression" : null,
+    "hidden" : true,
+    "additionalConfigs" : {
+      "scriptSyntax" : "javascript",
+      "display" : null,
+      "_classRevision" : "1772146933498",
+      "_class" : {
+        "_id" : "000000000000005550000002",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "5a7cdd07eb8ae645a3c159e6",
+      "placeholder" : "",
+      "contentType" : "longText",
+      "maxLength" : null
+    },
+    "defaultValue" : null,
+    "section" : null,
+    "minMultiplicity" : null,
+    "type" : "STRING",
+    "required" : false,
+    "valueOptions" : null,
+    "engine" : "DEFAULT",
+    "shiftable" : true,
+    "relevancy" : "SYSTEM",
+    "editHelp" : null,
+    "embedded" : true,
+    "calculated" : false,
+    "identifier" : "_revision",
+    "multiple" : false,
+    "refClass" : null,
+    "maxMultiplicity" : null,
+    "_classRevision" : "1773097389180",
+    "readOnly" : true,
+    "calculationStrategy" : "ON_READ",
+    "searchable" : false,
+    "i18n" : false,
+    "displayOnEditMode" : false,
+    "encrypted" : false,
+    "unique" : false,
+    "encryptionAlgorithmType" : null,
+    "name" : "Revisão",
+    "_class" : {
+      "_id" : "000000000000000000000001",
+      "_classId" : "000000000000000000000000"
+    },
+    "_id" : "00ff00000000000000000176",
+    "exhibitionConfigs" : {
+      "size" : "lg",
+      "breakLine" : true,
+      "_classRevision" : "1772146933498",
+      "_class" : {
+        "_id" : "fffff0000000000000000004",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6070c9a16f48727c3b88714f",
+      "mask" : null
+    }
+  }, {
+    "valueExpression" : null,
+    "hidden" : true,
+    "additionalConfigs" : {
+      "scriptSyntax" : "javascript",
+      "display" : null,
+      "_classRevision" : "1772146933498",
+      "_class" : {
+        "_id" : "000000000000005550000002",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "5a7cdd07eb8ae645a3c159e7",
+      "placeholder" : "",
+      "contentType" : "longText",
+      "maxLength" : null
+    },
+    "defaultValue" : null,
+    "section" : null,
+    "minMultiplicity" : null,
+    "type" : "STRING",
+    "required" : false,
+    "valueOptions" : null,
+    "engine" : "DEFAULT",
+    "shiftable" : true,
+    "relevancy" : "SYSTEM",
+    "editHelp" : null,
+    "embedded" : true,
+    "calculated" : false,
+    "identifier" : "_classRevision",
+    "multiple" : false,
+    "refClass" : null,
+    "maxMultiplicity" : null,
+    "_classRevision" : "1773097389180",
+    "readOnly" : true,
+    "calculationStrategy" : "ON_READ",
+    "searchable" : false,
+    "i18n" : false,
+    "displayOnEditMode" : false,
+    "encrypted" : false,
+    "unique" : false,
+    "encryptionAlgorithmType" : null,
+    "name" : "Revisão da classe",
+    "_class" : {
+      "_id" : "000000000000000000000001",
+      "_classId" : "000000000000000000000000"
+    },
+    "_id" : "00ff00000000000000000110",
+    "exhibitionConfigs" : {
+      "size" : "lg",
+      "breakLine" : true,
+      "_classRevision" : "1772146933498",
+      "_class" : {
+        "_id" : "fffff0000000000000000004",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6070c9a16f48727c3b88714f",
+      "mask" : null
+    }
+  }, {
+    "valueExpression" : null,
+    "hidden" : false,
+    "additionalConfigs" : null,
+    "defaultValue" : false,
+    "section" : null,
+    "minMultiplicity" : null,
+    "type" : "BOOLEAN",
+    "required" : false,
+    "valueOptions" : [ {
+      "identifier" : true,
+      "_classRevision" : "1772146933498",
+      "_class" : {
+        "_id" : "000000000000000000000088",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "5fb69028f75d8648ad1d38b2",
+      "value" : "Verdadeiro"
+    }, {
+      "identifier" : false,
+      "_classRevision" : "1772146933498",
+      "_class" : {
+        "_id" : "000000000000000000000088",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "5fb69028f75d8648ad1d38b3",
+      "value" : "Falso"
+    } ],
+    "engine" : "DEFAULT",
+    "shiftable" : true,
+    "relevancy" : "SYSTEM",
+    "editHelp" : null,
+    "embedded" : false,
+    "calculated" : false,
+    "identifier" : "_protected",
+    "multiple" : false,
+    "refClass" : null,
+    "maxMultiplicity" : null,
+    "_classRevision" : "1773097389180",
+    "readOnly" : true,
+    "calculationStrategy" : "ON_READ",
+    "searchable" : true,
+    "i18n" : false,
+    "displayOnEditMode" : false,
+    "encrypted" : false,
+    "unique" : false,
+    "encryptionAlgorithmType" : null,
+    "name" : "Protegido",
+    "_class" : {
+      "_id" : "000000000000000000000001",
+      "_classId" : "000000000000000000000000"
+    },
+    "_id" : "00ff00000000000000000777",
+    "exhibitionConfigs" : {
+      "exhibition" : "DEFAULT",
+      "size" : "lg",
+      "breakLine" : true,
+      "_classRevision" : "1772146933498",
+      "_class" : {
+        "_id" : "fffff0000000000000000003",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "5fae904779b48d52a2664943"
+    }
+  }, {
+    "valueExpression" : null,
+    "hidden" : true,
+    "additionalConfigs" : {
+      "scriptSyntax" : "javascript",
+      "display" : null,
+      "_classRevision" : "1772146933498",
+      "_class" : {
+        "_id" : "000000000000005550000002",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "5c9b68d1d5082ab4bf1f0195",
+      "placeholder" : "",
+      "contentType" : "simpleText",
+      "maxLength" : null
+    },
+    "defaultValue" : null,
+    "section" : null,
+    "minMultiplicity" : null,
+    "type" : "STRING",
+    "required" : false,
+    "valueOptions" : [ {
+      "identifier" : "597894a3ce027227c4269e5a",
+      "_classRevision" : "1772146933498",
+      "_class" : {
+        "_id" : "000000000000000000000088",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "69276d9fd7a98156ac7c11d8",
+      "value" : "Identificador"
+    }, {
+      "identifier" : "00ff00000000000000000147",
+      "_classRevision" : "1772146933498",
+      "_class" : {
+        "_id" : "000000000000000000000088",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "69276d9fd7a98156ac7c11d9",
+      "value" : "Nome"
+    } ],
+    "engine" : "GRAAL",
+    "shiftable" : true,
+    "relevancy" : "SYSTEM",
+    "editHelp" : null,
+    "embedded" : true,
+    "calculated" : false,
+    "identifier" : "_unprotectedFields",
+    "multiple" : true,
+    "refClass" : null,
+    "maxMultiplicity" : null,
+    "_classRevision" : "1773097389180",
+    "readOnly" : true,
+    "calculationStrategy" : "ON_WRITE",
+    "searchable" : false,
+    "i18n" : false,
+    "displayOnEditMode" : false,
+    "encrypted" : false,
+    "unique" : false,
+    "encryptionAlgorithmType" : null,
+    "name" : "Campos desprotegidos",
+    "_class" : {
+      "_id" : "000000000000000000000001",
+      "_classId" : "000000000000000000000000"
+    },
+    "_id" : "00ff00000000000000000778",
+    "exhibitionConfigs" : {
+      "exhibition" : "DEFAULT",
+      "size" : "lg",
+      "breakLine" : true,
+      "_classRevision" : "1772146933498",
+      "_class" : {
+        "_id" : "fffff0000000000000000003",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "5fae904779b48d52a2664943"
+    }
+  } ]
+}

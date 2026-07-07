@@ -1,0 +1,262 @@
+{
+  "data" : {
+    "emails" : [ {
+      "_classRevision" : "4",
+      "_class" : {
+        "_id" : "59124ad5116a1f28f0da1ba1",
+        "_classId" : "000000000000000000000000"
+      },
+      "additionalData" : null,
+      "_id" : "6a304c1374805a4e8aba07f5",
+      "type" : {
+        "_id" : "59122c5f116a1f1dccc73472",
+        "_classId" : "591213de116a1f2b04df831a"
+      },
+      "email" : "asales@wevets.com.br"
+    } ],
+    "addresses" : [ {
+      "country" : {
+        "_id" : "590b71c2f5ca53091c89ea4e",
+        "_classId" : "000000000000000000000040"
+      },
+      "externalCode" : null,
+      "regional" : null,
+      "city" : "São Paulo",
+      "coordinates" : {
+        "type" : "Point",
+        "coordinates" : [ -46.6557692, -23.5365757 ]
+      },
+      "addressWasAutocompleted" : true,
+      "_classRevision" : "4",
+      "type" : {
+        "_id" : "591246a0116a1f1c90640d52",
+        "_classId" : "59124424116a1f15b8708ec9"
+      },
+      "zipcode" : "01232000",
+      "reference" : null,
+      "number" : "214",
+      "stateRef" : {
+        "_id" : "590b7f44f5ca5307c8e841d9",
+        "_classId" : "000000000000000000000047"
+      },
+      "file" : null,
+      "autocompleteAddress" : true,
+      "street" : "Alameda Barros",
+      "name" : null,
+      "cityRef" : {
+        "_id" : "590cb810116a1f208c6c9a50",
+        "_classId" : "000000000000000000000048"
+      },
+      "_class" : {
+        "_id" : "59134ad1116a1f13c85926fe",
+        "_classId" : "000000000000000000000000"
+      },
+      "state" : "São Paulo",
+      "additionalData" : null,
+      "_id" : "6a304c1374805a4e8aba07f7",
+      "complement" : "ap 31",
+      "quarter" : "Santa Cecília",
+      "territory" : null
+    } ],
+    "person_completo" : {
+      "country" : {
+        "_id" : "590b71c2f5ca53091c89ea4e",
+        "_classId" : "000000000000000000000040"
+      },
+      "_creationUser" : {
+        "_id" : "69b7fbdc2a2c815b13620839",
+        "_classId" : "000000000000000000000002"
+      },
+      "addresses" : [ {
+        "country" : {
+          "_id" : "590b71c2f5ca53091c89ea4e",
+          "_classId" : "000000000000000000000040"
+        },
+        "externalCode" : null,
+        "regional" : null,
+        "city" : "São Paulo",
+        "coordinates" : {
+          "type" : "Point",
+          "coordinates" : [ -46.6557692, -23.5365757 ]
+        },
+        "addressWasAutocompleted" : true,
+        "_classRevision" : "4",
+        "type" : {
+          "_id" : "591246a0116a1f1c90640d52",
+          "_classId" : "59124424116a1f15b8708ec9"
+        },
+        "zipcode" : "01232000",
+        "reference" : null,
+        "number" : "214",
+        "stateRef" : {
+          "_id" : "590b7f44f5ca5307c8e841d9",
+          "_classId" : "000000000000000000000047"
+        },
+        "file" : null,
+        "autocompleteAddress" : true,
+        "street" : "Alameda Barros",
+        "name" : null,
+        "cityRef" : {
+          "_id" : "590cb810116a1f208c6c9a50",
+          "_classId" : "000000000000000000000048"
+        },
+        "_class" : {
+          "_id" : "59134ad1116a1f13c85926fe",
+          "_classId" : "000000000000000000000000"
+        },
+        "state" : "São Paulo",
+        "additionalData" : null,
+        "_id" : "6a304c1374805a4e8aba07f7",
+        "complement" : "ap 31",
+        "quarter" : "Santa Cecília",
+        "territory" : null
+      } ],
+      "deceased" : false,
+      "gender" : null,
+      "externalCode" : null,
+      "documents" : [ {
+        "number" : "35502921808",
+        "file" : null,
+        "additionalFields" : null,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "59135e1e116a1f03208a72ba",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a304c1374805a4e8aba07f4",
+        "type" : {
+          "_id" : "5912258ff5ca530b54567bb4",
+          "_classId" : "591210f2f5ca5306588fd5c4"
+        }
+      } ],
+      "dateOfDeath" : null,
+      "phones" : [ {
+        "country" : {
+          "_id" : "590b71c2f5ca53091c89ea4e",
+          "_classId" : "000000000000000000000040"
+        },
+        "number" : "11952951005",
+        "ddi" : "+55",
+        "_classRevision" : "4",
+        "_class" : {
+          "_id" : "59124c48116a1f28f0dc6b79",
+          "_classId" : "000000000000000000000000"
+        },
+        "additionalData" : null,
+        "_id" : "6a304c1374805a4e8aba07f6",
+        "type" : {
+          "_id" : "59124071116a1f2ac0ac1e9b",
+          "_classId" : "59123cd8116a1f0b8428ad54"
+        },
+        "branch" : null
+      } ],
+      "_lastUpdateUser" : {
+        "_id" : "6a2ffe1e74805a4e8ab670d8",
+        "_classId" : "59136a2c116a1f0f8819ecbb"
+      },
+      "login" : "asales@wevets.com.br",
+      "locale" : null,
+      "filiation" : null,
+      "emails" : [ {
+        "_classRevision" : "4",
+        "_class" : {
+          "_id" : "59124ad5116a1f28f0da1ba1",
+          "_classId" : "000000000000000000000000"
+        },
+        "additionalData" : null,
+        "_id" : "6a304c1374805a4e8aba07f5",
+        "type" : {
+          "_id" : "59122c5f116a1f1dccc73472",
+          "_classId" : "591213de116a1f2b04df831a"
+        },
+        "email" : "asales@wevets.com.br"
+      } ],
+      "genderIdentity" : null,
+      "bankDetails" : null,
+      "password" : {
+        "encryptedValue" : null,
+        "maskedValue" : null
+      },
+      "_publishedObject" : null,
+      "_lastUpdateDate" : "2026-06-19T14:22:14.829Z",
+      "_protected" : false,
+      "userPreferences" : {
+        "_id" : "6a2ffe5b74805a4e8acafc85",
+        "_classId" : "5b16d9acf867444588889011"
+      },
+      "_unprotectedFields" : [ ],
+      "socialNetworks" : [ ],
+      "additionalData" : {
+        "cPFWithMask" : "355.029.218-08",
+        "validatedContacts" : [ {
+          "contact" : "asales@wevets.com.br",
+          "_classRevision" : "0",
+          "_class" : {
+            "_id" : "69b935872757b5258829753a",
+            "_classId" : "000000000000000000000000"
+          },
+          "validationDate" : "2026-06-15T18:34:30.813Z",
+          "_id" : "6a3045b672240802d8df2177"
+        }, {
+          "contact" : "5511952951005",
+          "_classRevision" : "0",
+          "_class" : {
+            "_id" : "69b935872757b5258829753a",
+            "_classId" : "000000000000000000000000"
+          },
+          "validationDate" : "2026-06-15T19:07:40.733Z",
+          "_id" : "6a304d7cb400b704677a8761"
+        } ],
+        "_classRevision" : "1",
+        "_class" : {
+          "_id" : "689ddb437473b415a3b28d4f",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a2ffe0211721a2abd13a3e7"
+      },
+      "aclUserGroups" : [ {
+        "_id" : "5c9a23ded18bdb280c752f8f",
+        "_classId" : "000000000000000000000005"
+      }, {
+        "_id" : "eba000000005000000000003",
+        "_classId" : "000000000000000000000005"
+      }, {
+        "_id" : "000000000000000000000039",
+        "_classId" : "000000000000000000000005"
+      }, {
+        "_id" : "eba000000000000000000111",
+        "_classId" : "000000000000000000000005"
+      } ],
+      "email" : "asales@wevets.com.br",
+      "wallet" : null,
+      "cost" : null,
+      "_revision" : "10",
+      "race" : null,
+      "workAndEducation" : null,
+      "photo" : null,
+      "active" : true,
+      "_classRevision" : "6",
+      "dateOfBirth" : "1989-10-18T00:00:00Z",
+      "_creationDate" : "2026-06-15T13:29:02.559Z",
+      "tags" : [ ],
+      "disabilities" : null,
+      "otherNames" : null,
+      "nationality" : {
+        "_id" : "590b71c2f5ca53091c89ea4e",
+        "_classId" : "000000000000000000000040"
+      },
+      "naturalness" : null,
+      "name" : "André Sales",
+      "_class" : {
+        "_id" : "59136a2c116a1f0f8819ecbb",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a2ffe1e74805a4e8ab670d8",
+      "maritalStatus" : null,
+      "dateOfNaturalization" : null
+    },
+    "cpf_campo" : null
+  },
+  "success" : true,
+  "error" : null
+}

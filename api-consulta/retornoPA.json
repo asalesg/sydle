@@ -1,0 +1,764 @@
+{
+  "data" : {
+    "pets" : [ {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : null,
+      "raca" : null,
+      "nome" : "bob",
+      "plano" : {
+        "status_servico" : null,
+        "codigo" : null,
+        "data_de_vigencia" : null,
+        "data_de_ativacao" : null,
+        "nome" : null,
+        "status" : "Cancelado por inadimplência"
+      },
+      "id" : "696cf4135c1ed947202cbcb2"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : null,
+      "raca" : null,
+      "nome" : "JOHN",
+      "plano" : {
+        "status_servico" : null,
+        "codigo" : null,
+        "data_de_vigencia" : null,
+        "data_de_ativacao" : null,
+        "nome" : null,
+        "status" : "Cancelado por inadimplência"
+      },
+      "id" : "696cf4145c1ed947202cc883"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : null,
+      "raca" : null,
+      "nome" : "johna",
+      "plano" : {
+        "status_servico" : null,
+        "codigo" : null,
+        "data_de_vigencia" : null,
+        "data_de_ativacao" : null,
+        "nome" : null,
+        "status" : "Inadimplente"
+      },
+      "id" : "696e2f0c5b834e51fdf6f71c"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : null,
+      "raca" : null,
+      "nome" : "sid",
+      "plano" : {
+        "status_servico" : null,
+        "codigo" : null,
+        "data_de_vigencia" : null,
+        "data_de_ativacao" : null,
+        "nome" : null,
+        "status" : "Inadimplente"
+      },
+      "id" : "696e30e92309b74ddb8d34db"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : null,
+      "raca" : null,
+      "nome" : "jonk",
+      "plano" : {
+        "status_servico" : null,
+        "codigo" : null,
+        "data_de_vigencia" : null,
+        "data_de_ativacao" : null,
+        "nome" : null,
+        "status" : "Inadimplente"
+      },
+      "id" : "6986ae2f50b32b50713b2b61"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : null,
+      "raca" : null,
+      "nome" : "LICA",
+      "plano" : {
+        "status_servico" : null,
+        "codigo" : null,
+        "data_de_vigencia" : null,
+        "data_de_ativacao" : null,
+        "nome" : null,
+        "status" : "Inadimplente"
+      },
+      "id" : "698e5f017addd860fc6c79cf"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : null,
+      "raca" : null,
+      "nome" : "ig",
+      "plano" : {
+        "status_servico" : null,
+        "codigo" : null,
+        "data_de_vigencia" : null,
+        "data_de_ativacao" : null,
+        "nome" : null,
+        "status" : "Inadimplente"
+      },
+      "id" : "696cf6f45c1ed9472086b572"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : null,
+      "raca" : null,
+      "nome" : "luock",
+      "plano" : {
+        "status_servico" : null,
+        "codigo" : null,
+        "data_de_vigencia" : null,
+        "data_de_ativacao" : null,
+        "nome" : null,
+        "status" : "Inadimplente"
+      },
+      "id" : "698807c73320b517c253b5f8"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : null,
+      "raca" : null,
+      "nome" : "juka",
+      "plano" : {
+        "status_servico" : null,
+        "codigo" : null,
+        "data_de_vigencia" : null,
+        "data_de_ativacao" : null,
+        "nome" : null,
+        "status" : "Inadimplente"
+      },
+      "id" : "69a1a9e3fe736827955acbef"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : null,
+      "raca" : null,
+      "nome" : "michael",
+      "plano" : {
+        "status_servico" : null,
+        "codigo" : null,
+        "data_de_vigencia" : null,
+        "data_de_ativacao" : null,
+        "nome" : null,
+        "status" : "Inadimplente"
+      },
+      "id" : "69a46e11fa1af072618bdd27"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : null,
+      "raca" : null,
+      "nome" : "dane",
+      "plano" : {
+        "status_servico" : null,
+        "codigo" : null,
+        "data_de_vigencia" : null,
+        "data_de_ativacao" : null,
+        "nome" : null,
+        "status" : "Inadimplente"
+      },
+      "id" : "69a5d02fc2e6182de5a62709"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : null,
+      "raca" : null,
+      "nome" : "leco",
+      "plano" : {
+        "status_servico" : null,
+        "codigo" : null,
+        "data_de_vigencia" : null,
+        "data_de_ativacao" : null,
+        "nome" : null,
+        "status" : "Inadimplente"
+      },
+      "id" : "698e60f97aee3b0c3622f139"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : null,
+      "raca" : null,
+      "nome" : "jonas",
+      "plano" : {
+        "status_servico" : null,
+        "codigo" : null,
+        "data_de_vigencia" : null,
+        "data_de_ativacao" : null,
+        "nome" : null,
+        "status" : "Inadimplente"
+      },
+      "id" : "699922a9983e8233c12e41ea"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : null,
+      "raca" : null,
+      "nome" : "teco",
+      "plano" : {
+        "status_servico" : null,
+        "codigo" : null,
+        "data_de_vigencia" : null,
+        "data_de_ativacao" : null,
+        "nome" : null,
+        "status" : "Ativo"
+      },
+      "id" : "69a59a387b3d36314f188aff"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : null,
+      "raca" : null,
+      "nome" : "jeni",
+      "plano" : {
+        "status_servico" : null,
+        "codigo" : null,
+        "data_de_vigencia" : null,
+        "data_de_ativacao" : null,
+        "nome" : null,
+        "status" : "Inadimplente"
+      },
+      "id" : "69a64b717daaac435035d28c"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : null,
+      "raca" : null,
+      "nome" : "CHINA",
+      "plano" : {
+        "status_servico" : null,
+        "codigo" : null,
+        "data_de_vigencia" : null,
+        "data_de_ativacao" : null,
+        "nome" : null,
+        "status" : "Inadimplente"
+      },
+      "id" : "69a8abd2fa05f40c6bf04d05"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : null,
+      "raca" : null,
+      "nome" : "JAKI",
+      "plano" : {
+        "status_servico" : null,
+        "codigo" : null,
+        "data_de_vigencia" : null,
+        "data_de_ativacao" : null,
+        "nome" : null,
+        "status" : "Inadimplente"
+      },
+      "id" : "69aad984592a1b1d2e6e2c18"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : null,
+      "raca" : null,
+      "nome" : "JONH",
+      "plano" : {
+        "status_servico" : null,
+        "codigo" : null,
+        "data_de_vigencia" : null,
+        "data_de_ativacao" : null,
+        "nome" : null,
+        "status" : "Inadimplente"
+      },
+      "id" : "69ab1ca494e0937ed33a5b55"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : null,
+      "raca" : null,
+      "nome" : "UAUK",
+      "plano" : {
+        "status_servico" : null,
+        "codigo" : null,
+        "data_de_vigencia" : null,
+        "data_de_ativacao" : null,
+        "nome" : null,
+        "status" : "Inadimplente"
+      },
+      "id" : "69ab1e84129e192d433a1289"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : null,
+      "raca" : null,
+      "nome" : "NM",
+      "plano" : {
+        "status_servico" : null,
+        "codigo" : null,
+        "data_de_vigencia" : null,
+        "data_de_ativacao" : null,
+        "nome" : null,
+        "status" : "Inadimplente"
+      },
+      "id" : "69ab293be7f46157dafcafda"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : null,
+      "raca" : null,
+      "nome" : "JOKA",
+      "plano" : {
+        "status_servico" : null,
+        "codigo" : null,
+        "data_de_vigencia" : null,
+        "data_de_ativacao" : null,
+        "nome" : null,
+        "status" : "Inadimplente"
+      },
+      "id" : "69ab5b9ea0b09f5d25aee80c"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : null,
+      "raca" : null,
+      "nome" : "ALL",
+      "plano" : {
+        "status_servico" : null,
+        "codigo" : null,
+        "data_de_vigencia" : null,
+        "data_de_ativacao" : null,
+        "nome" : null,
+        "status" : "Inadimplente"
+      },
+      "id" : "69ac158de7f46157da9714f4"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : null,
+      "raca" : null,
+      "nome" : "LUA",
+      "plano" : {
+        "status_servico" : null,
+        "codigo" : null,
+        "data_de_vigencia" : null,
+        "data_de_ativacao" : null,
+        "nome" : null,
+        "status" : "Inadimplente"
+      },
+      "id" : "69ac16c6e7f46157daafa217"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : null,
+      "raca" : null,
+      "nome" : "LOK",
+      "plano" : {
+        "status_servico" : null,
+        "codigo" : null,
+        "data_de_vigencia" : null,
+        "data_de_ativacao" : null,
+        "nome" : null,
+        "status" : "Inadimplente"
+      },
+      "id" : "69ac6a37f179cb310aab3b57"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : null,
+      "raca" : null,
+      "nome" : "LUO",
+      "plano" : {
+        "status_servico" : null,
+        "codigo" : null,
+        "data_de_vigencia" : null,
+        "data_de_ativacao" : null,
+        "nome" : null,
+        "status" : "Inadimplente"
+      },
+      "id" : "69ac6c2a61d3ec20c87c30a0"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : null,
+      "raca" : null,
+      "nome" : "lick",
+      "plano" : {
+        "status_servico" : null,
+        "codigo" : null,
+        "data_de_vigencia" : null,
+        "data_de_ativacao" : null,
+        "nome" : null,
+        "status" : "Ativo"
+      },
+      "id" : "69aea297087ae83e105252ef"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : null,
+      "raca" : null,
+      "nome" : "bobi",
+      "plano" : {
+        "status_servico" : null,
+        "codigo" : null,
+        "data_de_vigencia" : null,
+        "data_de_ativacao" : null,
+        "nome" : null,
+        "status" : "Inadimplente"
+      },
+      "id" : "69af7616d8570f60e7792445"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : null,
+      "raca" : null,
+      "nome" : "JEAN",
+      "plano" : {
+        "status_servico" : null,
+        "codigo" : null,
+        "data_de_vigencia" : null,
+        "data_de_ativacao" : null,
+        "nome" : null,
+        "status" : "Inadimplente"
+      },
+      "id" : "69b08cb149fe3a547a9820c3"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : null,
+      "raca" : null,
+      "nome" : "god",
+      "plano" : {
+        "status_servico" : null,
+        "codigo" : null,
+        "data_de_vigencia" : null,
+        "data_de_ativacao" : null,
+        "nome" : null,
+        "status" : "Inadimplente"
+      },
+      "id" : "69b174a48505827b19f574bd"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : null,
+      "raca" : null,
+      "nome" : "jarro",
+      "plano" : {
+        "status_servico" : null,
+        "codigo" : null,
+        "data_de_vigencia" : null,
+        "data_de_ativacao" : null,
+        "nome" : null,
+        "status" : "Inadimplente"
+      },
+      "id" : "69af75285a6f805c084246a9"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : null,
+      "raca" : null,
+      "nome" : "cope",
+      "plano" : {
+        "status_servico" : null,
+        "codigo" : null,
+        "data_de_vigencia" : null,
+        "data_de_ativacao" : null,
+        "nome" : null,
+        "status" : "Inadimplente"
+      },
+      "id" : "69b20814c30bc03585123398"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : null,
+      "raca" : null,
+      "nome" : "LOP",
+      "plano" : {
+        "status_servico" : null,
+        "codigo" : null,
+        "data_de_vigencia" : null,
+        "data_de_ativacao" : null,
+        "nome" : null,
+        "status" : "Inadimplente"
+      },
+      "id" : "69b20a8fa2e2c467d054ca68"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : null,
+      "raca" : null,
+      "nome" : "cad",
+      "plano" : {
+        "status_servico" : null,
+        "codigo" : null,
+        "data_de_vigencia" : null,
+        "data_de_ativacao" : null,
+        "nome" : null,
+        "status" : "Inadimplente"
+      },
+      "id" : "69bab550382fc60efbf8ac11"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : null,
+      "raca" : null,
+      "nome" : "negao",
+      "plano" : {
+        "status_servico" : null,
+        "codigo" : null,
+        "data_de_vigencia" : null,
+        "data_de_ativacao" : null,
+        "nome" : null,
+        "status" : "Inadimplente"
+      },
+      "id" : "69c5b196e5a9a960fbdd7db2"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : null,
+      "raca" : null,
+      "nome" : "JENY",
+      "plano" : {
+        "status_servico" : null,
+        "codigo" : null,
+        "data_de_vigencia" : null,
+        "data_de_ativacao" : null,
+        "nome" : null,
+        "status" : "Inadimplente"
+      },
+      "id" : "69c6e6246307f15284fa98b5"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : null,
+      "raca" : null,
+      "nome" : "adf",
+      "plano" : {
+        "status_servico" : null,
+        "codigo" : null,
+        "data_de_vigencia" : null,
+        "data_de_ativacao" : null,
+        "nome" : null,
+        "status" : "Ativo"
+      },
+      "id" : "69c309d6db97875fb7af0aa9"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : null,
+      "raca" : null,
+      "nome" : "IVO",
+      "plano" : {
+        "status_servico" : null,
+        "codigo" : null,
+        "data_de_vigencia" : null,
+        "data_de_ativacao" : null,
+        "nome" : null,
+        "status" : "Ativo"
+      },
+      "id" : "69cc1e85fa4a000de3d826f3"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : null,
+      "raca" : null,
+      "nome" : "jose",
+      "plano" : {
+        "status_servico" : null,
+        "codigo" : null,
+        "data_de_vigencia" : null,
+        "data_de_ativacao" : null,
+        "nome" : null,
+        "status" : "Inadimplente"
+      },
+      "id" : "69cd2be6404732624c2648ff"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : null,
+      "raca" : null,
+      "nome" : "pasty",
+      "plano" : {
+        "status_servico" : null,
+        "codigo" : null,
+        "data_de_vigencia" : null,
+        "data_de_ativacao" : null,
+        "nome" : null,
+        "status" : "Inadimplente"
+      },
+      "id" : "69cea83d1257d0710178d8bb"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : null,
+      "raca" : null,
+      "nome" : "ana",
+      "plano" : {
+        "status_servico" : null,
+        "codigo" : null,
+        "data_de_vigencia" : null,
+        "data_de_ativacao" : null,
+        "nome" : null,
+        "status" : "Inadimplente"
+      },
+      "id" : "69cfcd6077009025e4e16b6a"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : null,
+      "raca" : null,
+      "nome" : "dieguin",
+      "plano" : {
+        "status_servico" : null,
+        "codigo" : null,
+        "data_de_vigencia" : null,
+        "data_de_ativacao" : null,
+        "nome" : null,
+        "status" : "Inadimplente"
+      },
+      "id" : "69ea6509c28b3012b608127d"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : null,
+      "raca" : null,
+      "nome" : "INTE",
+      "plano" : {
+        "status_servico" : null,
+        "codigo" : null,
+        "data_de_vigencia" : null,
+        "data_de_ativacao" : null,
+        "nome" : null,
+        "status" : "Inadimplente"
+      },
+      "id" : "69f1392a003a8e75cfe45487"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : null,
+      "raca" : null,
+      "nome" : "VIVIAN",
+      "plano" : {
+        "status_servico" : null,
+        "codigo" : null,
+        "data_de_vigencia" : null,
+        "data_de_ativacao" : null,
+        "nome" : null,
+        "status" : "Inadimplente"
+      },
+      "id" : "69f2be0aa1b8867ca44acf7b"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : null,
+      "raca" : null,
+      "nome" : "aves",
+      "plano" : {
+        "status_servico" : null,
+        "codigo" : null,
+        "data_de_vigencia" : null,
+        "data_de_ativacao" : null,
+        "nome" : null,
+        "status" : "Ativo"
+      },
+      "id" : "69f51d49e84153467a4bf20e"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : null,
+      "raca" : null,
+      "nome" : "BRITIN",
+      "plano" : {
+        "status_servico" : null,
+        "codigo" : null,
+        "data_de_vigencia" : null,
+        "data_de_ativacao" : null,
+        "nome" : null,
+        "status" : "Ativo"
+      },
+      "id" : "69f9097ce61c044951a02782"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : null,
+      "raca" : null,
+      "nome" : "igop",
+      "plano" : {
+        "status_servico" : null,
+        "codigo" : null,
+        "data_de_vigencia" : null,
+        "data_de_ativacao" : null,
+        "nome" : null,
+        "status" : "Inadimplente"
+      },
+      "id" : "6a07692c5b88541876cd2861"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : null,
+      "raca" : null,
+      "nome" : "DIGI",
+      "plano" : {
+        "status_servico" : null,
+        "codigo" : null,
+        "data_de_vigencia" : null,
+        "data_de_ativacao" : null,
+        "nome" : null,
+        "status" : "Ativo"
+      },
+      "id" : "6a0784f588dc635c53a7f49c"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : null,
+      "raca" : null,
+      "nome" : "DOGVET",
+      "plano" : {
+        "status_servico" : null,
+        "codigo" : null,
+        "data_de_vigencia" : null,
+        "data_de_ativacao" : null,
+        "nome" : null,
+        "status" : "Ativo"
+      },
+      "id" : "6a0caf5089bff52e68814fc3"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : null,
+      "raca" : null,
+      "nome" : "INT2",
+      "plano" : {
+        "status_servico" : null,
+        "codigo" : null,
+        "data_de_vigencia" : null,
+        "data_de_ativacao" : null,
+        "nome" : null,
+        "status" : "Inadimplente"
+      },
+      "id" : "6a0cc7983b53c67a23c01391"
+    }, {
+      "especie" : null,
+      "idade" : null,
+      "guruvet_id" : null,
+      "raca" : null,
+      "nome" : "PET1",
+      "plano" : {
+        "status_servico" : null,
+        "codigo" : null,
+        "data_de_vigencia" : null,
+        "data_de_ativacao" : null,
+        "nome" : null,
+        "status" : "Ativo"
+      },
+      "id" : "6a0f1d4268bf397316083e5f"
+    } ],
+    "tutor" : {
+      "telefone" : null,
+      "endereco" : null,
+      "cpf" : "09367111916",
+      "nome" : null,
+      "id" : "696c5cf1a7015f1b969564f0",
+      "email" : null
+    }
+  },
+  "success" : true
+}

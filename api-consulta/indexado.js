@@ -1,0 +1,22761 @@
+const memberships = br.com.wevets.membershipManagement.Membership._search({
+    size: 1,
+    query: {
+        term: { "contract.buyer._id": "6a2ffe1e74805a4e8ab670d8" }
+    }
+}).hits.hits || [];
+
+_output = memberships[0];
+
+{
+  "highlight" : null,
+  "_esSource" : null,
+  "_type" : null,
+  "inner_hits" : null,
+  "_source" : {
+    "coverage" : {
+      "_id" : "6a19d8f5fb8330208a6faf2c",
+      "_classId" : "67eae2d19b192538c847fc5e"
+    },
+    "_creationUser" : {
+      "_id" : "6a2ffe1e74805a4e8ab670d8",
+      "_classId" : "59136a2c116a1f0f8819ecbb"
+    },
+    "planValue" : 0.0,
+    "servicesUsage" : [ {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 25.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7aec927df40dc48d35e",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e2620f",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7aec927df40dc48d360"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7aec927df40dc48d35f",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498447",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 80.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 12.0,
+          "_id" : "6a19d7aec927df40dc48d35d",
+          "basePrice" : 60.0,
+          "brlDiscount" : 48.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7aec927df40dc48d35c"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 31.666666666666657,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c2f95d4e020fcbde0d",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2fa0bc801b051db9b6bf",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : null,
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498448",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 73.33333333333334,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 39.999999999999986,
+          "_id" : "6a19d7c2f95d4e020fcbde0c",
+          "basePrice" : 150.0,
+          "brlDiscount" : 110.00000000000001
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c2f95d4e020fcbde0b"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 35.85714285714285,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7bbc927df40dc4ad0de",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9dbc801b051db58431",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7bbc927df40dc4ad0e5"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bbc927df40dc4ad0e2",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498449",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 69.14285714285715,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 64.79999999999998,
+          "_id" : "6a19d7bbc927df40dc4ad0d6",
+          "basePrice" : 210.0,
+          "brlDiscount" : 145.20000000000002
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bbc927df40dc4ad0d0"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 31.315789473684205,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c1f95d4e020fcb721b",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2fa0bc801b051db9b63b",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 25,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c1f95d4e020fcb721d"
+        } ],
+        "countUsageBy" : "serviceType",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c1f95d4e020fcb721c",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49844a",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 73.6842105263158,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 25.0,
+          "_id" : "6a19d7c1f95d4e020fcb721a",
+          "basePrice" : 95.0,
+          "brlDiscount" : 70.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c1f95d4e020fcb7219"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 31.315789473684205,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7bbf95d4e020fc983ab",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9fbc801b051db9b323",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 25,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7bbf95d4e020fc983ad"
+        } ],
+        "countUsageBy" : "serviceType",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bbf95d4e020fc983ac",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49844b",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 73.6842105263158,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 25.0,
+          "_id" : "6a19d7bbf95d4e020fc983a7",
+          "basePrice" : 95.0,
+          "brlDiscount" : 70.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bbf95d4e020fc983a4"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c6f95d4e020fccc4b2",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9dbc801b051db58328",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : null,
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49844c",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 105.20000000000002,
+          "_id" : "6a19d7c6f95d4e020fccc4b1",
+          "basePrice" : 263.0,
+          "brlDiscount" : 157.79999999999998
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c6f95d4e020fccc4b0"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 40.294117647058826,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c40ded81646f952384",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9c210eb12799e252e4",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c40ded81646f952386"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c40ded81646f952385",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49844d",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 64.70588235294117,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 30.000000000000007,
+          "_id" : "6a19d7c40ded81646f952383",
+          "basePrice" : 85.0,
+          "brlDiscount" : 54.99999999999999
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c40ded81646f952382"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b7c927df40dc4a8f9a",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e2683f",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b7c927df40dc4a8f9c"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b7c927df40dc4a8f9b",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49844e",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 94.4,
+          "_id" : "6a19d7b7c927df40dc4a8f99",
+          "basePrice" : 236.0,
+          "brlDiscount" : 141.6
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b7c927df40dc4a8f98"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 24.04761904761905,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : null,
+        "_id" : "6a19d7abebd9a0515b9380b3",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-15T20:03:25.298Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e25f85",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7aac927df40dc484ffa"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7aac927df40dc484ff7",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a305a8d4f91145c6fb6067f",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 80.95238095238095,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 12.0,
+          "_id" : "6a19d7aac927df40dc484feb",
+          "basePrice" : 63.0,
+          "brlDiscount" : 51.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7aac927df40dc484fe9"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 55.25125628140703,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c4f95d4e020fcc6389",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a30a9bc801b051dba39dc",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c4f95d4e020fcc638b"
+        } ],
+        "countUsageBy" : "service",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c4f95d4e020fcc638a",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49844f",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 49.74874371859297,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 99.99999999999999,
+          "_id" : "6a19d7c4f95d4e020fcc6388",
+          "basePrice" : 199.0,
+          "brlDiscount" : 99.00000000000001
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c4f95d4e020fcc6387"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 41.14457831325302,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c1f95d4e020fcb7934",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2fa0bc801b051db9b667",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : null,
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498450",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 63.85542168674698,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 30.000000000000007,
+          "_id" : "6a19d7c1f95d4e020fcb7933",
+          "basePrice" : 83.0,
+          "brlDiscount" : 52.99999999999999
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c1f95d4e020fcb7932"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 22.369727047146398,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7cb0ded81646f982fa3",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9d210eb12799e257be",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7cb0ded81646f982fa5"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7cb0ded81646f982fa4",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498451",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 82.6302729528536,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 70.0,
+          "_id" : "6a19d7cb0ded81646f982fa2",
+          "basePrice" : 403.0,
+          "brlDiscount" : 333.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7cb0ded81646f982fa1"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 42.41935483870967,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7acc927df40dc48a521",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e260cf",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7acc927df40dc48a523"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7acc927df40dc48a522",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498452",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 62.58064516129033,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 34.8,
+          "_id" : "6a19d7acc927df40dc48a520",
+          "basePrice" : 93.0,
+          "brlDiscount" : 58.2
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7acc927df40dc48a51f"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 9.043126684636121,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d79cc927df40dc44baf1",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9d210eb12799e25a7e",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d79cc927df40dc44baf3"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79cc927df40dc44baf2",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498453",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 95.95687331536388,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 150.0,
+          "_id" : "6a19d79cc927df40dc44baf0",
+          "basePrice" : 3710.0,
+          "brlDiscount" : 3560.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79cc927df40dc44baef"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 72.79661016949152,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7bdf95d4e020fcaa8f0",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2fa0bc801b051db9b3ff",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 25,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7bdf95d4e020fcaa8f3"
+        } ],
+        "countUsageBy" : "serviceType",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bdf95d4e020fcaa8f2",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498454",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 32.20338983050848,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 80.0,
+          "_id" : "6a19d7bdf95d4e020fcaa8ed",
+          "basePrice" : 118.0,
+          "brlDiscount" : 38.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bdf95d4e020fcaa8ec"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 11.432246998284725,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d79fc927df40dc45cb26",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e25ba7",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d79fc927df40dc45cb28"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79fc927df40dc45cb27",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498455",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 93.56775300171527,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 75.0,
+          "_id" : "6a19d79fc927df40dc45cb24",
+          "basePrice" : 1166.0,
+          "brlDiscount" : 1091.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79fc927df40dc45cb21"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 19.893617021276597,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c9f95d4e020fce29a1",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9dbc801b051db58654",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 7,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c9f95d4e020fce29a3"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c9f95d4e020fce29a2",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498456",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 85.1063829787234,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 28.0,
+          "_id" : "6a19d7c9f95d4e020fce29a0",
+          "basePrice" : 188.0,
+          "brlDiscount" : 160.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c9f95d4e020fce299f"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.55944055944056,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c9f95d4e020fce000b",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9dbc801b051db585fc",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 7,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c9f95d4e020fce000d"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c9f95d4e020fce000c",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498457",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 59.44055944055944,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 58.0,
+          "_id" : "6a19d7c9f95d4e020fce0009",
+          "basePrice" : 143.0,
+          "brlDiscount" : 85.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c9f95d4e020fce0008"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 16.146496815286625,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b6c927df40dc4a372e",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e26784",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b6c927df40dc4a3730"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b6c927df40dc4a372f",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498458",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 88.85350318471338,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 35.0,
+          "_id" : "6a19d7b6c927df40dc4a372d",
+          "basePrice" : 314.0,
+          "brlDiscount" : 279.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b6c927df40dc4a372c"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 55.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7cd0ded81646f98c7fb",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9d210eb12799e25818",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 10,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7cd0ded81646f98c7fd"
+        } ],
+        "countUsageBy" : "service",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7cd0ded81646f98c7fc",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498459",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 50.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 100.0,
+          "_id" : "6a19d7cd0ded81646f98c7fa",
+          "basePrice" : 200.0,
+          "brlDiscount" : 100.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7cd0ded81646f98c7f9"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7aec927df40dc48c4a8",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e261a1",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7aec927df40dc48c4aa"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7aec927df40dc48c4a9",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49845a",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 46.0,
+          "_id" : "6a19d7aec927df40dc48c4a7",
+          "basePrice" : 115.0,
+          "brlDiscount" : 69.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7aec927df40dc48c4a6"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 19.492753623188406,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c4f95d4e020fcc74a5",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9cbc801b051db58253",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : null,
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49845b",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 85.5072463768116,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 50.0,
+          "_id" : "6a19d7c4f95d4e020fcc74a4",
+          "basePrice" : 345.0,
+          "brlDiscount" : 295.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c4f95d4e020fcc74a3"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 0.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d79ff95d4e020fc37f91",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9ebc801b051db70d64",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d79ff95d4e020fc37f96"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79ff95d4e020fc37f92",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49845c",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 0.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 84.0,
+          "_id" : "6a19d79ff95d4e020fc37f90",
+          "basePrice" : 84.0,
+          "brlDiscount" : 0.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79ff95d4e020fc37f8e"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 10.714285714285722,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7a9c927df40dc483cf4",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e25f22",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7a9c927df40dc483cf6"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7a9c927df40dc483cf5",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49845d",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 94.28571428571428,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 120.00000000000023,
+          "_id" : "6a19d7a9c927df40dc483cf3",
+          "basePrice" : 2100.0,
+          "brlDiscount" : 1979.9999999999998
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7a9c927df40dc483cf2"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 48.47826086956521,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b6c927df40dc4a0516",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e26763",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b6c927df40dc4a051f"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b6c927df40dc4a051b",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49845e",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 56.52173913043479,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 19.999999999999996,
+          "_id" : "6a19d7b6c927df40dc4a0512",
+          "basePrice" : 46.0,
+          "brlDiscount" : 26.000000000000004
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b6c927df40dc4a050f"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 54.382716049382715,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7bdf95d4e020fcab902",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2fa0bc801b051db9b415",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 25,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7bdf95d4e020fcab908"
+        } ],
+        "countUsageBy" : "serviceType",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bdf95d4e020fcab905",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49845f",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 50.617283950617285,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 80.0,
+          "_id" : "6a19d7bdf95d4e020fcab900",
+          "basePrice" : 162.0,
+          "brlDiscount" : 82.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bdf95d4e020fcab8ff"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 31.315789473684205,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c0f95d4e020fcb5488",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2fa0bc801b051db9b5ac",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 25,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c0f95d4e020fcb548a"
+        } ],
+        "countUsageBy" : "serviceType",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c0f95d4e020fcb5489",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498460",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 73.6842105263158,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 25.0,
+          "_id" : "6a19d7c0f95d4e020fcb5487",
+          "basePrice" : 95.0,
+          "brlDiscount" : 70.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c0f95d4e020fcb5486"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 25.40816326530613,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c5f95d4e020fccab06",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9dbc801b051db582c0",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : null,
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498461",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 79.59183673469387,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 30.000000000000014,
+          "_id" : "6a19d7c5f95d4e020fccab05",
+          "basePrice" : 147.0,
+          "brlDiscount" : 116.99999999999999
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c5f95d4e020fccab04"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 60.172413793103445,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c40ded81646f951491",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9c210eb12799e252d9",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c40ded81646f951495"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c40ded81646f951492",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498462",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 44.827586206896555,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 80.0,
+          "_id" : "6a19d7c40ded81646f951490",
+          "basePrice" : 145.0,
+          "brlDiscount" : 65.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c40ded81646f95148f"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 18.773783121279322,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d79ec927df40dc457334",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9d210eb12799e25b5a",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d79ec927df40dc457336"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79ec927df40dc457335",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498463",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 86.22621687872068,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 118.0,
+          "_id" : "6a19d79ec927df40dc457333",
+          "basePrice" : 856.7,
+          "brlDiscount" : 738.7
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79ec927df40dc457332"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 31.315789473684205,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c1f95d4e020fcb67a1",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2fa0bc801b051db9b604",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 25,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c1f95d4e020fcb67a3"
+        } ],
+        "countUsageBy" : "serviceType",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c1f95d4e020fcb67a2",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498464",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 73.6842105263158,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 25.0,
+          "_id" : "6a19d7c1f95d4e020fcb67a0",
+          "basePrice" : 95.0,
+          "brlDiscount" : 70.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c1f95d4e020fcb679f"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b0c927df40dc48f9ad",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e26317",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b0c927df40dc48f9af"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b0c927df40dc48f9ae",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498465",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 84.0,
+          "_id" : "6a19d7b0c927df40dc48f9ac",
+          "basePrice" : 210.0,
+          "brlDiscount" : 126.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b0c927df40dc48f9ab"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 25.588235294117638,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b7c927df40dc4a5be9",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e267dc",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b7c927df40dc4a5beb"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b7c927df40dc4a5bea",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498466",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 79.41176470588236,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 35.0,
+          "_id" : "6a19d7b7c927df40dc4a5be8",
+          "basePrice" : 170.0,
+          "brlDiscount" : 135.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b7c927df40dc4a5be7"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 31.315789473684205,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7bff95d4e020fcb0a2f",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2fa0bc801b051db9b549",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 25,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7bff95d4e020fcb0a31"
+        } ],
+        "countUsageBy" : "serviceType",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bff95d4e020fcb0a30",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498467",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 73.6842105263158,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 25.0,
+          "_id" : "6a19d7bff95d4e020fcb0a2e",
+          "basePrice" : 95.0,
+          "brlDiscount" : 70.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bff95d4e020fcb0a2d"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 21.901408450704224,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7aec927df40dc48d74a",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e26225",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7aec927df40dc48d74c"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7aec927df40dc48d74b",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498468",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 83.09859154929578,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 24.0,
+          "_id" : "6a19d7aec927df40dc48d749",
+          "basePrice" : 142.0,
+          "brlDiscount" : 118.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7aec927df40dc48d748"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 62.14285714285714,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7bdf95d4e020fcab09a",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2fa0bc801b051db9b40a",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 25,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7bdf95d4e020fcab09c"
+        } ],
+        "countUsageBy" : "serviceType",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bdf95d4e020fcab09b",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498469",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 42.85714285714286,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 80.0,
+          "_id" : "6a19d7bdf95d4e020fcab099",
+          "basePrice" : 140.0,
+          "brlDiscount" : 60.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bdf95d4e020fcab098"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 19.836795252225528,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : null,
+        "_id" : "6a19d7abebd9a0515b9370de",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-15T20:03:25.298Z"
+      },
+      "service" : {
+        "_id" : "682a2f9c210eb12799e25305",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : null,
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a305a8d4f91145c6fb60681",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 85.16320474777447,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 50.00000000000006,
+          "_id" : "6a19d7c50ded81646f953e49",
+          "basePrice" : 337.0,
+          "brlDiscount" : 286.99999999999994
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c50ded81646f953e48"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 65.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : null,
+        "_id" : "6a19d7abebd9a0515b93757f",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-15T20:03:25.298Z"
+      },
+      "service" : {
+        "_id" : "682a2f9c210eb12799e2531b",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : null,
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a305a8d4f91145c6fb60682",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 40.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 30.0,
+          "_id" : "6a19d7c50ded81646f9571b0",
+          "basePrice" : 50.0,
+          "brlDiscount" : 20.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c50ded81646f9571af"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 11.00343053173242,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7a0c927df40dc46885e",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e25c62",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7a0c927df40dc468860"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7a0c927df40dc46885f",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49846a",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 93.99656946826758,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 70.0,
+          "_id" : "6a19d7a0c927df40dc46885d",
+          "basePrice" : 1166.0,
+          "brlDiscount" : 1096.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7a0c927df40dc46885c"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 18.95348837209302,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c5f95d4e020fcc7694",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9cbc801b051db5825e",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 5,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c5f95d4e020fcc7696"
+        } ],
+        "countUsageBy" : "service",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c5f95d4e020fcc7695",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49846b",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 86.04651162790698,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 11.999999999999986,
+          "_id" : "6a19d7c5f95d4e020fcc7693",
+          "basePrice" : 86.0,
+          "brlDiscount" : 74.00000000000001
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c5f95d4e020fcc7692"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 31.315789473684205,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c0f95d4e020fcb5d9f",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2fa0bc801b051db9b5d8",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 25,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c0f95d4e020fcb5da2"
+        } ],
+        "countUsageBy" : "serviceType",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c0f95d4e020fcb5da1",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49846c",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 73.6842105263158,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 25.0,
+          "_id" : "6a19d7c0f95d4e020fcb5d9e",
+          "basePrice" : 95.0,
+          "brlDiscount" : 70.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c0f95d4e020fcb5d9d"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 10.157519233248806,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7cf0ded81646f998160",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9d210eb12799e25a04",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7cf0ded81646f998162"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7cf0ded81646f998161",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49846d",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 94.8424807667512,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 120.0,
+          "_id" : "6a19d7cf0ded81646f99815f",
+          "basePrice" : 2326.7,
+          "brlDiscount" : 2206.7
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7cf0ded81646f99815e"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 49.99999999999999,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c6f95d4e020fccddd2",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9dbc801b051db583a4",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c6f95d4e020fccddd4"
+        } ],
+        "countUsageBy" : "service",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c6f95d4e020fccddd3",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49846e",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 55.00000000000001,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 179.99999999999997,
+          "_id" : "6a19d7c6f95d4e020fccddd1",
+          "basePrice" : 400.0,
+          "brlDiscount" : 220.00000000000003
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c6f95d4e020fccddd0"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 0.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c6f95d4e020fcccfcb",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9dbc801b051db5835b",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : null,
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49846f",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 0.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 116.0,
+          "_id" : "6a19d7c6f95d4e020fcccfca",
+          "basePrice" : 116.0,
+          "brlDiscount" : 0.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c6f95d4e020fcccfc9"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.55944055944056,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c9f95d4e020fce0765",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9dbc801b051db58612",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c9f95d4e020fce0767"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c9f95d4e020fce0766",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498470",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 59.44055944055944,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 58.0,
+          "_id" : "6a19d7c9f95d4e020fce0764",
+          "basePrice" : 143.0,
+          "brlDiscount" : 85.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c9f95d4e020fce0763"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 31.315789473684205,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c0f95d4e020fcb5fc7",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2fa0bc801b051db9b5e3",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 25,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c0f95d4e020fcb5fc9"
+        } ],
+        "countUsageBy" : "serviceType",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c0f95d4e020fcb5fc8",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498471",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 73.6842105263158,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 25.0,
+          "_id" : "6a19d7c0f95d4e020fcb5fc6",
+          "basePrice" : 95.0,
+          "brlDiscount" : 70.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c0f95d4e020fcb5fc5"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 44.99999999999999,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b6c927df40dc4a4cb9",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e2679a",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b6c927df40dc4a4cbb"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b6c927df40dc4a4cba",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498472",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.00000000000001,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 94.79999999999998,
+          "_id" : "6a19d7b6c927df40dc4a4cb8",
+          "basePrice" : 237.0,
+          "brlDiscount" : 142.20000000000002
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b6c927df40dc4a4cb7"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 35.85714285714285,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b8c927df40dc4a98be",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e268a2",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b8c927df40dc4a98c0"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b8c927df40dc4a98bf",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498473",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 69.14285714285715,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 64.79999999999998,
+          "_id" : "6a19d7b8c927df40dc4a98bd",
+          "basePrice" : 210.0,
+          "brlDiscount" : 145.20000000000002
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b8c927df40dc4a98bc"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 46.66666666666667,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c1f95d4e020fcb7af0",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2fa0bc801b051db9b672",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : null,
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498474",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 58.33333333333333,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 30.000000000000007,
+          "_id" : "6a19d7c1f95d4e020fcb7aef",
+          "basePrice" : 72.0,
+          "brlDiscount" : 41.99999999999999
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c1f95d4e020fcb7aee"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 22.369727047146398,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c90ded81646f970827",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9d210eb12799e254bd",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c90ded81646f970829"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c90ded81646f970828",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498475",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 82.6302729528536,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 70.0,
+          "_id" : "6a19d7c90ded81646f970826",
+          "basePrice" : 403.0,
+          "brlDiscount" : 333.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c90ded81646f970825"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 9.75435816164817,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b0c927df40dc48fbb8",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e2637a",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b0c927df40dc48fbba"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b0c927df40dc48fbb9",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498476",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 95.24564183835183,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 30.0,
+          "_id" : "6a19d7b0c927df40dc48fbb7",
+          "basePrice" : 631.0,
+          "brlDiscount" : 601.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b0c927df40dc48fbb6"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 31.315789473684205,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c0f95d4e020fcb592a",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2fa0bc801b051db9b5c2",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 25,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c0f95d4e020fcb592c"
+        } ],
+        "countUsageBy" : "serviceType",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c0f95d4e020fcb592b",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498477",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 73.6842105263158,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 25.0,
+          "_id" : "6a19d7c0f95d4e020fcb5929",
+          "basePrice" : 95.0,
+          "brlDiscount" : 70.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c0f95d4e020fcb5928"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 12.81609195402298,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d79dc927df40dc454270",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9d210eb12799e25b02",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d79dc927df40dc454272"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79dc927df40dc454271",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498478",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 92.18390804597702,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 169.99999999999977,
+          "_id" : "6a19d79dc927df40dc45426f",
+          "basePrice" : 2175.0,
+          "brlDiscount" : 2005.0000000000002
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79dc927df40dc45426e"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 28.333333333333343,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7cd0ded81646f98cf8b",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9d210eb12799e2582e",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7cd0ded81646f98cf8d"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7cd0ded81646f98cf8c",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498479",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 76.66666666666666,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 70.00000000000003,
+          "_id" : "6a19d7cd0ded81646f98cf8a",
+          "basePrice" : 300.0,
+          "brlDiscount" : 229.99999999999997
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7cd0ded81646f98cf89"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 17.738853503184714,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c6f95d4e020fcd136d",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9dbc801b051db583e9",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : null,
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49847a",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 87.26114649681529,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 60.0,
+          "_id" : "6a19d7c6f95d4e020fcd136a",
+          "basePrice" : 471.0,
+          "brlDiscount" : 411.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c6f95d4e020fcd1369"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 7.488077959776064,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d79cc927df40dc44c897",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9d210eb12799e25a89",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d79cc927df40dc44c899"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79cc927df40dc44c898",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49847b",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 97.51192204022394,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 119.99999999999909,
+          "_id" : "6a19d79cc927df40dc44c895",
+          "basePrice" : 4823.0,
+          "brlDiscount" : 4703.000000000001
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79cc927df40dc44c894"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 35.85714285714285,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7aec927df40dc48cade",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e261cd",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7aec927df40dc48cae0"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7aec927df40dc48cadf",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49847c",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 69.14285714285715,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 64.79999999999998,
+          "_id" : "6a19d7aec927df40dc48cadc",
+          "basePrice" : 210.0,
+          "brlDiscount" : 145.20000000000002
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7aec927df40dc48cadb"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 22.64705882352942,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d79cc927df40dc448906",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9d210eb12799e25a30",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d79cc927df40dc44890b"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79cc927df40dc448908",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49847d",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 82.35294117647058,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 150.0,
+          "_id" : "6a19d79cc927df40dc448905",
+          "basePrice" : 850.0,
+          "brlDiscount" : 700.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79cc927df40dc448904"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 31.599999999999994,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7cd0ded81646f98d620",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9d210eb12799e25844",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 2,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7cd0ded81646f98d622"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7cd0ded81646f98d621",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49847e",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 73.4,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 79.79999999999998,
+          "_id" : "6a19d7cd0ded81646f98d61f",
+          "basePrice" : 300.0,
+          "brlDiscount" : 220.20000000000002
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7cd0ded81646f98d61e"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 67.72189349112426,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7d2f95d4e020fcfde33",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9dbc801b051db5c835",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 1,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7d2f95d4e020fcfde35"
+        } ],
+        "countUsageBy" : "service",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7d2f95d4e020fcfde34",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49847f",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 37.278106508875744,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 211.99999999999997,
+          "_id" : "6a19d7d2f95d4e020fcfde32",
+          "basePrice" : 338.0,
+          "brlDiscount" : 126.00000000000003
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7d2f95d4e020fcfde31"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 5.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : null,
+        "_id" : "6a19d7abebd9a0515b937340",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-15T20:03:25.298Z"
+      },
+      "service" : {
+        "_id" : "682a2f9c210eb12799e25310",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : null,
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a305a8d4f91145c6fb60669",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 100.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 0.0,
+          "_id" : "6a19d7c50ded81646f954ae6",
+          "basePrice" : 50.0,
+          "brlDiscount" : 50.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c50ded81646f954ae3"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 29.02402402402403,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7bdf95d4e020fca9d7f",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2fa0bc801b051db9b3e9",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 25,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7bdf95d4e020fca9d81"
+        } ],
+        "countUsageBy" : "serviceType",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bdf95d4e020fca9d80",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498480",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 75.97597597597597,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 80.0,
+          "_id" : "6a19d7bdf95d4e020fca9d7e",
+          "basePrice" : 333.0,
+          "brlDiscount" : 253.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bdf95d4e020fca9d7d"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b6c927df40dc4a25b9",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e26779",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b6c927df40dc4a25bb"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b6c927df40dc4a25ba",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498481",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 69.2,
+          "_id" : "6a19d7b6c927df40dc4a25b8",
+          "basePrice" : 173.0,
+          "brlDiscount" : 103.8
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b6c927df40dc4a25b7"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7bfc927df40dc4b547b",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9dbc801b051db5ba02",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7bfc927df40dc4b547d"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bfc927df40dc4b547c",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498482",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 96.4,
+          "_id" : "6a19d7bfc927df40dc4b547a",
+          "basePrice" : 241.0,
+          "brlDiscount" : 144.6
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bfc927df40dc4b5479"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b0c927df40dc48f7fc",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e26301",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b0c927df40dc48f7fe"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b0c927df40dc48f7fd",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498483",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 60.0,
+          "_id" : "6a19d7b0c927df40dc48f7fb",
+          "basePrice" : 150.0,
+          "brlDiscount" : 90.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b0c927df40dc48f7fa"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 31.315789473684205,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7bbf95d4e020fc96578",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9fbc801b051db9b318",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 25,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7bbf95d4e020fc9657c"
+        } ],
+        "countUsageBy" : "serviceType",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bbf95d4e020fc9657a",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498484",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 73.6842105263158,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 25.0,
+          "_id" : "6a19d7bbf95d4e020fc96575",
+          "basePrice" : 95.0,
+          "brlDiscount" : 70.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bbf95d4e020fc96573"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 0.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7a0f95d4e020fc385e8",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9ebc801b051db71221",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7a0f95d4e020fc385ea"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7a0f95d4e020fc385e9",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498485",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 0.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 48.0,
+          "_id" : "6a19d7a0f95d4e020fc385e7",
+          "basePrice" : 48.0,
+          "brlDiscount" : 0.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7a0f95d4e020fc385e6"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 35.85714285714285,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b9c927df40dc4aadc0",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e26968",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b9c927df40dc4aadc2"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b9c927df40dc4aadc1",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498486",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 69.14285714285715,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 64.79999999999998,
+          "_id" : "6a19d7b9c927df40dc4aadbf",
+          "basePrice" : 210.0,
+          "brlDiscount" : 145.20000000000002
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b9c927df40dc4aadbe"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 44.99999999999999,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : null,
+        "_id" : "6a19d7acebd9a0515b938af6",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-15T20:03:25.298Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e2625c",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7afc927df40dc48deb2"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7afc927df40dc48deb1",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a305a8d4f91145c6fb60670",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.00000000000001,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 25.199999999999996,
+          "_id" : "6a19d7afc927df40dc48deaf",
+          "basePrice" : 63.0,
+          "brlDiscount" : 37.800000000000004
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7afc927df40dc48deae"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 31.315789473684205,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7bbf95d4e020fc9b638",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9fbc801b051db9b32e",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 25,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7bbf95d4e020fc9b63a"
+        } ],
+        "countUsageBy" : "serviceType",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bbf95d4e020fc9b639",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498487",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 73.6842105263158,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 25.0,
+          "_id" : "6a19d7bbf95d4e020fc9b637",
+          "basePrice" : 95.0,
+          "brlDiscount" : 70.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bbf95d4e020fc9b636"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7adc927df40dc48b16a",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e26106",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7adc927df40dc48b16c"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7adc927df40dc48b16b",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498488",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 75.2,
+          "_id" : "6a19d7adc927df40dc48b169",
+          "basePrice" : 188.0,
+          "brlDiscount" : 112.8
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7adc927df40dc48b168"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 28.248053392658505,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c40ded81646f94c8c7",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9c210eb12799e252ad",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 10,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c40ded81646f94c8c9"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c40ded81646f94c8c8",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498489",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 76.7519466073415,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 209.0,
+          "_id" : "6a19d7c40ded81646f94c8c5",
+          "basePrice" : 899.0,
+          "brlDiscount" : 690.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c40ded81646f94c8c3"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 34.18918918918918,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7bdc927df40dc4b3207",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9dbc801b051db58656",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7bdc927df40dc4b3209"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bdc927df40dc4b3208",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49848a",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 70.81081081081082,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 64.79999999999998,
+          "_id" : "6a19d7bdc927df40dc4b3206",
+          "basePrice" : 222.0,
+          "brlDiscount" : 157.20000000000002
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bdc927df40dc4b3205"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 26.05263157894737,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c7f95d4e020fcd2246",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9dbc801b051db58418",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 25,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c7f95d4e020fcd2249"
+        } ],
+        "countUsageBy" : "serviceType",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c7f95d4e020fcd2248",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49848b",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 78.94736842105263,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 20.0,
+          "_id" : "6a19d7c7f95d4e020fcd2243",
+          "basePrice" : 95.0,
+          "brlDiscount" : 75.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c7f95d4e020fcd2242"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7afc927df40dc48dbaa",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e26246",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7afc927df40dc48dbac"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7afc927df40dc48dbab",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49848c",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 26.0,
+          "_id" : "6a19d7afc927df40dc48dba9",
+          "basePrice" : 65.0,
+          "brlDiscount" : 39.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7afc927df40dc48dba8"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b2c927df40dc494028",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e264ae",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b2c927df40dc49402a"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b2c927df40dc494029",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49848d",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 37.2,
+          "_id" : "6a19d7b2c927df40dc494027",
+          "basePrice" : 93.0,
+          "brlDiscount" : 55.8
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b2c927df40dc494026"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 10.025641025641022,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d79ec927df40dc456f89",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9d210eb12799e25b4f",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d79ec927df40dc456f8b"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79ec927df40dc456f8a",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49848e",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 94.97435897435898,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 98.0,
+          "_id" : "6a19d79ec927df40dc456f88",
+          "basePrice" : 1950.0,
+          "brlDiscount" : 1852.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79ec927df40dc456f87"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 36.69572107765451,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7a6f95d4e020fc569f0",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9ebc801b051db81258",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 1,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7a6f95d4e020fc569f2"
+        } ],
+        "countUsageBy" : "service",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7a6f95d4e020fc569f1",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49848f",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 68.30427892234549,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 200.0,
+          "_id" : "6a19d7a6f95d4e020fc569ef",
+          "basePrice" : 631.0,
+          "brlDiscount" : 431.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7a6f95d4e020fc569ee"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 44.99999999999999,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7acc927df40dc48a36d",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e260c4",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7acc927df40dc48a36f"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7acc927df40dc48a36e",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498490",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.00000000000001,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 24.39999999999999,
+          "_id" : "6a19d7acc927df40dc48a36c",
+          "basePrice" : 61.0,
+          "brlDiscount" : 36.60000000000001
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7acc927df40dc48a36b"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7ce0ded81646f991ffa",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a30aabc801b051dba3ce9",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7ce0ded81646f991ffc"
+        } ],
+        "countUsageBy" : "service",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7ce0ded81646f991ffb",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498491",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 96.0,
+          "_id" : "6a19d7ce0ded81646f991ff9",
+          "basePrice" : 240.0,
+          "brlDiscount" : 144.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7ce0ded81646f991ff8"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 15.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d79ec927df40dc457bbd",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9d210eb12799e25b7b",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d79ec927df40dc457bbf"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79ec927df40dc457bbe",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498492",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 90.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 75.0,
+          "_id" : "6a19d79ec927df40dc457bbb",
+          "basePrice" : 750.0,
+          "brlDiscount" : 675.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79ec927df40dc457bba"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 31.315789473684205,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c0f95d4e020fcb6245",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2fa0bc801b051db9b5ee",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 25,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c0f95d4e020fcb6249"
+        } ],
+        "countUsageBy" : "serviceType",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c0f95d4e020fcb6247",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498493",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 73.6842105263158,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 25.0,
+          "_id" : "6a19d7c0f95d4e020fcb6244",
+          "basePrice" : 95.0,
+          "brlDiscount" : 70.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c0f95d4e020fcb6243"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 32.499999999999986,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b5c927df40dc49d1bd",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e266df",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b5c927df40dc49d1bf"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b5c927df40dc49d1be",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498494",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 72.50000000000001,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 26.39999999999999,
+          "_id" : "6a19d7b5c927df40dc49d1bc",
+          "basePrice" : 96.0,
+          "brlDiscount" : 69.60000000000001
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b5c927df40dc49d1bb"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 31.315789473684205,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7bbf95d4e020fca0db5",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9fbc801b051db9b34f",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 25,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7bbf95d4e020fca0db7"
+        } ],
+        "countUsageBy" : "serviceType",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bbf95d4e020fca0db6",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498495",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 73.6842105263158,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 25.0,
+          "_id" : "6a19d7bbf95d4e020fca0db4",
+          "basePrice" : 95.0,
+          "brlDiscount" : 70.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bbf95d4e020fca0db3"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7abc927df40dc4892d9",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e26040",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7abc927df40dc4892db"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7abc927df40dc4892da",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498496",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 29.6,
+          "_id" : "6a19d7abc927df40dc4892d8",
+          "basePrice" : 74.0,
+          "brlDiscount" : 44.4
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7abc927df40dc4892d7"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 35.85714285714285,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b3c927df40dc49898f",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e265e2",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b3c927df40dc498991"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b3c927df40dc498990",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498497",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 69.14285714285715,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 64.79999999999998,
+          "_id" : "6a19d7b3c927df40dc49898e",
+          "basePrice" : 210.0,
+          "brlDiscount" : 145.20000000000002
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b3c927df40dc49898d"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 35.85714285714285,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7afc927df40dc48f14f",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e262bf",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7afc927df40dc48f151"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7afc927df40dc48f150",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498498",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 69.14285714285715,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 64.79999999999998,
+          "_id" : "6a19d7afc927df40dc48f14e",
+          "basePrice" : 210.0,
+          "brlDiscount" : 145.20000000000002
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7afc927df40dc48f14d"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 25.599250936329597,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7aec927df40dc48c618",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e261ac",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7aec927df40dc48c61a"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7aec927df40dc48c619",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498499",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 79.4007490636704,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 110.00000000000006,
+          "_id" : "6a19d7aec927df40dc48c617",
+          "basePrice" : 534.0,
+          "brlDiscount" : 423.99999999999994
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7aec927df40dc48c616"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 16.111111111111114,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c4f95d4e020fcc6b62",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a30a9bc801b051dba39e7",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c4f95d4e020fcc6b64"
+        } ],
+        "countUsageBy" : "service",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c4f95d4e020fcc6b63",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49849a",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 88.88888888888889,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 88.0,
+          "_id" : "6a19d7c4f95d4e020fcc6b61",
+          "basePrice" : 792.0,
+          "brlDiscount" : 704.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c4f95d4e020fcc6b60"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 30.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c7f95d4e020fcd3caa",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9dbc801b051db5842b",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : null,
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49849b",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 75.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 30.0,
+          "_id" : "6a19d7c7f95d4e020fcd3ca7",
+          "basePrice" : 120.0,
+          "brlDiscount" : 90.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c7f95d4e020fcd3ca6"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 28.07692307692308,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d79ec927df40dc456bd2",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9d210eb12799e25b44",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d79ec927df40dc456bd4"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79ec927df40dc456bd3",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49849c",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 76.92307692307692,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 150.00000000000006,
+          "_id" : "6a19d79ec927df40dc456bd1",
+          "basePrice" : 650.0,
+          "brlDiscount" : 499.99999999999994
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79ec927df40dc456bd0"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 10.464480874316934,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7a0c927df40dc467b88",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e25c36",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : null,
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49849d",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 94.53551912568307,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 30.0,
+          "_id" : "6a19d7a0c927df40dc467b87",
+          "basePrice" : 549.0,
+          "brlDiscount" : 519.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7a0c927df40dc467b86"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 35.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7d2f95d4e020fcfcf51",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9dbc801b051db5c440",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : null,
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49849e",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 70.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 150.0,
+          "_id" : "6a19d7d2f95d4e020fcfcf50",
+          "basePrice" : 500.0,
+          "brlDiscount" : 350.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7d2f95d4e020fcfcf4f"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 10.571547961742041,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d79cc927df40dc44b39e",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9d210eb12799e25a73",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d79cc927df40dc44b3a2"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79cc927df40dc44b39f",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49849f",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 94.42845203825796,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 120.0,
+          "_id" : "6a19d79cc927df40dc44b39c",
+          "basePrice" : 2153.8,
+          "brlDiscount" : 2033.8000000000002
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79cc927df40dc44b39b"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 44.99999999999999,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7bdc927df40dc4b3e43",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9dbc801b051db5936f",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7bdc927df40dc4b3e45"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bdc927df40dc4b3e44",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984a0",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.00000000000001,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 56.79999999999998,
+          "_id" : "6a19d7bdc927df40dc4b3e42",
+          "basePrice" : 142.0,
+          "brlDiscount" : 85.20000000000002
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bdc927df40dc4b3e41"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b7c927df40dc4a5766",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e267b0",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b7c927df40dc4a5768"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b7c927df40dc4a5767",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984a1",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 100.0,
+          "_id" : "6a19d7b7c927df40dc4a5765",
+          "basePrice" : 250.0,
+          "brlDiscount" : 150.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b7c927df40dc4a5764"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 8.39414509970301,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d79cc927df40dc44d878",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9d210eb12799e25a94",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d79cc927df40dc44d87b"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79cc927df40dc44d879",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984a2",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 96.60585490029699,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 119.99999999999955,
+          "_id" : "6a19d79cc927df40dc44d877",
+          "basePrice" : 3535.5,
+          "brlDiscount" : 3415.5000000000005
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79cc927df40dc44d876"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 39.54231433506045,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7aec927df40dc48d118",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e261f9",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7aec927df40dc48d11a"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7aec927df40dc48d119",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984a3",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 65.45768566493955,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 200.0,
+          "_id" : "6a19d7aec927df40dc48d117",
+          "basePrice" : 579.0,
+          "brlDiscount" : 379.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7aec927df40dc48d116"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 31.315789473684205,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c0f95d4e020fcb51ea",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2fa0bc801b051db9b5a1",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 25,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c0f95d4e020fcb51ec"
+        } ],
+        "countUsageBy" : "serviceType",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c0f95d4e020fcb51eb",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984a4",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 73.6842105263158,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 25.0,
+          "_id" : "6a19d7c0f95d4e020fcb51e9",
+          "basePrice" : 95.0,
+          "brlDiscount" : 70.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c0f95d4e020fcb51e8"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b9c927df40dc4aa5d6",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e2691b",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b9c927df40dc4aa5d8"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b9c927df40dc4aa5d7",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984a5",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 84.0,
+          "_id" : "6a19d7b9c927df40dc4aa5d5",
+          "basePrice" : 210.0,
+          "brlDiscount" : 126.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b9c927df40dc4aa5d4"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 15.101010101010104,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : null,
+        "_id" : "6a19d7abebd9a0515b936fb5",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-15T20:03:25.298Z"
+      },
+      "service" : {
+        "_id" : "682a2f9c210eb12799e252fa",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : null,
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a305a8d4f91145c6fb60676",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 89.8989898989899,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 30.0,
+          "_id" : "6a19d7c50ded81646f95361f",
+          "basePrice" : 297.0,
+          "brlDiscount" : 267.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c50ded81646f95361e"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 58.57142857142857,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c5f95d4e020fcc8f43",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a30a9bc801b051dba39fc",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : null,
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984a6",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 46.42857142857143,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 15.0,
+          "_id" : "6a19d7c5f95d4e020fcc8f42",
+          "basePrice" : 28.0,
+          "brlDiscount" : 13.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c5f95d4e020fcc8f41"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 10.053908355795144,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7a9c927df40dc4816f6",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e25ef6",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7a9c927df40dc4816f8"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7a9c927df40dc4816f7",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984a7",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 94.94609164420486,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 150.0,
+          "_id" : "6a19d7a9c927df40dc4816f5",
+          "basePrice" : 2968.0,
+          "brlDiscount" : 2818.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7a9c927df40dc4816f4"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 19.044943820224717,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : null,
+        "_id" : "6a19d7abebd9a0515b937b16",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-15T20:03:25.298Z"
+      },
+      "service" : {
+        "_id" : "682a2f9d210eb12799e2535d",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c60ded81646f95c19a"
+        } ],
+        "countUsageBy" : "service",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c60ded81646f95c199",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a305a8d4f91145c6fb6067c",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 85.95505617977528,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 25.0,
+          "_id" : "6a19d7c60ded81646f95c196",
+          "basePrice" : 178.0,
+          "brlDiscount" : 153.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c60ded81646f95c194"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 24.478635666625223,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7cf0ded81646f9952c8",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9d210eb12799e259ac",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7cf0ded81646f9952ca"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7cf0ded81646f9952c9",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984a8",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 80.52136433337478,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 187.99914294003065,
+          "_id" : "6a19d7cf0ded81646f9952c7",
+          "basePrice" : 965.1556,
+          "brlDiscount" : 777.1564570599694
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7cf0ded81646f9952c5"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 44.99999999999999,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7afc927df40dc48e1db",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e26272",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7afc927df40dc48e1dd"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7afc927df40dc48e1dc",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984a9",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.00000000000001,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 25.199999999999996,
+          "_id" : "6a19d7afc927df40dc48e1da",
+          "basePrice" : 63.0,
+          "brlDiscount" : 37.800000000000004
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7afc927df40dc48e1d9"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 31.315789473684205,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c1f95d4e020fcb6cbe",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2fa0bc801b051db9b61a",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 25,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c1f95d4e020fcb6cc0"
+        } ],
+        "countUsageBy" : "serviceType",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c1f95d4e020fcb6cbf",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984aa",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 73.6842105263158,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 25.0,
+          "_id" : "6a19d7c1f95d4e020fcb6cbd",
+          "basePrice" : 95.0,
+          "brlDiscount" : 70.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c1f95d4e020fcb6cbb"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 44.99999999999999,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7bdc927df40dc4b43e8",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9dbc801b051db59974",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7bdc927df40dc4b43ea"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bdc927df40dc4b43e9",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984ab",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.00000000000001,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 76.79999999999998,
+          "_id" : "6a19d7bdc927df40dc4b43e7",
+          "basePrice" : 192.0,
+          "brlDiscount" : 115.20000000000002
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bdc927df40dc4b43e6"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b2c927df40dc494d52",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e2655e",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b2c927df40dc494d54"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b2c927df40dc494d53",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984ac",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 23.6,
+          "_id" : "6a19d7b2c927df40dc494d51",
+          "basePrice" : 59.0,
+          "brlDiscount" : 35.4
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b2c927df40dc494d50"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 18.58695652173914,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : null,
+        "_id" : "6a19d7abebd9a0515b937834",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-15T20:03:25.298Z"
+      },
+      "service" : {
+        "_id" : "682a2f9c210eb12799e25331",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 2,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c60ded81646f95a206"
+        } ],
+        "countUsageBy" : "service",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c60ded81646f95a205",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a305a8d4f91145c6fb6067d",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 86.41304347826086,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 25.0,
+          "_id" : "6a19d7c60ded81646f95a203",
+          "basePrice" : 184.0,
+          "brlDiscount" : 159.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c60ded81646f95a202"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 0.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d79ff95d4e020fc365e0",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9ebc801b051db6f2ed",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d79ff95d4e020fc365e2"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79ff95d4e020fc365e1",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984ad",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 0.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 19.2,
+          "_id" : "6a19d79ff95d4e020fc365df",
+          "basePrice" : 19.2,
+          "brlDiscount" : 0.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79ff95d4e020fc365dd"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 31.315789473684205,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c1f95d4e020fcb702c",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2fa0bc801b051db9b630",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 25,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c1f95d4e020fcb702e"
+        } ],
+        "countUsageBy" : "serviceType",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c1f95d4e020fcb702d",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984ae",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 73.6842105263158,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 25.0,
+          "_id" : "6a19d7c1f95d4e020fcb702b",
+          "basePrice" : 95.0,
+          "brlDiscount" : 70.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c1f95d4e020fcb702a"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7afc927df40dc48edfb",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e262a9",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7afc927df40dc48edfd"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7afc927df40dc48edfc",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984af",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 84.0,
+          "_id" : "6a19d7afc927df40dc48edfa",
+          "basePrice" : 210.0,
+          "brlDiscount" : 126.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7afc927df40dc48edf9"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 15.769230769230774,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7a9c927df40dc484383",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e25f43",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7a9c927df40dc484385"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7a9c927df40dc484384",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984b0",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 89.23076923076923,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 140.0,
+          "_id" : "6a19d7a9c927df40dc484382",
+          "basePrice" : 1300.0,
+          "brlDiscount" : 1160.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7a9c927df40dc484381"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 44.99999999999999,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b1c927df40dc492023",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e263f3",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b1c927df40dc492025"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b1c927df40dc492024",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984b1",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.00000000000001,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 79.59999999999998,
+          "_id" : "6a19d7b1c927df40dc492022",
+          "basePrice" : 199.0,
+          "brlDiscount" : 119.40000000000002
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b1c927df40dc492021"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 24.04761904761905,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : null,
+        "_id" : "6a19d7abebd9a0515b937f29",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-15T20:03:25.298Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e25f7a",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7aac927df40dc484c76"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7aac927df40dc484c75",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a305a8d4f91145c6fb6067e",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 80.95238095238095,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 12.0,
+          "_id" : "6a19d7aac927df40dc484c71",
+          "basePrice" : 63.0,
+          "brlDiscount" : 51.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7aac927df40dc484c70"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b2c927df40dc494f62",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e26569",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b2c927df40dc494f64"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b2c927df40dc494f63",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984b2",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 84.0,
+          "_id" : "6a19d7b2c927df40dc494f61",
+          "basePrice" : 210.0,
+          "brlDiscount" : 126.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b2c927df40dc494f60"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 9.669260700389117,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b3c927df40dc49860e",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e265cc",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b3c927df40dc498610"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b3c927df40dc49860f",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984b3",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 95.33073929961088,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 12.000000000000057,
+          "_id" : "6a19d7b3c927df40dc49860d",
+          "basePrice" : 257.0,
+          "brlDiscount" : 244.99999999999994
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b3c927df40dc49860c"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 53.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7abc927df40dc4879fe",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e25fe8",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7abc927df40dc487a00"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7abc927df40dc4879ff",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984b4",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 52.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 12.0,
+          "_id" : "6a19d7abc927df40dc4879fd",
+          "basePrice" : 25.0,
+          "brlDiscount" : 13.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7abc927df40dc4879fc"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c7f95d4e020fcd1d8c",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9dbc801b051db583ff",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : null,
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984b5",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 28.0,
+          "_id" : "6a19d7c7f95d4e020fcd1d8a",
+          "basePrice" : 70.0,
+          "brlDiscount" : 42.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c7f95d4e020fcd1d89"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 31.315789473684205,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c0f95d4e020fcb3bdb",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2fa0bc801b051db9b580",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 25,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c0f95d4e020fcb3bdd"
+        } ],
+        "countUsageBy" : "serviceType",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c0f95d4e020fcb3bdc",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984b6",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 73.6842105263158,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 25.0,
+          "_id" : "6a19d7c0f95d4e020fcb3bda",
+          "basePrice" : 95.0,
+          "brlDiscount" : 70.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c0f95d4e020fcb3bd9"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 14.009009009009006,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : null,
+        "_id" : "6a19d7acebd9a0515b93851d",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-15T20:03:25.298Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e25fd2",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7aac927df40dc487492"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7aac927df40dc487491",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a305a8d4f91145c6fb60680",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 90.990990990991,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 10.0,
+          "_id" : "6a19d7aac927df40dc48748f",
+          "basePrice" : 111.0,
+          "brlDiscount" : 101.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7aac927df40dc48748e"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 31.315789473684205,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c8f95d4e020fcdeba5",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9dbc801b051db585ba",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 25,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c8f95d4e020fcdeba7"
+        } ],
+        "countUsageBy" : "serviceType",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c8f95d4e020fcdeba6",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984b7",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 73.6842105263158,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 25.0,
+          "_id" : "6a19d7c8f95d4e020fcdeba3",
+          "basePrice" : 95.0,
+          "brlDiscount" : 70.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c8f95d4e020fcdeba2"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.6060606060606,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7acc927df40dc4899c1",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e2606c",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7acc927df40dc4899c3"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7acc927df40dc4899c2",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984b8",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 59.3939393939394,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 26.799999999999997,
+          "_id" : "6a19d7acc927df40dc4899c0",
+          "basePrice" : 66.0,
+          "brlDiscount" : 39.2
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7acc927df40dc4899bf"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 30.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d79fc927df40dc459bc7",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9d210eb12799e25b91",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d79fc927df40dc459bcc"
+        } ],
+        "countUsageBy" : "service",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79fc927df40dc459bcb",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984b9",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 75.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 200.0,
+          "_id" : "6a19d79fc927df40dc459bc6",
+          "basePrice" : 800.0,
+          "brlDiscount" : 600.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79fc927df40dc459bc5"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 30.468164794007492,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7cef95d4e020fcf5796",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9dbc801b051db5a45c",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 7,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7cef95d4e020fcf5798"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7cef95d4e020fcf5797",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984ba",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 74.53183520599251,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 68.00000000000003,
+          "_id" : "6a19d7cef95d4e020fcf5795",
+          "basePrice" : 267.0,
+          "brlDiscount" : 198.99999999999997
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7cef95d4e020fcf5794"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 31.315789473684205,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7bbf95d4e020fc9495f",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9fbc801b051db9b30d",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 25,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7bbf95d4e020fc94962"
+        } ],
+        "countUsageBy" : "serviceType",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bbf95d4e020fc94961",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984bb",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 73.6842105263158,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 25.0,
+          "_id" : "6a19d7bbf95d4e020fc9495e",
+          "basePrice" : 95.0,
+          "brlDiscount" : 70.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bbf95d4e020fc9495d"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 88.33333333333334,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7bef95d4e020fcac9f4",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2fa0bc801b051db9b42b",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 25,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7bef95d4e020fcac9f6"
+        } ],
+        "countUsageBy" : "serviceType",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bef95d4e020fcac9f5",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984bc",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 16.666666666666664,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 80.0,
+          "_id" : "6a19d7bef95d4e020fcac9f3",
+          "basePrice" : 96.0,
+          "brlDiscount" : 16.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bef95d4e020fcac9f2"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c7f95d4e020fcd973e",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9dbc801b051db58470",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : null,
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984bd",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 100.0,
+          "_id" : "6a19d7c7f95d4e020fcd973d",
+          "basePrice" : 250.0,
+          "brlDiscount" : 150.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c7f95d4e020fcd973c"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 8.57142857142857,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7cf0ded81646f997bef",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9d210eb12799e259f9",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7cf0ded81646f997bf1"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7cf0ded81646f997bf0",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984be",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 96.42857142857143,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 100.0,
+          "_id" : "6a19d7cf0ded81646f997bee",
+          "basePrice" : 2800.0,
+          "brlDiscount" : 2700.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7cf0ded81646f997bed"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 23.004776777512404,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d79ec927df40dc456200",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9d210eb12799e25b2e",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d79ec927df40dc456202"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79ec927df40dc456201",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984bf",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 81.9952232224876,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 98.0,
+          "_id" : "6a19d79ec927df40dc4561ff",
+          "basePrice" : 544.3,
+          "brlDiscount" : 446.29999999999995
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79ec927df40dc4561fe"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b6c927df40dc49e199",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e26742",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b6c927df40dc49e19b"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b6c927df40dc49e19a",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984c0",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 29.6,
+          "_id" : "6a19d7b6c927df40dc49e198",
+          "basePrice" : 74.0,
+          "brlDiscount" : 44.4
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b6c927df40dc49e197"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 31.315789473684205,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c0f95d4e020fcb56ea",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2fa0bc801b051db9b5b7",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 25,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c0f95d4e020fcb56ec"
+        } ],
+        "countUsageBy" : "serviceType",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c0f95d4e020fcb56eb",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984c1",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 73.6842105263158,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 25.0,
+          "_id" : "6a19d7c0f95d4e020fcb56e9",
+          "basePrice" : 95.0,
+          "brlDiscount" : 70.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c0f95d4e020fcb56e8"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b9c927df40dc4aa712",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e26926",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b9c927df40dc4aa714"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b9c927df40dc4aa713",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984c2",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 84.0,
+          "_id" : "6a19d7b9c927df40dc4aa711",
+          "basePrice" : 210.0,
+          "brlDiscount" : 126.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b9c927df40dc4aa710"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7caf95d4e020fce623f",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9dbc801b051db58a61",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 5,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7caf95d4e020fce6241"
+        } ],
+        "countUsageBy" : "service",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7caf95d4e020fce6240",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984c3",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 12.0,
+          "_id" : "6a19d7caf95d4e020fce623e",
+          "basePrice" : 30.0,
+          "brlDiscount" : 18.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7caf95d4e020fce623d"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7afc927df40dc48dd12",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e26251",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7afc927df40dc48dd14"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7afc927df40dc48dd13",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984c4",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 26.0,
+          "_id" : "6a19d7afc927df40dc48dd11",
+          "basePrice" : 65.0,
+          "brlDiscount" : 39.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7afc927df40dc48dd10"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 20.007503751875944,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d79ec927df40dc4567c6",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9d210eb12799e25b39",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d79ec927df40dc4567c8"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79ec927df40dc4567c7",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984c5",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 84.99249624812406,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 120.0,
+          "_id" : "6a19d79ec927df40dc4567c5",
+          "basePrice" : 799.6,
+          "brlDiscount" : 679.6
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79ec927df40dc4567c4"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 38.5,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7aac927df40dc486d48",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e25fbc",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7aac927df40dc486d4a"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7aac927df40dc486d49",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984c6",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 66.5,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 26.799999999999997,
+          "_id" : "6a19d7aac927df40dc486d47",
+          "basePrice" : 80.0,
+          "brlDiscount" : 53.2
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7aac927df40dc486d46"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 31.315789473684205,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7baf95d4e020fc8c47b",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9fbc801b051db9b2e1",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 25,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7baf95d4e020fc8c482"
+        } ],
+        "countUsageBy" : "serviceType",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7baf95d4e020fc8c47f",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984c7",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 73.6842105263158,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 25.0,
+          "_id" : "6a19d7baf95d4e020fc8c477",
+          "basePrice" : 95.0,
+          "brlDiscount" : 70.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7baf95d4e020fc8c474"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 5.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7a9c927df40dc4847bd",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e25f59",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : null,
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984c8",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 100.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 0.0,
+          "_id" : "6a19d7a9c927df40dc4847bc",
+          "basePrice" : 50.0,
+          "brlDiscount" : 50.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7a9c927df40dc4847bb"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b7c927df40dc4a5a02",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e267c6",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b7c927df40dc4a5a04"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b7c927df40dc4a5a03",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984c9",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 56.0,
+          "_id" : "6a19d7b7c927df40dc4a5a01",
+          "basePrice" : 140.0,
+          "brlDiscount" : 84.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b7c927df40dc4a5a00"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7bbc927df40dc4b03b6",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9dbc801b051db58446",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7bbc927df40dc4b03b8"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bbc927df40dc4b03b7",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984ca",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 84.0,
+          "_id" : "6a19d7bbc927df40dc4b03b5",
+          "basePrice" : 210.0,
+          "brlDiscount" : 126.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bbc927df40dc4b03b4"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 27.191780821917803,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7bec927df40dc4b4970",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9dbc801b051db5a3a7",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7bec927df40dc4b4972"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bec927df40dc4b4971",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984cb",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 77.8082191780822,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 73.23287671232873,
+          "_id" : "6a19d7bec927df40dc4b496f",
+          "basePrice" : 330.0,
+          "brlDiscount" : 256.76712328767127
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bec927df40dc4b496e"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 44.99999999999999,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7adc927df40dc48b81e",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e26132",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7adc927df40dc48b820"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7adc927df40dc48b81f",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984cc",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.00000000000001,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 60.79999999999998,
+          "_id" : "6a19d7adc927df40dc48b81d",
+          "basePrice" : 152.0,
+          "brlDiscount" : 91.20000000000002
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7adc927df40dc48b81c"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 22.369727047146398,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7cb0ded81646f97fa0c",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9d210eb12799e2577c",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7cb0ded81646f97fa0f"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7cb0ded81646f97fa0e",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984cd",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 82.6302729528536,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 70.0,
+          "_id" : "6a19d7cb0ded81646f97fa09",
+          "basePrice" : 403.0,
+          "brlDiscount" : 333.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7cb0ded81646f97fa07"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 44.99999999999999,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b6c927df40dc4a5263",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e267a5",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b6c927df40dc4a5265"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b6c927df40dc4a5264",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984ce",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.00000000000001,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 38.79999999999999,
+          "_id" : "6a19d7b6c927df40dc4a5262",
+          "basePrice" : 97.0,
+          "brlDiscount" : 58.20000000000001
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b6c927df40dc4a5261"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c1f95d4e020fcb7eaa",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2fa0bc801b051db9b688",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : null,
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984cf",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 30.0,
+          "_id" : "6a19d7c1f95d4e020fcb7ea9",
+          "basePrice" : 75.0,
+          "brlDiscount" : 45.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c1f95d4e020fcb7ea8"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 70.57377049180327,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c3f95d4e020fcc0803",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2fa0bc801b051db9b6eb",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : null,
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984d0",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 34.42622950819673,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 40.0,
+          "_id" : "6a19d7c3f95d4e020fcc0802",
+          "basePrice" : 61.0,
+          "brlDiscount" : 21.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c3f95d4e020fcc0801"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 21.042780748663105,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c5f95d4e020fcca643",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9dbc801b051db582aa",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : null,
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984d1",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 83.9572192513369,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 30.00000000000003,
+          "_id" : "6a19d7c5f95d4e020fcca642",
+          "basePrice" : 187.0,
+          "brlDiscount" : 156.99999999999997
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c5f95d4e020fcca641"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 22.369727047146398,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7ca0ded81646f97c30b",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9d210eb12799e2573a",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7ca0ded81646f97c310"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7ca0ded81646f97c30d",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984d2",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 82.6302729528536,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 70.0,
+          "_id" : "6a19d7ca0ded81646f97c30a",
+          "basePrice" : 403.0,
+          "brlDiscount" : 333.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7ca0ded81646f97c309"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 35.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c70ded81646f96a743",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9d210eb12799e25402",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : null,
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984d3",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 70.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 30.0,
+          "_id" : "6a19d7c70ded81646f96a742",
+          "basePrice" : 100.0,
+          "brlDiscount" : 70.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c70ded81646f96a741"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 44.8406374501992,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b5c927df40dc49da33",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e26716",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b5c927df40dc49da35"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b5c927df40dc49da34",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984d4",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.1593625498008,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 100.0,
+          "_id" : "6a19d7b5c927df40dc49da32",
+          "basePrice" : 251.0,
+          "brlDiscount" : 151.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b5c927df40dc49da31"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b7c927df40dc4a5ee7",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e267fd",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b7c927df40dc4a5ee9"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b7c927df40dc4a5ee8",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984d5",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 59.60000000000001,
+          "_id" : "6a19d7b7c927df40dc4a5ee6",
+          "basePrice" : 149.0,
+          "brlDiscount" : 89.39999999999999
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b7c927df40dc4a5ee5"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 15.204081632653057,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c40ded81646f95039e",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9c210eb12799e252ce",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c40ded81646f9503a0"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c40ded81646f95039f",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984d6",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 89.79591836734694,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 400.0,
+          "_id" : "6a19d7c40ded81646f95039d",
+          "basePrice" : 3920.0,
+          "brlDiscount" : 3520.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c40ded81646f95039c"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 44.99999999999999,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b1c927df40dc492de5",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e26409",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b1c927df40dc492de7"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b1c927df40dc492de6",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984d7",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.00000000000001,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 22.39999999999999,
+          "_id" : "6a19d7b1c927df40dc492de4",
+          "basePrice" : 56.0,
+          "brlDiscount" : 33.60000000000001
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b1c927df40dc492de3"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 44.99999999999999,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7aac927df40dc486768",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e25f9b",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7aac927df40dc48676a"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7aac927df40dc486769",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984d8",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.00000000000001,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 25.199999999999996,
+          "_id" : "6a19d7aac927df40dc486767",
+          "basePrice" : 63.0,
+          "brlDiscount" : 37.800000000000004
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7aac927df40dc486766"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 39.358974358974365,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7afc927df40dc48e055",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e26267",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7afc927df40dc48e057"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7afc927df40dc48e056",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984d9",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 65.64102564102564,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 26.80000000000001,
+          "_id" : "6a19d7afc927df40dc48e054",
+          "basePrice" : 78.0,
+          "brlDiscount" : 51.19999999999999
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7afc927df40dc48e053"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 13.82320502922687,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7cf0ded81646f995d1c",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9d210eb12799e259c2",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7cf0ded81646f995d1e"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7cf0ded81646f995d1d",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984da",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 91.17679497077313,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 39.99971765743908,
+          "_id" : "6a19d7cf0ded81646f995d1b",
+          "basePrice" : 453.3468,
+          "brlDiscount" : 413.3470823425609
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7cf0ded81646f995d1a"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 22.369727047146398,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7ca0ded81646f97e8dc",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9d210eb12799e25750",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7ca0ded81646f97e8de"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7ca0ded81646f97e8dd",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984db",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 82.6302729528536,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 70.0,
+          "_id" : "6a19d7ca0ded81646f97e8d8",
+          "basePrice" : 403.0,
+          "brlDiscount" : 333.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7ca0ded81646f97e8d7"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : null,
+        "_id" : "6a19d7acebd9a0515b93989b",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-15T20:03:25.298Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e262e0",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b0c927df40dc48f4c4"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b0c927df40dc48f4c3",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a305a8d4f91145c6fb60683",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 25.6,
+          "_id" : "6a19d7b0c927df40dc48f4c1",
+          "basePrice" : 64.0,
+          "brlDiscount" : 38.4
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b0c927df40dc48f4c0"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 35.85714285714285,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7aec927df40dc48c8ed",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e261c2",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7aec927df40dc48c8f1"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7aec927df40dc48c8ef",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984dc",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 69.14285714285715,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 64.79999999999998,
+          "_id" : "6a19d7aec927df40dc48c8ec",
+          "basePrice" : 210.0,
+          "brlDiscount" : 145.20000000000002
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7aec927df40dc48c8eb"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 35.85714285714285,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7bbc927df40dc4ac7d3",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9dbc801b051db5841a",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7bbc927df40dc4ac7d5"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bbc927df40dc4ac7d4",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984dd",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 69.14285714285715,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 64.79999999999998,
+          "_id" : "6a19d7bbc927df40dc4ac7d2",
+          "basePrice" : 210.0,
+          "brlDiscount" : 145.20000000000002
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bbc927df40dc4ac7d1"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 35.3030303030303,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7cf0ded81646f9957a6",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9d210eb12799e259b7",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7cf0ded81646f9957a8"
+        } ],
+        "countUsageBy" : "service",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7cf0ded81646f9957a7",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984de",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 69.6969696969697,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 199.99999999999994,
+          "_id" : "6a19d7cf0ded81646f9957a5",
+          "basePrice" : 660.0,
+          "brlDiscount" : 460.00000000000006
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7cf0ded81646f9957a4"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 22.369727047146398,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c80ded81646f96c8ec",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9d210eb12799e25423",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c80ded81646f96c8ee"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c80ded81646f96c8ed",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984df",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 82.6302729528536,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 70.0,
+          "_id" : "6a19d7c80ded81646f96c8eb",
+          "basePrice" : 403.0,
+          "brlDiscount" : 333.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c80ded81646f96c8ea"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 37.400000000000006,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b0c927df40dc48fec1",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e263a6",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b0c927df40dc48fec3"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b0c927df40dc48fec2",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984e0",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 67.6,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 64.80000000000001,
+          "_id" : "6a19d7b0c927df40dc48fec0",
+          "basePrice" : 200.0,
+          "brlDiscount" : 135.2
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b0c927df40dc48febf"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 31.315789473684205,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7bff95d4e020fcb21dc",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2fa0bc801b051db9b56a",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 25,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7bff95d4e020fcb21de"
+        } ],
+        "countUsageBy" : "serviceType",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bff95d4e020fcb21dd",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984e1",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 73.6842105263158,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 25.0,
+          "_id" : "6a19d7bff95d4e020fcb21db",
+          "basePrice" : 95.0,
+          "brlDiscount" : 70.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bff95d4e020fcb21da"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7adc927df40dc48b4b0",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e2611c",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7adc927df40dc48b4b2"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7adc927df40dc48b4b1",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984e2",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 80.0,
+          "_id" : "6a19d7adc927df40dc48b4af",
+          "basePrice" : 200.0,
+          "brlDiscount" : 120.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7adc927df40dc48b4ae"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 16.904761904761912,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c40ded81646f94fa3b",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9c210eb12799e252c3",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c40ded81646f94fa3d"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c40ded81646f94fa3c",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984e3",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 88.09523809523809,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 300.0,
+          "_id" : "6a19d7c40ded81646f94fa3a",
+          "basePrice" : 2520.0,
+          "brlDiscount" : 2220.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c40ded81646f94fa39"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 17.68115942028986,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7abc927df40dc48945b",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e2604b",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7abc927df40dc48945d"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7abc927df40dc48945c",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984e4",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 87.31884057971014,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 35.0,
+          "_id" : "6a19d7abc927df40dc48945a",
+          "basePrice" : 276.0,
+          "brlDiscount" : 241.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7abc927df40dc489459"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7bfc927df40dc4b632c",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9dbc801b051db5c6c4",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7bfc927df40dc4b632e"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bfc927df40dc4b632d",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984e5",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 38.0,
+          "_id" : "6a19d7bfc927df40dc4b632b",
+          "basePrice" : 95.0,
+          "brlDiscount" : 57.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bfc927df40dc4b632a"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 12.44601638123605,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d79ec927df40dc455665",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9d210eb12799e25b18",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d79ec927df40dc455667"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79ec927df40dc455666",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984e6",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 92.55398361876395,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 100.00000000000023,
+          "_id" : "6a19d79ec927df40dc455664",
+          "basePrice" : 1343.0,
+          "brlDiscount" : 1242.9999999999998
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79ec927df40dc455660"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 44.99999999999999,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7bdc927df40dc4b3b50",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9dbc801b051db592f6",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7bdc927df40dc4b3b52"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bdc927df40dc4b3b51",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984e7",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.00000000000001,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 76.79999999999998,
+          "_id" : "6a19d7bdc927df40dc4b3b4f",
+          "basePrice" : 192.0,
+          "brlDiscount" : 115.20000000000002
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bdc927df40dc4b3b4e"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 31.315789473684205,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c0f95d4e020fcb5b52",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2fa0bc801b051db9b5cd",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 25,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c0f95d4e020fcb5b54"
+        } ],
+        "countUsageBy" : "serviceType",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c0f95d4e020fcb5b53",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984e8",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 73.6842105263158,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 25.0,
+          "_id" : "6a19d7c0f95d4e020fcb5b51",
+          "basePrice" : 95.0,
+          "brlDiscount" : 70.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c0f95d4e020fcb5b50"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 0.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7cc0ded81646f98bc02",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9d210eb12799e25802",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7cc0ded81646f98bc04"
+        } ],
+        "countUsageBy" : "service",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7cc0ded81646f98bc03",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984e9",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 0.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 50.0,
+          "_id" : "6a19d7cc0ded81646f98bc01",
+          "basePrice" : 50.0,
+          "brlDiscount" : 0.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7cc0ded81646f98bc00"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 14.756097560975604,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7aec927df40dc48c34a",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e26196",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7aec927df40dc48c34c"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7aec927df40dc48c34b",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984ea",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 90.2439024390244,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 12.0,
+          "_id" : "6a19d7aec927df40dc48c349",
+          "basePrice" : 123.0,
+          "brlDiscount" : 111.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7aec927df40dc48c348"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 23.12323801852598,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c70ded81646f9689d8",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9d210eb12799e253e1",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : null,
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984eb",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 81.87676198147402,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 45.0,
+          "_id" : "6a19d7c70ded81646f9689d6",
+          "basePrice" : 248.3,
+          "brlDiscount" : 203.3
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c70ded81646f9689d5"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 13.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7afc927df40dc48f396",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e262d5",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7afc927df40dc48f398"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7afc927df40dc48f397",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984ec",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 92.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 12.0,
+          "_id" : "6a19d7afc927df40dc48f395",
+          "basePrice" : 150.0,
+          "brlDiscount" : 138.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7afc927df40dc48f394"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 20.923566878980893,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : null,
+        "_id" : "6a19d7abebd9a0515b937c84",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-15T20:03:25.298Z"
+      },
+      "service" : {
+        "_id" : "682a2f9d210eb12799e25373",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 2,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c60ded81646f95ce9e"
+        } ],
+        "countUsageBy" : "service",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c60ded81646f95ce9c",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a305a8d4f91145c6fb60658",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 84.07643312101911,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 25.0,
+          "_id" : "6a19d7c60ded81646f95ce9a",
+          "basePrice" : 157.0,
+          "brlDiscount" : 132.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c60ded81646f95ce99"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 15.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c70ded81646f96a0bd",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9d210eb12799e253f7",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : null,
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984ed",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 90.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 40.0,
+          "_id" : "6a19d7c70ded81646f96a0bc",
+          "basePrice" : 400.0,
+          "brlDiscount" : 360.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c70ded81646f96a0bb"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 22.369727047146398,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7ca0ded81646f9782ad",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9d210eb12799e255a6",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7ca0ded81646f9782af"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7ca0ded81646f9782ae",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984ee",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 82.6302729528536,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 70.0,
+          "_id" : "6a19d7ca0ded81646f9782ac",
+          "basePrice" : 403.0,
+          "brlDiscount" : 333.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7ca0ded81646f9782ab"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 35.85714285714285,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7aec927df40dc48c779",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e261b7",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7aec927df40dc48c77b"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7aec927df40dc48c77a",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984ef",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 69.14285714285715,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 64.79999999999998,
+          "_id" : "6a19d7aec927df40dc48c778",
+          "basePrice" : 210.0,
+          "brlDiscount" : 145.20000000000002
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7aec927df40dc48c777"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 24.08396946564885,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c6f95d4e020fccc19a",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9dbc801b051db58312",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : null,
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984f0",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 80.91603053435115,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 100.0,
+          "_id" : "6a19d7c6f95d4e020fccc199",
+          "basePrice" : 524.0,
+          "brlDiscount" : 424.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c6f95d4e020fccc198"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c7f95d4e020fcd7b57",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9dbc801b051db5845c",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : null,
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984f1",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 20.0,
+          "_id" : "6a19d7c7f95d4e020fcd7b56",
+          "basePrice" : 50.0,
+          "brlDiscount" : 30.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c7f95d4e020fcd7b55"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 9.285102128267397,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d79dc927df40dc452360",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9d210eb12799e25ad6",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d79dc927df40dc452363"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79dc927df40dc452362",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984f2",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 95.7148978717326,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 120.0,
+          "_id" : "6a19d79dc927df40dc45235c",
+          "basePrice" : 2800.4,
+          "brlDiscount" : 2680.4
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79dc927df40dc45235b"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 31.315789473684205,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c8f95d4e020fcde08e",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9dbc801b051db58578",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 25,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c8f95d4e020fcde090"
+        } ],
+        "countUsageBy" : "serviceType",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c8f95d4e020fcde08f",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984f3",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 73.6842105263158,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 25.0,
+          "_id" : "6a19d7c8f95d4e020fcde08d",
+          "basePrice" : 95.0,
+          "brlDiscount" : 70.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c8f95d4e020fcde08c"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 44.99999999999999,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b7c927df40dc4a5dc3",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e267f2",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b7c927df40dc4a5dc5"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b7c927df40dc4a5dc4",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984f4",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.00000000000001,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 32.39999999999999,
+          "_id" : "6a19d7b7c927df40dc4a5dc2",
+          "basePrice" : 81.0,
+          "brlDiscount" : 48.60000000000001
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b7c927df40dc4a5dc1"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 0.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d79ff95d4e020fc34b3e",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9ebc801b051db6dff1",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d79ff95d4e020fc34b40"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79ff95d4e020fc34b3f",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984f5",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 0.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 75.2,
+          "_id" : "6a19d79ff95d4e020fc34b3d",
+          "basePrice" : 75.2,
+          "brlDiscount" : 0.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79ff95d4e020fc34b3c"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b9c927df40dc4aa989",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e26931",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b9c927df40dc4aa98b"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b9c927df40dc4aa98a",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984f6",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 84.0,
+          "_id" : "6a19d7b9c927df40dc4aa988",
+          "basePrice" : 210.0,
+          "brlDiscount" : 126.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b9c927df40dc4aa987"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 31.315789473684205,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7bff95d4e020fcb0ea6",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2fa0bc801b051db9b554",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 25,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7bff95d4e020fcb0ea8"
+        } ],
+        "countUsageBy" : "serviceType",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bff95d4e020fcb0ea7",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984f7",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 73.6842105263158,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 25.0,
+          "_id" : "6a19d7bff95d4e020fcb0ea5",
+          "basePrice" : 95.0,
+          "brlDiscount" : 70.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bff95d4e020fcb0ea4"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 35.85714285714285,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7afc927df40dc48ec33",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e2629e",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7afc927df40dc48ec35"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7afc927df40dc48ec34",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984f8",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 69.14285714285715,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 64.79999999999998,
+          "_id" : "6a19d7afc927df40dc48ec32",
+          "basePrice" : 210.0,
+          "brlDiscount" : 145.20000000000002
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7afc927df40dc48ec31"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 31.315789473684205,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c1f95d4e020fcb64ad",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2fa0bc801b051db9b5f9",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 25,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c1f95d4e020fcb64af"
+        } ],
+        "countUsageBy" : "serviceType",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c1f95d4e020fcb64ae",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984f9",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 73.6842105263158,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 25.0,
+          "_id" : "6a19d7c1f95d4e020fcb64ac",
+          "basePrice" : 95.0,
+          "brlDiscount" : 70.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c1f95d4e020fcb64ab"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 44.99999999999999,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c6f95d4e020fccbd1e",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9dbc801b051db582e8",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : null,
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984fa",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.00000000000001,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 38.79999999999999,
+          "_id" : "6a19d7c6f95d4e020fccbd1d",
+          "basePrice" : 97.0,
+          "brlDiscount" : 58.20000000000001
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c6f95d4e020fccbd1c"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 36.566265060240966,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7bcc927df40dc4b29e7",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9dbc801b051db58564",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7bcc927df40dc4b29e9"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bcc927df40dc4b29e8",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984fb",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 68.43373493975903,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 104.79999999999998,
+          "_id" : "6a19d7bcc927df40dc4b29e6",
+          "basePrice" : 332.0,
+          "brlDiscount" : 227.20000000000002
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bcc927df40dc4b29e5"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 41.216216216216225,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7abc927df40dc489142",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e26035",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7abc927df40dc489144"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7abc927df40dc489143",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984fc",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 63.783783783783775,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 26.800000000000004,
+          "_id" : "6a19d7abc927df40dc489141",
+          "basePrice" : 74.0,
+          "brlDiscount" : 47.199999999999996
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7abc927df40dc489140"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 24.636363636363626,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7adc927df40dc48bae9",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e26147",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7adc927df40dc48baeb"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7adc927df40dc48baea",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984fd",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 80.36363636363637,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 57.338181818181795,
+          "_id" : "6a19d7adc927df40dc48bae8",
+          "basePrice" : 292.0,
+          "brlDiscount" : 234.6618181818182
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7adc927df40dc48bae7"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 22.369727047146398,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c80ded81646f96ed7c",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9d210eb12799e2547b",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c80ded81646f96ed7e"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c80ded81646f96ed7d",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984fe",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 82.6302729528536,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 70.0,
+          "_id" : "6a19d7c80ded81646f96ed7b",
+          "basePrice" : 403.0,
+          "brlDiscount" : 333.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c80ded81646f96ed7a"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7acc927df40dc489b99",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e26077",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7acc927df40dc489b9b"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7acc927df40dc489b9a",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e4984ff",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 20.0,
+          "_id" : "6a19d7acc927df40dc489b98",
+          "basePrice" : 50.0,
+          "brlDiscount" : 30.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7acc927df40dc489b97"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 10.660377358490564,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b6c927df40dc4a4aad",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e2678f",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b6c927df40dc4a4aaf"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b6c927df40dc4a4aae",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498500",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 94.33962264150944,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 12.0,
+          "_id" : "6a19d7b6c927df40dc4a4aac",
+          "basePrice" : 212.0,
+          "brlDiscount" : 200.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b6c927df40dc4a4aab"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b4c927df40dc499db8",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e26645",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b4c927df40dc499dbf"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b4c927df40dc499dbc",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498501",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 71.2,
+          "_id" : "6a19d7b4c927df40dc499db4",
+          "basePrice" : 178.0,
+          "brlDiscount" : 106.8
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b4c927df40dc499db2"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 33.49002849002848,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b7c927df40dc4a8115",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e26829",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b7c927df40dc4a8119"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b7c927df40dc4a8118",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498502",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 71.50997150997152,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 99.99999999999994,
+          "_id" : "6a19d7b7c927df40dc4a8113",
+          "basePrice" : 351.0,
+          "brlDiscount" : 251.00000000000006
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b7c927df40dc4a8111"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 42.5,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c2f95d4e020fcbbad7",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2fa0bc801b051db9b6b4",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : null,
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498503",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 62.5,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 30.0,
+          "_id" : "6a19d7c2f95d4e020fcbbad6",
+          "basePrice" : 80.0,
+          "brlDiscount" : 50.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c2f95d4e020fcbbad5"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 55.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7d3f95d4e020fd00014",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "68407e3d0dd93a38beab1363",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : null,
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498504",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 50.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 75.0,
+          "_id" : "6a19d7d3f95d4e020fd00013",
+          "basePrice" : 150.0,
+          "brlDiscount" : 75.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7d3f95d4e020fd00012"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 41.101083032490976,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b4c927df40dc49c989",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e26692",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b4c927df40dc49c98b"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b4c927df40dc49c98a",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498505",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 63.898916967509024,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 100.0,
+          "_id" : "6a19d7b4c927df40dc49c988",
+          "basePrice" : 277.0,
+          "brlDiscount" : 177.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b4c927df40dc49c987"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 15.434782608695642,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b0c927df40dc4905c9",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e263c7",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b0c927df40dc4905cb"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b0c927df40dc4905ca",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498506",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 89.56521739130436,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 11.999999999999986,
+          "_id" : "6a19d7b0c927df40dc4905c8",
+          "basePrice" : 115.0,
+          "brlDiscount" : 103.00000000000001
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b0c927df40dc4905c7"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 18.089005235602087,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c70ded81646f965049",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9d210eb12799e253cb",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : null,
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498507",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 86.91099476439791,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 25.0,
+          "_id" : "6a19d7c70ded81646f965048",
+          "basePrice" : 191.0,
+          "brlDiscount" : 166.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c70ded81646f965047"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 44.99999999999999,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7adc927df40dc48aeb4",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e260f0",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7adc927df40dc48aeb6"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7adc927df40dc48aeb5",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498508",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.00000000000001,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 19.199999999999996,
+          "_id" : "6a19d7adc927df40dc48aeb3",
+          "basePrice" : 48.0,
+          "brlDiscount" : 28.800000000000004
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7adc927df40dc48aeb2"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 31.315789473684205,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c0f95d4e020fcb4946",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2fa0bc801b051db9b58b",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 25,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c0f95d4e020fcb4949"
+        } ],
+        "countUsageBy" : "serviceType",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c0f95d4e020fcb4948",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498509",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 73.6842105263158,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 25.0,
+          "_id" : "6a19d7c0f95d4e020fcb4945",
+          "basePrice" : 95.0,
+          "brlDiscount" : 70.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c0f95d4e020fcb4944"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 44.99999999999999,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7abc927df40dc4882de",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e25ffe",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7abc927df40dc4882e0"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7abc927df40dc4882df",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49850a",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.00000000000001,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 23.199999999999996,
+          "_id" : "6a19d7abc927df40dc4882dd",
+          "basePrice" : 58.0,
+          "brlDiscount" : 34.800000000000004
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7abc927df40dc4882dc"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 22.369727047146398,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c80ded81646f96e318",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9d210eb12799e25465",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c80ded81646f96e31a"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c80ded81646f96e319",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49850b",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 82.6302729528536,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 70.0,
+          "_id" : "6a19d7c80ded81646f96e317",
+          "basePrice" : 403.0,
+          "brlDiscount" : 333.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c80ded81646f96e316"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 44.99999999999999,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b5c927df40dc49d396",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e266ea",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b5c927df40dc49d398"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b5c927df40dc49d397",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49850c",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.00000000000001,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 44.79999999999998,
+          "_id" : "6a19d7b5c927df40dc49d395",
+          "basePrice" : 112.0,
+          "brlDiscount" : 67.20000000000002
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b5c927df40dc49d394"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b4c927df40dc49bf2a",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e2665b",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b4c927df40dc49bf2c"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b4c927df40dc49bf2b",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49850d",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 100.0,
+          "_id" : "6a19d7b4c927df40dc49bf29",
+          "basePrice" : 250.0,
+          "brlDiscount" : 150.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b4c927df40dc49bf28"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 20.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7cbf95d4e020fce7360",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9dbc801b051db5902e",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7cbf95d4e020fce7363"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7cbf95d4e020fce7362",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49850e",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 85.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 30.0,
+          "_id" : "6a19d7cbf95d4e020fce735d",
+          "basePrice" : 200.0,
+          "brlDiscount" : 170.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7cbf95d4e020fce735c"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 40.08771929824562,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7acc927df40dc48985c",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e26061",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7acc927df40dc48985e"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7acc927df40dc48985d",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49850f",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 64.91228070175438,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 100.0,
+          "_id" : "6a19d7acc927df40dc48985b",
+          "basePrice" : 285.0,
+          "brlDiscount" : 185.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7acc927df40dc48985a"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 22.369727047146398,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c90ded81646f96fe97",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9d210eb12799e254a7",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c90ded81646f96fe99"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c90ded81646f96fe98",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498510",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 82.6302729528536,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 70.0,
+          "_id" : "6a19d7c90ded81646f96fe96",
+          "basePrice" : 403.0,
+          "brlDiscount" : 333.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c90ded81646f96fe95"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 43.46153846153846,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b7c927df40dc4a8e64",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e26834",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b7c927df40dc4a8e66"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b7c927df40dc4a8e65",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498511",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 61.53846153846154,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 100.0,
+          "_id" : "6a19d7b7c927df40dc4a8e63",
+          "basePrice" : 260.0,
+          "brlDiscount" : 160.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b7c927df40dc4a8e62"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b1c927df40dc493cf0",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e26482",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b1c927df40dc493cf2"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b1c927df40dc493cf1",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498512",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 84.0,
+          "_id" : "6a19d7b1c927df40dc493cef",
+          "basePrice" : 210.0,
+          "brlDiscount" : 126.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b1c927df40dc493cee"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 0.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d79ff95d4e020fc36b19",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9ebc801b051db6fa8c",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d79ff95d4e020fc36b1c"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79ff95d4e020fc36b1a",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498513",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 0.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 100.0,
+          "_id" : "6a19d79ff95d4e020fc36b17",
+          "basePrice" : 100.0,
+          "brlDiscount" : 0.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79ff95d4e020fc36b15"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7adc927df40dc48b673",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e26127",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7adc927df40dc48b675"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7adc927df40dc48b674",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498514",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 55.60000000000001,
+          "_id" : "6a19d7adc927df40dc48b672",
+          "basePrice" : 139.0,
+          "brlDiscount" : 83.39999999999999
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7adc927df40dc48b671"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 26.551724137931032,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : null,
+        "_id" : "6a19d7abebd9a0515b937dbb",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-15T20:03:25.298Z"
+      },
+      "service" : {
+        "_id" : "682a2f9d210eb12799e25389",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 1,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c60ded81646f95dea8"
+        } ],
+        "countUsageBy" : "service",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c60ded81646f95dea7",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a305a8d4f91145c6fb6065d",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 78.44827586206897,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 24.999999999999986,
+          "_id" : "6a19d7c60ded81646f95dea5",
+          "basePrice" : 116.0,
+          "brlDiscount" : 91.00000000000001
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c60ded81646f95dea4"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 30.906735751295344,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7afc927df40dc48f271",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e262ca",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7afc927df40dc48f273"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7afc927df40dc48f272",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498515",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 74.09326424870466,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 100.0,
+          "_id" : "6a19d7afc927df40dc48f270",
+          "basePrice" : 386.0,
+          "brlDiscount" : 286.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7afc927df40dc48f26f"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 42.453183520599254,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7afc927df40dc48e9dc",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e26293",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7afc927df40dc48e9de"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7afc927df40dc48e9dd",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498516",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 62.546816479400746,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 100.0,
+          "_id" : "6a19d7afc927df40dc48e9db",
+          "basePrice" : 267.0,
+          "brlDiscount" : 167.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7afc927df40dc48e9da"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 27.90076335877862,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c2f95d4e020fcbf78d",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2fa0bc801b051db9b6d5",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : null,
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498517",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 77.09923664122138,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 29.999999999999986,
+          "_id" : "6a19d7c2f95d4e020fcbf78c",
+          "basePrice" : 131.0,
+          "brlDiscount" : 101.00000000000001
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c2f95d4e020fcbf78b"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 11.55430711610488,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d79ec927df40dc455ab7",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9d210eb12799e25b23",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d79ec927df40dc455aba"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79ec927df40dc455ab8",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498518",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 93.44569288389512,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 70.00000000000023,
+          "_id" : "6a19d79ec927df40dc455ab6",
+          "basePrice" : 1068.0,
+          "brlDiscount" : 997.9999999999998
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79ec927df40dc455ab5"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 31.315789473684205,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7baf95d4e020fc92c5d",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9fbc801b051db9b302",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 25,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7baf95d4e020fc92c5f"
+        } ],
+        "countUsageBy" : "serviceType",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7baf95d4e020fc92c5e",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498519",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 73.6842105263158,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 25.0,
+          "_id" : "6a19d7baf95d4e020fc92c5c",
+          "basePrice" : 95.0,
+          "brlDiscount" : 70.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7baf95d4e020fc92c5b"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 4.761904761904767,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7bdf95d4e020fcaa413",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2fa0bc801b051db9b3f4",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 25,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7bdf95d4e020fcaa415"
+        } ],
+        "countUsageBy" : "serviceType",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bdf95d4e020fcaa414",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49851a",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 4.761904761904767,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 80.0,
+          "_id" : "6a19d7bdf95d4e020fcaa412",
+          "basePrice" : 84.0,
+          "brlDiscount" : 4.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bdf95d4e020fcaa411"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 36.529411764705884,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b1c927df40dc4932d4",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e26440",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b1c927df40dc4932d6"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b1c927df40dc4932d5",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49851b",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 68.47058823529412,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 26.800000000000004,
+          "_id" : "6a19d7b1c927df40dc4932d3",
+          "basePrice" : 85.0,
+          "brlDiscount" : 58.199999999999996
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b1c927df40dc4932d2"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b7c927df40dc4a64a5",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e26808",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b7c927df40dc4a64a7"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b7c927df40dc4a64a6",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49851c",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 47.2,
+          "_id" : "6a19d7b7c927df40dc4a64a4",
+          "basePrice" : 118.0,
+          "brlDiscount" : 70.8
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b7c927df40dc4a64a3"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 31.315789473684205,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7bcf95d4e020fca5b24",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9fbc801b051db9b370",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 25,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7bcf95d4e020fca5b2c"
+        } ],
+        "countUsageBy" : "serviceType",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bcf95d4e020fca5b28",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49851d",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 73.6842105263158,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 25.0,
+          "_id" : "6a19d7bcf95d4e020fca5b20",
+          "basePrice" : 95.0,
+          "brlDiscount" : 70.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bcf95d4e020fca5b1d"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 31.315789473684205,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c0f95d4e020fcb4ca4",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2fa0bc801b051db9b596",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 25,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c0f95d4e020fcb4ca6"
+        } ],
+        "countUsageBy" : "serviceType",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c0f95d4e020fcb4ca5",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49851e",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 73.6842105263158,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 25.0,
+          "_id" : "6a19d7c0f95d4e020fcb4ca3",
+          "basePrice" : 95.0,
+          "brlDiscount" : 70.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c0f95d4e020fcb4ca2"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 37.65306122448979,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7bdf95d4e020fcac44c",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2fa0bc801b051db9b420",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 25,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7bdf95d4e020fcac44e"
+        } ],
+        "countUsageBy" : "serviceType",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bdf95d4e020fcac44d",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49851f",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 67.34693877551021,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 79.99999999999997,
+          "_id" : "6a19d7bdf95d4e020fcac44b",
+          "basePrice" : 245.0,
+          "brlDiscount" : 165.00000000000003
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bdf95d4e020fcac44a"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 24.935344827586206,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7cf0ded81646f99489f",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9d210eb12799e25996",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7cf0ded81646f9948a1"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7cf0ded81646f9948a0",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498520",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 80.0646551724138,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 148.00099676724142,
+          "_id" : "6a19d7cf0ded81646f99489e",
+          "basePrice" : 742.405,
+          "brlDiscount" : 594.4040032327586
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7cf0ded81646f99489d"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 44.99999999999999,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b7c927df40dc4a6d75",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e26813",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b7c927df40dc4a6d77"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b7c927df40dc4a6d76",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498521",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.00000000000001,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 32.39999999999999,
+          "_id" : "6a19d7b7c927df40dc4a6d74",
+          "basePrice" : 81.0,
+          "brlDiscount" : 48.60000000000001
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b7c927df40dc4a6d73"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 11.666666666666671,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7afc927df40dc48e4f9",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e26288",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7afc927df40dc48e4fb"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7afc927df40dc48e4fa",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498522",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 93.33333333333333,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 20.000000000000057,
+          "_id" : "6a19d7afc927df40dc48e4f8",
+          "basePrice" : 300.0,
+          "brlDiscount" : 279.99999999999994
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7afc927df40dc48e4f7"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 21.76767676767676,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7a9c927df40dc48466d",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e25f4e",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : null,
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498523",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 83.23232323232324,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 49.79999999999998,
+          "_id" : "6a19d7a9c927df40dc48466c",
+          "basePrice" : 297.0,
+          "brlDiscount" : 247.20000000000002
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7a9c927df40dc48466b"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 13.672400086723997,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7a0c927df40dc468145",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e25c4c",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7a0c927df40dc468147"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7a0c927df40dc468146",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498524",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 91.327599913276,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 120.0,
+          "_id" : "6a19d7a0c927df40dc468144",
+          "basePrice" : 1383.7,
+          "brlDiscount" : 1263.7
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7a0c927df40dc468143"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 32.02702702702703,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c5f95d4e020fcca28f",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9dbc801b051db5829f",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : null,
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498525",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 72.97297297297297,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 30.0,
+          "_id" : "6a19d7c5f95d4e020fcca28e",
+          "basePrice" : 111.0,
+          "brlDiscount" : 81.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c5f95d4e020fcca28d"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 53.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : null,
+        "_id" : "6a19d7acebd9a0515b93a96c",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-15T20:03:25.298Z"
+      },
+      "service" : {
+        "_id" : "682a2f9ebc801b051db6a548",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d79cf95d4e020fc29508"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79cf95d4e020fc29506",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a305a8d4f91145c6fb60657",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 52.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 12.0,
+          "_id" : "6a19d79cf95d4e020fc29504",
+          "basePrice" : 25.0,
+          "brlDiscount" : 13.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79cf95d4e020fc29503"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 31.315789473684205,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c1f95d4e020fcb7422",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2fa0bc801b051db9b646",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 25,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c1f95d4e020fcb7424"
+        } ],
+        "countUsageBy" : "serviceType",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c1f95d4e020fcb7423",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498526",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 73.6842105263158,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 25.0,
+          "_id" : "6a19d7c1f95d4e020fcb7421",
+          "basePrice" : 95.0,
+          "brlDiscount" : 70.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c1f95d4e020fcb7420"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 35.3030303030303,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d79bc927df40dc447e23",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9d210eb12799e25a1a",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d79bc927df40dc447e25"
+        } ],
+        "countUsageBy" : "service",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79bc927df40dc447e24",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498527",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 69.6969696969697,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 199.99999999999994,
+          "_id" : "6a19d79bc927df40dc447e22",
+          "basePrice" : 660.0,
+          "brlDiscount" : 460.00000000000006
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79bc927df40dc447e21"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7acc927df40dc489efe",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e26098",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7acc927df40dc489f00"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7acc927df40dc489eff",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498528",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 60.0,
+          "_id" : "6a19d7acc927df40dc489efd",
+          "basePrice" : 150.0,
+          "brlDiscount" : 90.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7acc927df40dc489efc"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 13.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d79fc927df40dc466ce8",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e25c0a",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d79fc927df40dc466cea"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79fc927df40dc466ce9",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498529",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 92.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 120.0,
+          "_id" : "6a19d79fc927df40dc466ce7",
+          "basePrice" : 1500.0,
+          "brlDiscount" : 1380.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79fc927df40dc466ce6"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 23.01801801801801,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c5f95d4e020fcc9ed0",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9dbc801b051db58294",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : null,
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49852a",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 81.98198198198199,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 40.0,
+          "_id" : "6a19d7c5f95d4e020fcc9ecf",
+          "basePrice" : 222.0,
+          "brlDiscount" : 182.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c5f95d4e020fcc9ece"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 44.99999999999999,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7aec927df40dc48cccd",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e261d8",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7aec927df40dc48cccf"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7aec927df40dc48ccce",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49852b",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.00000000000001,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 23.199999999999996,
+          "_id" : "6a19d7aec927df40dc48cccc",
+          "basePrice" : 58.0,
+          "brlDiscount" : 34.800000000000004
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7aec927df40dc48cccb"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 0.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d79ff95d4e020fc35b43",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9ebc801b051db6e8f5",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d79ff95d4e020fc35b45"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79ff95d4e020fc35b44",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49852c",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 0.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 26.0,
+          "_id" : "6a19d79ff95d4e020fc35b42",
+          "basePrice" : 26.0,
+          "brlDiscount" : 0.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79ff95d4e020fc35b41"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 25.85561497326202,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7cff95d4e020fcf5c45",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9dbc801b051db5a81f",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 7,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7cff95d4e020fcf5c47"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7cff95d4e020fcf5c46",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49852d",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 79.14438502673798,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 78.0,
+          "_id" : "6a19d7cff95d4e020fcf5c44",
+          "basePrice" : 374.0,
+          "brlDiscount" : 296.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7cff95d4e020fcf5c43"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 33.169014084507054,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b4c927df40dc49c45c",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e26671",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b4c927df40dc49c45e"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b4c927df40dc49c45d",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49852e",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 71.83098591549295,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 100.00000000000003,
+          "_id" : "6a19d7b4c927df40dc49c45b",
+          "basePrice" : 355.0,
+          "brlDiscount" : 254.99999999999997
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b4c927df40dc49c45a"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 51.4,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c6f95d4e020fccd47a",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9dbc801b051db58372",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : null,
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49852f",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 53.6,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 46.4,
+          "_id" : "6a19d7c6f95d4e020fccd479",
+          "basePrice" : 100.0,
+          "brlDiscount" : 53.6
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c6f95d4e020fccd478"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 35.769230769230774,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7cd0ded81646f98dc5d",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9d210eb12799e2585a",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 2,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7cd0ded81646f98dc61"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7cd0ded81646f98dc5e",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498530",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 69.23076923076923,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 60.0,
+          "_id" : "6a19d7cd0ded81646f98dc5c",
+          "basePrice" : 195.0,
+          "brlDiscount" : 135.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7cd0ded81646f98dc5b"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 31.315789473684205,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c0f95d4e020fcb26d0",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2fa0bc801b051db9b575",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 25,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c0f95d4e020fcb26d2"
+        } ],
+        "countUsageBy" : "serviceType",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c0f95d4e020fcb26d1",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498531",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 73.6842105263158,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 25.0,
+          "_id" : "6a19d7c0f95d4e020fcb26cf",
+          "basePrice" : 95.0,
+          "brlDiscount" : 70.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c0f95d4e020fcb26ce"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b6c927df40dc49e4d3",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e26758",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b6c927df40dc49e4da"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b6c927df40dc49e4d8",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498532",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 16.8,
+          "_id" : "6a19d7b6c927df40dc49e4ce",
+          "basePrice" : 42.0,
+          "brlDiscount" : 25.2
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b6c927df40dc49e4cc"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 35.85714285714285,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b8c927df40dc4a9d8e",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e268e4",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b8c927df40dc4a9d90"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b8c927df40dc4a9d8f",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498533",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 69.14285714285715,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 64.79999999999998,
+          "_id" : "6a19d7b8c927df40dc4a9d8d",
+          "basePrice" : 210.0,
+          "brlDiscount" : 145.20000000000002
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b8c927df40dc4a9d8c"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 21.33333333333333,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c7f95d4e020fcd5761",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9dbc801b051db58444",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : null,
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498534",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 83.66666666666667,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 4.899999999999999,
+          "_id" : "6a19d7c7f95d4e020fcd575d",
+          "basePrice" : 30.0,
+          "brlDiscount" : 25.1
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c7f95d4e020fcd5759"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 0.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d79ff95d4e020fc360db",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9ebc801b051db6ed33",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d79ff95d4e020fc360dd"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79ff95d4e020fc360dc",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498535",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 0.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 26.0,
+          "_id" : "6a19d79ff95d4e020fc360da",
+          "basePrice" : 26.0,
+          "brlDiscount" : 0.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79ff95d4e020fc360d9"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7bdc927df40dc4b3cca",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9dbc801b051db59354",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7bdc927df40dc4b3ccc"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bdc927df40dc4b3ccb",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498536",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 96.0,
+          "_id" : "6a19d7bdc927df40dc4b3cc9",
+          "basePrice" : 240.0,
+          "brlDiscount" : 144.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bdc927df40dc4b3cc8"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 35.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c5f95d4e020fccb788",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9dbc801b051db582d0",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c5f95d4e020fccb78a"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c5f95d4e020fccb789",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498537",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 70.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 12.0,
+          "_id" : "6a19d7c5f95d4e020fccb787",
+          "basePrice" : 40.0,
+          "brlDiscount" : 28.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c5f95d4e020fccb786"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 31.315789473684205,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7baf95d4e020fc8e39f",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9fbc801b051db9b2ec",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 25,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7baf95d4e020fc8e3a1"
+        } ],
+        "countUsageBy" : "serviceType",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7baf95d4e020fc8e3a0",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498538",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 73.6842105263158,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 25.0,
+          "_id" : "6a19d7baf95d4e020fc8e39e",
+          "basePrice" : 95.0,
+          "brlDiscount" : 70.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7baf95d4e020fc8e39d"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 23.461538461538467,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : null,
+        "_id" : "6a19d7acebd9a0515b93a7dd",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-15T20:03:25.298Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e262eb",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b0c927df40dc48f645"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b0c927df40dc48f644",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a305a8d4f91145c6fb60659",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 81.53846153846153,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 12.0,
+          "_id" : "6a19d7b0c927df40dc48f642",
+          "basePrice" : 65.0,
+          "brlDiscount" : 53.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b0c927df40dc48f641"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 55.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7cd0ded81646f98cba3",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9d210eb12799e25823",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 10,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7cd0ded81646f98cba5"
+        } ],
+        "countUsageBy" : "service",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7cd0ded81646f98cba4",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498539",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 50.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 100.0,
+          "_id" : "6a19d7cd0ded81646f98cba2",
+          "basePrice" : 200.0,
+          "brlDiscount" : 100.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7cd0ded81646f98cba1"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 7.247191011235955,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d79dc927df40dc44f22b",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9d210eb12799e25aaa",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d79dc927df40dc44f22d"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79dc927df40dc44f22c",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49853a",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 97.75280898876404,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 120.0,
+          "_id" : "6a19d79dc927df40dc44f22a",
+          "basePrice" : 5340.0,
+          "brlDiscount" : 5220.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79dc927df40dc44f229"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 17.891760904684986,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c40ded81646f94e19e",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9c210eb12799e252b8",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 10,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c40ded81646f94e1a0"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c40ded81646f94e19f",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49853b",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 87.10823909531501,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 79.80000000000007,
+          "_id" : "6a19d7c40ded81646f94e19d",
+          "basePrice" : 619.0,
+          "brlDiscount" : 539.1999999999999
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c40ded81646f94e19c"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 20.723270440251568,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7d2f95d4e020fcfca3d",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9dbc801b051db5c1bd",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 1,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7d2f95d4e020fcfca3f"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7d2f95d4e020fcfca3e",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49853c",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 84.27672955974843,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 150.0,
+          "_id" : "6a19d7d2f95d4e020fcfca3c",
+          "basePrice" : 954.0,
+          "brlDiscount" : 804.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7d2f95d4e020fcfca3b"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b6c927df40dc49e2d1",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e2674d",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b6c927df40dc49e2d3"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b6c927df40dc49e2d2",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49853d",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 23.6,
+          "_id" : "6a19d7b6c927df40dc49e2d0",
+          "basePrice" : 59.0,
+          "brlDiscount" : 35.4
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b6c927df40dc49e2cf"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 21.33802816901408,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7abc927df40dc488f12",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e2602a",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7abc927df40dc488f14"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7abc927df40dc488f13",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49853e",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 83.66197183098592,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 34.80000000000001,
+          "_id" : "6a19d7abc927df40dc488f11",
+          "basePrice" : 213.0,
+          "brlDiscount" : 178.2
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7abc927df40dc488f10"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 16.29943502824858,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b1c927df40dc493574",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e2644b",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b1c927df40dc493576"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b1c927df40dc493575",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49853f",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 88.70056497175142,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 20.0,
+          "_id" : "6a19d7b1c927df40dc493573",
+          "basePrice" : 177.0,
+          "brlDiscount" : 157.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b1c927df40dc493572"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 13.92857142857143,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7baf95d4e020fc8a840",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9fbc801b051db9b2d6",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 1,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7baf95d4e020fc8a842"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7baf95d4e020fc8a841",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498540",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 91.07142857142857,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 250.0,
+          "_id" : "6a19d7baf95d4e020fc8a83f",
+          "basePrice" : 2800.0,
+          "brlDiscount" : 2550.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7baf95d4e020fc8a83e"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 0.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d79ff95d4e020fc37aea",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9ebc801b051db70817",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d79ff95d4e020fc37aec"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79ff95d4e020fc37aeb",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498541",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 0.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 56.0,
+          "_id" : "6a19d79ff95d4e020fc37ae9",
+          "basePrice" : 56.0,
+          "brlDiscount" : 0.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79ff95d4e020fc37ae8"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 63.97280966767371,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c6f95d4e020fccc9bd",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9dbc801b051db58341",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c6f95d4e020fccc9c6"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c6f95d4e020fccc9c2",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498542",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 41.02719033232629,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 195.2,
+          "_id" : "6a19d7c6f95d4e020fccc9b9",
+          "basePrice" : 331.0,
+          "brlDiscount" : 135.8
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c6f95d4e020fccc9b7"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 22.369727047146398,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c90ded81646f971a6b",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9d210eb12799e254e9",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c90ded81646f971a72"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c90ded81646f971a6c",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498543",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 82.6302729528536,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 70.0,
+          "_id" : "6a19d7c90ded81646f971a6a",
+          "basePrice" : 403.0,
+          "brlDiscount" : 333.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c90ded81646f971a69"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7bdc927df40dc4b3fb0",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9dbc801b051db594ab",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7bdc927df40dc4b3fb2"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bdc927df40dc4b3fb1",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498544",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 90.0,
+          "_id" : "6a19d7bdc927df40dc4b3faf",
+          "basePrice" : 225.0,
+          "brlDiscount" : 135.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bdc927df40dc4b3fae"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 7.200000000000006,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c6f95d4e020fccc066",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9dbc801b051db582f9",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : null,
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498545",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 7.200000000000006,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 46.4,
+          "_id" : "6a19d7c6f95d4e020fccc065",
+          "basePrice" : 50.0,
+          "brlDiscount" : 3.6000000000000014
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c6f95d4e020fccc063"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 44.99999999999999,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7aac927df40dc484af3",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e25f6f",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7aac927df40dc484af5"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7aac927df40dc484af4",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498546",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.00000000000001,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 25.199999999999996,
+          "_id" : "6a19d7aac927df40dc484af2",
+          "basePrice" : 63.0,
+          "brlDiscount" : 37.800000000000004
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7aac927df40dc484af1"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 10.374032674118652,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d79cc927df40dc4494ed",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9d210eb12799e25a46",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d79cc927df40dc4494fa"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79cc927df40dc4494ee",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498547",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 94.62596732588135,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 100.0,
+          "_id" : "6a19d79cc927df40dc4494eb",
+          "basePrice" : 1860.8,
+          "brlDiscount" : 1760.8
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79cc927df40dc4494ea"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 24.92,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c40ded81646f94b9f1",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9c210eb12799e252a2",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 10,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c40ded81646f94b9f3"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c40ded81646f94b9f2",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498548",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 80.08,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 249.0,
+          "_id" : "6a19d7c40ded81646f94b9f0",
+          "basePrice" : 1250.0,
+          "brlDiscount" : 1001.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c40ded81646f94b9ef"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 35.85714285714285,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b9c927df40dc4aaf03",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e26973",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b9c927df40dc4aaf05"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b9c927df40dc4aaf04",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498549",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 69.14285714285715,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 64.79999999999998,
+          "_id" : "6a19d7b9c927df40dc4aaf02",
+          "basePrice" : 210.0,
+          "brlDiscount" : 145.20000000000002
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b9c927df40dc4aaf01"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7bfc927df40dc4b65de",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9dbc801b051db5ca2b",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7bfc927df40dc4b65e0"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bfc927df40dc4b65df",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49854a",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 38.0,
+          "_id" : "6a19d7bfc927df40dc4b65dd",
+          "basePrice" : 95.0,
+          "brlDiscount" : 57.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bfc927df40dc4b65dc"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 31.7379679144385,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b2c927df40dc4945cb",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e264fb",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b2c927df40dc4945cd"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b2c927df40dc4945cc",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49854b",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 73.2620320855615,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 100.0,
+          "_id" : "6a19d7b2c927df40dc4945ca",
+          "basePrice" : 374.0,
+          "brlDiscount" : 274.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b2c927df40dc4945c9"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b5c927df40dc49d83c",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e2670b",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b5c927df40dc49d83e"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b5c927df40dc49d83d",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49854c",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 84.0,
+          "_id" : "6a19d7b5c927df40dc49d83b",
+          "basePrice" : 210.0,
+          "brlDiscount" : 126.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b5c927df40dc49d83a"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 44.99999999999999,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c50ded81646f952d4d",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9c210eb12799e252ef",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c50ded81646f952d51"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c50ded81646f952d4f",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49854d",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.00000000000001,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 22.39999999999999,
+          "_id" : "6a19d7c50ded81646f952d4c",
+          "basePrice" : 56.0,
+          "brlDiscount" : 33.60000000000001
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c50ded81646f952d4b"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 52.61904761904761,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b3c927df40dc498b5d",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e265ed",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b3c927df40dc498b5f"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b3c927df40dc498b5e",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49854e",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 52.38095238095239,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 100.0,
+          "_id" : "6a19d7b3c927df40dc498b5c",
+          "basePrice" : 210.0,
+          "brlDiscount" : 110.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b3c927df40dc498b5b"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 11.15384615384616,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d79ec927df40dc4576c4",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9d210eb12799e25b65",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d79ec927df40dc4576c6"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79ec927df40dc4576c5",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49854f",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 93.84615384615384,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 120.00000000000023,
+          "_id" : "6a19d79ec927df40dc4576c3",
+          "basePrice" : 1950.0,
+          "brlDiscount" : 1829.9999999999998
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79ec927df40dc4576c2"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7afc927df40dc48f025",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e262b4",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7afc927df40dc48f027"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7afc927df40dc48f026",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498550",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 84.0,
+          "_id" : "6a19d7afc927df40dc48f024",
+          "basePrice" : 210.0,
+          "brlDiscount" : 126.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7afc927df40dc48f023"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 15.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d79fc927df40dc466a00",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e25bff",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d79fc927df40dc466a02"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79fc927df40dc466a01",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498551",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 90.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 120.0,
+          "_id" : "6a19d79fc927df40dc4669ff",
+          "basePrice" : 1200.0,
+          "brlDiscount" : 1080.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79fc927df40dc4669fe"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 24.04761904761905,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : null,
+        "_id" : "6a19d7acebd9a0515b938232",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-15T20:03:25.298Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e25fa6",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7aac927df40dc48690d"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7aac927df40dc48690c",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a305a8d4f91145c6fb6065a",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 80.95238095238095,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 12.0,
+          "_id" : "6a19d7aac927df40dc48690a",
+          "basePrice" : 63.0,
+          "brlDiscount" : 51.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7aac927df40dc486909"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 32.346938775510196,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7adc927df40dc48bf63",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e26175",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7adc927df40dc48bf65"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7adc927df40dc48bf64",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498552",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 72.6530612244898,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 26.799999999999997,
+          "_id" : "6a19d7adc927df40dc48bf62",
+          "basePrice" : 98.0,
+          "brlDiscount" : 71.2
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7adc927df40dc48bf61"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 44.8406374501992,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7abc927df40dc4896d2",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e26056",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7abc927df40dc4896d4"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7abc927df40dc4896d3",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498553",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.1593625498008,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 100.0,
+          "_id" : "6a19d7abc927df40dc4896d1",
+          "basePrice" : 251.0,
+          "brlDiscount" : 151.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7abc927df40dc4896d0"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b1c927df40dc492ff9",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e26414",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b1c927df40dc492ffb"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b1c927df40dc492ffa",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498554",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 24.0,
+          "_id" : "6a19d7b1c927df40dc492ff8",
+          "basePrice" : 60.0,
+          "brlDiscount" : 36.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b1c927df40dc492ff7"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 22.369727047146398,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7ca0ded81646f97f21e",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9d210eb12799e25766",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7ca0ded81646f97f220"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7ca0ded81646f97f21f",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498555",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 82.6302729528536,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 70.0,
+          "_id" : "6a19d7ca0ded81646f97f21d",
+          "basePrice" : 403.0,
+          "brlDiscount" : 333.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7ca0ded81646f97f21c"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b9c927df40dc4aabdb",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e26952",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b9c927df40dc4aabdd"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b9c927df40dc4aabdc",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498556",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 84.0,
+          "_id" : "6a19d7b9c927df40dc4aabda",
+          "basePrice" : 210.0,
+          "brlDiscount" : 126.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b9c927df40dc4aabd9"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 12.361963190184056,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7aac927df40dc486b7a",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e25fb1",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7aac927df40dc486b7c"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7aac927df40dc486b7b",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498557",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 92.63803680981594,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 12.0,
+          "_id" : "6a19d7aac927df40dc486b79",
+          "basePrice" : 163.0,
+          "brlDiscount" : 151.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7aac927df40dc486b78"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 14.015506671474938,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7a2f95d4e020fc43364",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9ebc801b051db7af24",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 1,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7a2f95d4e020fc43366"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7a2f95d4e020fc43365",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498558",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 90.98449332852506,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 250.0,
+          "_id" : "6a19d7a2f95d4e020fc43363",
+          "basePrice" : 2773.0,
+          "brlDiscount" : 2523.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7a2f95d4e020fc43362"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 35.85714285714285,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b4c927df40dc498caf",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e265f8",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b4c927df40dc498cb1"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b4c927df40dc498cb0",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498559",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 69.14285714285715,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 64.79999999999998,
+          "_id" : "6a19d7b4c927df40dc498cae",
+          "basePrice" : 210.0,
+          "brlDiscount" : 145.20000000000002
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b4c927df40dc498cad"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 13.403361344537814,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d79dc927df40dc454a29",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9d210eb12799e25b0d",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d79dc927df40dc454a2b"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79dc927df40dc454a2a",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49855a",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 91.59663865546219,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 150.0,
+          "_id" : "6a19d79dc927df40dc454a28",
+          "basePrice" : 1785.0,
+          "brlDiscount" : 1635.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d79dc927df40dc454a27"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b6c927df40dc49dcb1",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e2672c",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b6c927df40dc49dcb3"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b6c927df40dc49dcb2",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49855b",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 16.8,
+          "_id" : "6a19d7b6c927df40dc49dcb0",
+          "basePrice" : 42.0,
+          "brlDiscount" : 25.2
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b6c927df40dc49dcaf"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 22.369727047146398,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7cb0ded81646f98018e",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9d210eb12799e25792",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7cb0ded81646f980190"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7cb0ded81646f98018f",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49855c",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 82.6302729528536,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 70.0,
+          "_id" : "6a19d7cb0ded81646f98018d",
+          "basePrice" : 403.0,
+          "brlDiscount" : 333.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7cb0ded81646f98018c"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 58.57142857142857,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c6f95d4e020fcd08f1",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a3311bc801b051dbbf55e",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c6f95d4e020fcd08f3"
+        } ],
+        "countUsageBy" : "service",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c6f95d4e020fcd08f2",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49855d",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 46.42857142857143,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 15.0,
+          "_id" : "6a19d7c6f95d4e020fcd08f0",
+          "basePrice" : 28.0,
+          "brlDiscount" : 13.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c6f95d4e020fcd08ef"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 21.666666666666657,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b1c927df40dc493bcc",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e26477",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b1c927df40dc493bce"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b1c927df40dc493bcd",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49855e",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 83.33333333333334,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 34.99999999999997,
+          "_id" : "6a19d7b1c927df40dc493bcb",
+          "basePrice" : 210.0,
+          "brlDiscount" : 175.00000000000003
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b1c927df40dc493bca"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 39.54545454545455,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c8f95d4e020fcdf21c",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9dbc801b051db585d0",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 7,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c8f95d4e020fcdf21e"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c8f95d4e020fcdf21d",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49855f",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 65.45454545454545,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 38.0,
+          "_id" : "6a19d7c8f95d4e020fcdf21b",
+          "basePrice" : 110.0,
+          "brlDiscount" : 72.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c8f95d4e020fcdf21a"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 44.99999999999999,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7aac927df40dc486439",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e25f90",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7aac927df40dc48643b"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7aac927df40dc48643a",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498560",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.00000000000001,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 25.199999999999996,
+          "_id" : "6a19d7aac927df40dc486438",
+          "basePrice" : 63.0,
+          "brlDiscount" : 37.800000000000004
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7aac927df40dc486437"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c7f95d4e020fcd9c5a",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9dbc801b051db58486",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : null,
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498561",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 199.60000000000002,
+          "_id" : "6a19d7c7f95d4e020fcd9c59",
+          "basePrice" : 499.0,
+          "brlDiscount" : 299.4
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c7f95d4e020fcd9c58"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 44.99999999999999,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7aec927df40dc48cf04",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e261e3",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7aec927df40dc48cf06"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7aec927df40dc48cf05",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498562",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.00000000000001,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 28.39999999999999,
+          "_id" : "6a19d7aec927df40dc48cf03",
+          "basePrice" : 71.0,
+          "brlDiscount" : 42.60000000000001
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7aec927df40dc48cf02"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 25.110608345902463,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7cf0ded81646f994de1",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9d210eb12799e259a1",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7cf0ded81646f994de3"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7cf0ded81646f994de2",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498563",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 79.88939165409754,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 168.00002011060826,
+          "_id" : "6a19d7cf0ded81646f994de0",
+          "basePrice" : 835.3801,
+          "brlDiscount" : 667.3800798893917
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7cf0ded81646f994ddf"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 31.315789473684205,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c1f95d4e020fcb6a3a",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2fa0bc801b051db9b60f",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 25,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c1f95d4e020fcb6a3c"
+        } ],
+        "countUsageBy" : "serviceType",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c1f95d4e020fcb6a3b",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498564",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 73.6842105263158,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 25.0,
+          "_id" : "6a19d7c1f95d4e020fcb6a39",
+          "basePrice" : 95.0,
+          "brlDiscount" : 70.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c1f95d4e020fcb6a38"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b4c927df40dc49c796",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e26687",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b4c927df40dc49c798"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b4c927df40dc49c797",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498565",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 70.4,
+          "_id" : "6a19d7b4c927df40dc49c795",
+          "basePrice" : 176.0,
+          "brlDiscount" : 105.6
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b4c927df40dc49c794"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 17.437810945273625,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : null,
+        "_id" : "6a19d7abebd9a0515b9379a5",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-15T20:03:25.298Z"
+      },
+      "service" : {
+        "_id" : "682a2f9c210eb12799e25347",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 2,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c60ded81646f95b2d8"
+        } ],
+        "countUsageBy" : "service",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c60ded81646f95b2d7",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a305a8d4f91145c6fb60656",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 87.56218905472637,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 25.0,
+          "_id" : "6a19d7c60ded81646f95b2d5",
+          "basePrice" : 201.0,
+          "brlDiscount" : 176.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c60ded81646f95b2d4"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 14.693053311793221,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c40ded81646f948ef6",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9c210eb12799e2520c",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 10,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c40ded81646f948ef8"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c40ded81646f948ef7",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498566",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 90.30694668820678,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 60.0,
+          "_id" : "6a19d7c40ded81646f948ef5",
+          "basePrice" : 619.0,
+          "brlDiscount" : 559.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c40ded81646f948ef4"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 27.52252252252252,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7adc927df40dc48b990",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a3312bc801b051dbbf60b",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7adc927df40dc48b992"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7adc927df40dc48b991",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498567",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 77.47747747747748,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 25.0,
+          "_id" : "6a19d7adc927df40dc48b98f",
+          "basePrice" : 111.0,
+          "brlDiscount" : 86.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7adc927df40dc48b98e"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b9c927df40dc4aa289",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e268ef",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b9c927df40dc4aa28b"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b9c927df40dc4aa28a",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498568",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 84.0,
+          "_id" : "6a19d7b9c927df40dc4aa288",
+          "basePrice" : 210.0,
+          "brlDiscount" : 126.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b9c927df40dc4aa287"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 44.99999999999999,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b7c927df40dc4a7401",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e2681e",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b7c927df40dc4a7403"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b7c927df40dc4a7402",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498569",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.00000000000001,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 50.39999999999999,
+          "_id" : "6a19d7b7c927df40dc4a7400",
+          "basePrice" : 126.0,
+          "brlDiscount" : 75.60000000000001
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b7c927df40dc4a73ff"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 14.015506671474938,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7a2f95d4e020fc42b7f",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9ebc801b051db7af0e",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 1,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7a2f95d4e020fc42b81"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7a2f95d4e020fc42b80",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49856a",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 90.98449332852506,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 250.0,
+          "_id" : "6a19d7a2f95d4e020fc42b7e",
+          "basePrice" : 2773.0,
+          "brlDiscount" : 2523.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7a2f95d4e020fc42b7d"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 17.98701298701299,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c6f95d4e020fccd88f",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9dbc801b051db5838d",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : null,
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49856b",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 87.01298701298701,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 30.0,
+          "_id" : "6a19d7c6f95d4e020fccd88e",
+          "basePrice" : 231.0,
+          "brlDiscount" : 201.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c6f95d4e020fccd88d"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 44.99999999999999,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b3c927df40dc4987f2",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e265d7",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b3c927df40dc4987f4"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b3c927df40dc4987f3",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49856c",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.00000000000001,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 34.39999999999999,
+          "_id" : "6a19d7b3c927df40dc4987f1",
+          "basePrice" : 86.0,
+          "brlDiscount" : 51.60000000000001
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b3c927df40dc4987f0"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 22.369727047146398,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c90ded81646f9759fc",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9d210eb12799e2552b",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c90ded81646f975a00"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c90ded81646f9759fe",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49856d",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 82.6302729528536,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 70.0,
+          "_id" : "6a19d7c90ded81646f9759fa",
+          "basePrice" : 403.0,
+          "brlDiscount" : 333.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c90ded81646f9759f7"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7abc927df40dc488b40",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e26014",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7abc927df40dc488b42"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7abc927df40dc488b41",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49856e",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 55.60000000000001,
+          "_id" : "6a19d7abc927df40dc488b3f",
+          "basePrice" : 139.0,
+          "brlDiscount" : 83.39999999999999
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7abc927df40dc488b3e"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 28.866348448687347,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7acc927df40dc48a136",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e260ae",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7acc927df40dc48a139"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7acc927df40dc48a137",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49856f",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 76.13365155131265,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 100.0,
+          "_id" : "6a19d7acc927df40dc48a135",
+          "basePrice" : 419.0,
+          "brlDiscount" : 319.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7acc927df40dc48a134"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7abc927df40dc488cc9",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e2601f",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : null,
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498570",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 87.20000000000002,
+          "_id" : "6a19d7abc927df40dc488cc8",
+          "basePrice" : 218.0,
+          "brlDiscount" : 130.79999999999998
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7abc927df40dc488cc7"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 32.272727272727266,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : null,
+        "_id" : "6a19d7acebd9a0515b93ab10",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-15T20:03:25.298Z"
+      },
+      "service" : {
+        "_id" : "682a2f9dbc801b051db5827f",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : null,
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a305a8d4f91145c6fb60684",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 72.72727272727273,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 15.0,
+          "_id" : "6a19d7c5f95d4e020fcc8378",
+          "basePrice" : 55.0,
+          "brlDiscount" : 40.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c5f95d4e020fcc8375"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c6f95d4e020fccf1c0",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a3311bc801b051dbbf553",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c6f95d4e020fccf1c6"
+        } ],
+        "countUsageBy" : "service",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c6f95d4e020fccf1c3",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498571",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 16.8,
+          "_id" : "6a19d7c6f95d4e020fccf1bd",
+          "basePrice" : 42.0,
+          "brlDiscount" : 25.2
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c6f95d4e020fccf1bb"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 31.315789473684205,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7baf95d4e020fc906c8",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9fbc801b051db9b2f7",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 25,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7baf95d4e020fc906d0"
+        } ],
+        "countUsageBy" : "serviceType",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7baf95d4e020fc906cd",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498572",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 73.6842105263158,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 25.0,
+          "_id" : "6a19d7baf95d4e020fc906c4",
+          "basePrice" : 95.0,
+          "brlDiscount" : 70.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7baf95d4e020fc906c1"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 13.421052631578945,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c2f95d4e020fcb9664",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2fa0bc801b051db9b69e",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : null,
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498573",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 91.57894736842105,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 39.99999999999994,
+          "_id" : "6a19d7c2f95d4e020fcb9663",
+          "basePrice" : 475.0,
+          "brlDiscount" : 435.00000000000006
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c2f95d4e020fcb9662"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 39.48275862068965,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b5c927df40dc49d622",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e266f5",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b5c927df40dc49d624"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b5c927df40dc49d623",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498574",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 65.51724137931035,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 99.99999999999997,
+          "_id" : "6a19d7b5c927df40dc49d621",
+          "basePrice" : 290.0,
+          "brlDiscount" : 190.00000000000003
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b5c927df40dc49d620"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 15.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c70ded81646f96bb5e",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9d210eb12799e2540d",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 1,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c70ded81646f96bb60"
+        } ],
+        "countUsageBy" : "serviceType",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c70ded81646f96bb5f",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498575",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 90.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 40.0,
+          "_id" : "6a19d7c70ded81646f96bb5d",
+          "basePrice" : 400.0,
+          "brlDiscount" : 360.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c70ded81646f96bb5c"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 20.873015873015873,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b6c927df40dc4a1481",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e2676e",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b6c927df40dc4a1483"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b6c927df40dc4a1482",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498576",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 84.12698412698413,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 30.0,
+          "_id" : "6a19d7b6c927df40dc4a147d",
+          "basePrice" : 189.0,
+          "brlDiscount" : 159.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b6c927df40dc4a147c"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 27.222222222222214,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b2c927df40dc4949ed",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e2653d",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b2c927df40dc4949ef"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b2c927df40dc4949ee",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498577",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 77.77777777777779,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 99.99999999999994,
+          "_id" : "6a19d7b2c927df40dc4949ec",
+          "basePrice" : 450.0,
+          "brlDiscount" : 350.00000000000006
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b2c927df40dc4949eb"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 23.421052631578945,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7bdc927df40dc4b413f",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9dbc801b051db595f2",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7bdc927df40dc4b4141"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bdc927df40dc4b4140",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498578",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 81.57894736842105,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 35.0,
+          "_id" : "6a19d7bdc927df40dc4b413e",
+          "basePrice" : 190.0,
+          "brlDiscount" : 155.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7bdc927df40dc4b413d"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 45.0,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b2c927df40dc494bf7",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e26553",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 15,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b2c927df40dc494bf9"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b2c927df40dc494bf8",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e498579",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.0,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 84.0,
+          "_id" : "6a19d7b2c927df40dc494bf6",
+          "basePrice" : 210.0,
+          "brlDiscount" : 126.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b2c927df40dc494bf5"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 44.99999999999999,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7abc927df40dc4889c0",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e26009",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7abc927df40dc4889c2"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7abc927df40dc4889c1",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49857a",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 60.00000000000001,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 21.199999999999996,
+          "_id" : "6a19d7abc927df40dc4889bf",
+          "basePrice" : 53.0,
+          "brlDiscount" : 31.800000000000004
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7abc927df40dc4889be"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 14.043927648578816,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7b7c927df40dc4a58b4",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9f210eb12799e267bb",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7b7c927df40dc4a58b6"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b7c927df40dc4a58b5",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49857b",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 90.95607235142118,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 35.00000000000006,
+          "_id" : "6a19d7b7c927df40dc4a58b3",
+          "basePrice" : 387.0,
+          "brlDiscount" : 351.99999999999994
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7b7c927df40dc4a58b2"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 39.54545454545455,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7c9f95d4e020fcdfa3c",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9dbc801b051db585e6",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 3,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c9f95d4e020fcdfa3f"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c9f95d4e020fcdfa3e",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49857c",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 65.45454545454545,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 38.0,
+          "_id" : "6a19d7c9f95d4e020fcdfa3b",
+          "basePrice" : 110.0,
+          "brlDiscount" : 72.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c9f95d4e020fcdfa3a"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 16.33333333333333,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : 0.0,
+        "_id" : "6a19d7abc927df40dc487828",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-19T14:35:54.296Z"
+      },
+      "service" : {
+        "_id" : "682a2f9e210eb12799e25fdd",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 20,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7abc927df40dc48782a"
+        } ],
+        "countUsageBy" : "category",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7abc927df40dc487829",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a3553cbc6a32f0d7e49857d",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 88.66666666666667,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 17.0,
+          "_id" : "6a19d7abc927df40dc487826",
+          "basePrice" : 150.0,
+          "brlDiscount" : 133.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7abc927df40dc487825"
+      }
+    }, {
+      "waitingPeriodsData" : {
+        "oopDiscount" : 15.101010101010104,
+        "anticipations" : 0,
+        "_classRevision" : "5",
+        "_class" : {
+          "_id" : "67f41ad799587956cb8b846d",
+          "_classId" : "000000000000000000000000"
+        },
+        "minimumCost" : null,
+        "_id" : "6a19d7abebd9a0515b9376a2",
+        "waitingPeriodsInDays" : 0,
+        "waitingPeriodsStartDate" : "2026-06-15T20:03:25.298Z"
+      },
+      "service" : {
+        "_id" : "682a2f9c210eb12799e25326",
+        "_classId" : "67d0864c783db70d0d67883b"
+      },
+      "usageLimit" : {
+        "upgradeReset" : false,
+        "singleUse" : false,
+        "resetPeriodicity" : {
+          "_id" : "67f961e4d0683c7aab7d4c50",
+          "_classId" : "67f961cf936c5f77d351295b"
+        },
+        "_classRevision" : "4",
+        "usageFrequencies" : [ {
+          "periodInDays" : 365,
+          "_classRevision" : "3",
+          "uses" : 1,
+          "_class" : {
+            "_id" : "67f7ce60a218d0508ce75ce9",
+            "_classId" : "000000000000000000000000"
+          },
+          "_id" : "6a19d7c50ded81646f959893"
+        } ],
+        "countUsageBy" : "serviceType",
+        "_class" : {
+          "_id" : "67fcf14ab368090dcec72587",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c50ded81646f959892",
+        "ignoreInCount" : false
+      },
+      "_classRevision" : "4",
+      "uses" : null,
+      "_class" : {
+        "_id" : "67d3447ae32aa4017083c2ed",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a305a8d4f91145c6fb60663",
+      "pricing" : {
+        "_classRevision" : "1",
+        "internaPricing" : {
+          "discount" : 89.8989898989899,
+          "_classRevision" : "2",
+          "_class" : {
+            "_id" : "67ec1910bbd8be7d7ac01043",
+            "_classId" : "000000000000000000000000"
+          },
+          "endPrice" : 30.0,
+          "_id" : "6a19d7c50ded81646f959890",
+          "basePrice" : 297.0,
+          "brlDiscount" : 267.0
+        },
+        "externalPricing" : null,
+        "_class" : {
+          "_id" : "67ec1c1068e021779b14ff26",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a19d7c50ded81646f95988f"
+      }
+    } ],
+    "_revision" : "6",
+    "contract" : {
+      "_id" : "6a304c6c74805a4e8aede4fa",
+      "_classId" : "597265a4ce027221e445351a"
+    },
+    "_lastUpdateUser" : {
+      "_id" : "000000000002000000000001",
+      "_classId" : "000000000000000000000002"
+    },
+    "_classRevision" : "505",
+    "_creationDate" : "2026-06-15T19:03:10.358Z",
+    "contractFile" : {
+      "_id" : "6a3553c9872fd82b1afe57ec",
+      "name" : "Tabela_De_Cobertura_E_Contrato.pdf",
+      "contentText" : null,
+      "pendingContentExtraction" : false,
+      "contentType" : "application/pdf; charset=utf-8",
+      "length" : 676079,
+      "hash" : "5d1fa99aca1b70aa5e2374ed932d8715"
+    },
+    "tutor" : {
+      "_id" : "6a304b3e6d7acc5f03a60354",
+      "_classId" : "67d85235e32aa40170857724"
+    },
+    "legacyFlocker" : false,
+    "stripeSubscriptionId" : null,
+    "_publishedObject" : null,
+    "_lastUpdateDate" : "2026-06-19T14:35:55.100Z",
+    "_protected" : false,
+    "validityDate" : "2026-07-15T03:00:00Z",
+    "subscriptionStatus" : {
+      "_id" : "67fe73a0d4ee46169fe33a30",
+      "_classId" : "67fe7386d4ee46169fe095b0"
+    },
+    "_unprotectedFields" : [ ],
+    "_class" : {
+      "_id" : "67d038dd783db70d0d2650bb",
+      "_classId" : "000000000000000000000000"
+    },
+    "_id" : "6a304c6e74805a4e8aeea85c",
+    "pet" : {
+      "_id" : "6a304c1674805a4e8abaaa60",
+      "_classId" : "67cb1deb3e99751e7075351e"
+    },
+    "startDate" : "2026-06-15T19:03:10.633Z"
+  },
+  "_id" : "6a304c6e74805a4e8aeea85c",
+  "sort" : null,
+  "_score" : 10.30489,
+  "fields" : null
+}

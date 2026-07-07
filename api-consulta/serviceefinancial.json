@@ -1,0 +1,13 @@
+//SCRIPT 1 — SERVICE STATE
+
+{
+  "data" : "TypeError: Cannot read property '_search' of undefined\n    at global.<anonymous> (ScriptAction:6:20)\n    at ScriptAction:2:2",
+  "success" : false
+}
+
+//SCRIPT 2 — FINANCIAL STATE
+
+{
+  "data" : "TypeError: Cannot read property '_search' of undefined\n    at global.<anonymous> (ScriptAction:6:20)\n    at ScriptAction:2:2",
+  "success" : false
+}

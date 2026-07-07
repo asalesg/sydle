@@ -1,0 +1,183 @@
+{
+  "hits" : {
+    "total" : 8,
+    "max_score" : null,
+    "hits" : [ {
+      "_type" : null,
+      "_id" : "59726354ce027221e44534fb",
+      "_score" : null,
+      "_source" : {
+        "identifier" : "ACTIVE",
+        "_creationUser" : {
+          "_id" : "67c9d45124565c1b516a3871",
+          "_classId" : "000000000000000000000002"
+        },
+        "_revision" : "0",
+        "_lastUpdateUser" : {
+          "_id" : "67c9d45124565c1b516a3871",
+          "_classId" : "000000000000000000000002"
+        },
+        "_classRevision" : "e66801e3cf52f41aee826c3d19adb347",
+        "_creationDate" : "2025-04-15T13:12:47.171Z",
+        "_publishedObject" : null,
+        "_lastUpdateDate" : "2025-04-15T13:12:47.171Z",
+        "_protected" : true,
+        "name" : "Ativo",
+        "_unprotectedFields" : null,
+        "_class" : {
+          "_id" : "597262c7ce027221e44534e1",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "59726354ce027221e44534fb"
+      },
+      "fields" : null,
+      "sort" : [ "ativo" ],
+      "_esSource" : null,
+      "highlight" : null,
+      "inner_hits" : null
+    }, {
+      "_type" : null,
+      "_id" : "681e08492bd1602c4a991696",
+      "_score" : null,
+      "_source" : {
+        "identifier" : "ACTIVE_FLOCKER",
+        "_creationUser" : {
+          "_id" : "67f527aee2791a71c3b98c61",
+          "_classId" : "000000000000000000000002"
+        },
+        "_revision" : "1",
+        "_lastUpdateUser" : {
+          "_id" : "67c204ba96bc84725a1b9558",
+          "_classId" : "000000000000000000000002"
+        },
+        "_classRevision" : "4",
+        "_creationDate" : "2025-05-15T17:41:18.136Z",
+        "_publishedObject" : null,
+        "_lastUpdateDate" : "2025-09-04T17:11:33.564Z",
+        "_protected" : false,
+        "name" : "Ativo - Flockr",
+        "_unprotectedFields" : null,
+        "_class" : {
+          "_id" : "597262c7ce027221e44534e1",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "681e08492bd1602c4a991696"
+      },
+      "fields" : null,
+      "sort" : [ "ativo - flockr" ],
+      "_esSource" : null,
+      "highlight" : null,
+      "inner_hits" : null
+    }, {
+      "_type" : null,
+      "_id" : "59726365ce027221e44534ff",
+      "_score" : null,
+      "_source" : {
+        "identifier" : "CANCELLED",
+        "_creationUser" : {
+          "_id" : "67c9d45124565c1b516a3871",
+          "_classId" : "000000000000000000000002"
+        },
+        "_revision" : "0",
+        "_lastUpdateUser" : {
+          "_id" : "67c9d45124565c1b516a3871",
+          "_classId" : "000000000000000000000002"
+        },
+        "_classRevision" : "e66801e3cf52f41aee826c3d19adb347",
+        "_creationDate" : "2025-04-15T13:12:47.182Z",
+        "_publishedObject" : null,
+        "_lastUpdateDate" : "2025-04-15T13:12:47.182Z",
+        "_protected" : true,
+        "name" : "Cancelado",
+        "_unprotectedFields" : null,
+        "_class" : {
+          "_id" : "597262c7ce027221e44534e1",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "59726365ce027221e44534ff"
+      },
+      "fields" : null,
+      "sort" : [ "cancelado" ],
+      "_esSource" : null,
+      "highlight" : null,
+      "inner_hits" : null
+    }, {
+      "_type" : null,
+      "_id" : "67bc734fdb4a3e0b5be5f755",
+      "_score" : null,
+      "_source" : {
+        "identifier" : "PARTIALLY_ACTIVE",
+        "_creationUser" : {
+          "_id" : "67c9d45124565c1b516a3871",
+          "_classId" : "000000000000000000000002"
+        },
+        "_revision" : "0",
+        "_lastUpdateUser" : {
+          "_id" : "67c9d45124565c1b516a3871",
+          "_classId" : "000000000000000000000002"
+        },
+        "_classRevision" : "1",
+        "_creationDate" : "2025-04-15T13:12:47.188Z",
+        "_publishedObject" : null,
+        "_lastUpdateDate" : "2025-04-15T13:12:47.188Z",
+        "_protected" : true,
+        "name" : "Parcialmente Ativo",
+        "_unprotectedFields" : null,
+        "_class" : {
+          "_id" : "597262c7ce027221e44534e1",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "67bc734fdb4a3e0b5be5f755"
+      },
+      "fields" : null,
+      "sort" : [ "parcialmente ativo" ],
+      "_esSource" : null,
+      "highlight" : null,
+      "inner_hits" : null
+    }, {
+      "_type" : null,
+      "_id" : "5972634cce027221e44534f9",
+      "_score" : null,
+      "_source" : {
+        "identifier" : "PENDING",
+        "_creationUser" : {
+          "_id" : "67c9d45124565c1b516a3871",
+          "_classId" : "000000000000000000000002"
+        },
+        "_revision" : "0",
+        "_lastUpdateUser" : {
+          "_id" : "67c9d45124565c1b516a3871",
+          "_classId" : "000000000000000000000002"
+        },
+        "_classRevision" : "e66801e3cf52f41aee826c3d19adb347",
+        "_creationDate" : "2025-04-15T13:12:47.161Z",
+        "_publishedObject" : null,
+        "_lastUpdateDate" : "2025-04-15T13:12:47.161Z",
+        "_protected" : true,
+        "name" : "Pendente",
+        "_unprotectedFields" : null,
+        "_class" : {
+          "_id" : "597262c7ce027221e44534e1",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "5972634cce027221e44534f9"
+      },
+      "fields" : null,
+      "sort" : [ "pendente" ],
+      "_esSource" : null,
+      "highlight" : null,
+      "inner_hits" : null
+    } ]
+  },
+  "_shards" : {
+    "total" : 1,
+    "successful" : 1,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "took" : 1,
+  "timed_out" : false,
+  "error" : null,
+  "aggregations" : null,
+  "status" : null
+}

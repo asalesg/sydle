@@ -1,0 +1,178 @@
+--- original.js
++++ final.js
+@@
+ const serviceModelIds = new Set(attendanceModesList);
++
++const rawUnitType = filters.unitType ?? null;
++const ALLOWED_UNIT_TYPES = ["rede_wevets", "volante", "rede_credenciada"];
++if (rawUnitType !== null && rawUnitType !== undefined && !ALLOWED_UNIT_TYPES.includes(rawUnitType)) {
++  throw `Valor de filters.unitType inválido. Valores permitidos: ${ALLOWED_UNIT_TYPES.join(", ")}.`;
++}
+@@
+-const unidadesFiltradas = listaUnidadesUnicas
+-  .filter(unidade =>
+-    !UNIT_TYPE_IDS_BLOQUEADOS.has(
+-      unidade.additionalData?.[0]?.category?._id
+-    )
+-  )
+-  .filter(unidade => {
+-
+-    if (serviceModelIds.size === 0) {
+-      return true;
+-    }
+-
+-    return unidade.serviceModel?.some(
+-      service => serviceModelIds.has(service._id)
+-    );
+-  })
+-  .filter(unidade => {
+-
+-    if (!planId) {
+-      return true;
+-    }
+-
+-    return unidade.additionalData?.some(
+-      data =>
+-        data.plansServiced?.some(
+-          plan => plan._id === planId
+-        )
+-    );
+-  });
++const unidadesFiltradas = listaUnidadesUnicas
++  .filter(unidade => {
++
++    const additional = unidade.additionalData?.[0] || {};
++    const categoryId = additional.category?._id || null;
++    const isVolante = UNIT_TYPE_IDS_BLOQUEADOS.has(categoryId);
++    const isInternal = additional.isInternalUnit === true;
++
++    // Se unitType não é 'volante', aplicar bloqueio global que exclui volantes
++    if (rawUnitType !== 'volante' && isVolante) {
++      return false;
++    }
++
++    // Aplicar filtro por unitType quando informado
++    if (rawUnitType === 'rede_wevets' && !isInternal) {
++      return false;
++    }
++
++    if (rawUnitType === 'volante' && !isVolante) {
++      return false;
++    }
++
++    if (rawUnitType === 'rede_credenciada' && (isVolante || isInternal)) {
++      return false;
++    }
++
++    // Filtro por attendanceModes (serviceModel)
++    if (serviceModelIds.size === 0) {
++      // continua
++    } else if (!unidade.serviceModel?.some(service => serviceModelIds.has(service._id))) {
++      return false;
++    }
++
++    // Filtro por plan
++    if (!planId) {
++      // continua
++    } else if (!unidade.additionalData?.some(data => data.plansServiced?.some(plan => plan._id === planId))) {
++      return false;
++    }
++
++    return true;
++  });
+@@
+-const unidadesMapeadas = unidadesFiltradas.map(unidade => {
+-
+-  const unidadeLatitude = unidade.address?.coordinates?.lat ?? null;
+-  const unidadeLongitude = unidade.address?.coordinates?.lon ?? null;
+-
+-  const distanciaReal = calcularDistanciaHaversine(
+-    minhaLatitude,
+-    minhaLongitude,
+-    unidadeLatitude,
+-    unidadeLongitude
+-  );
+-
+-  const logo = unidade.photo ?`${BASE_URL}api/1/main/crm/ServiceUnit/_extGetPhotoLink/${unidade._id}`: null
+-
+-  return {
+-    "_id": unidade._id,
+-    "name": unidade.name || null,
+-    "logo": logo,
+-    "address": {
+-      "country": unidade.address?.country?.name || null,
+-      "state": unidade.address?.state || null,
+-      "city": unidade.address?.city || null,
+-      "quarter": unidade.address?.quarter || null,
+-      "street": unidade.address?.street || null,
+-      "number": unidade.address?.number || null,
+-      "zipcode": unidade.address?.zipcode || null,
+-      "complement": unidade.address?.complement || null,
+-      "coordinates": {
+-        "lat": unidadeLatitude,
+-        "lon": unidadeLongitude
+-      }
+-    },
+-    "distanceInKm": distanciaReal,
+-    "openingStatus": calcularStatusAbertura(unidade),
+-    "unitType": {
+-      "name": unidade.additionalData?.[0]?.category?.name || null,
+-      "_id": unidade.additionalData?.[0]?.category?._id || null
+-    }
+-  };
+-});
++const unidadesMapeadas = unidadesFiltradas.map(unidade => {
++
++  const additional = unidade.additionalData?.[0] || {};
++  const categoryId = additional.category?._id || null;
++  const isVolante = UNIT_TYPE_IDS_BLOQUEADOS.has(categoryId);
++  const isInternal = additional.isInternalUnit === true;
++
++  const unidadeLatitude = unidade.address?.coordinates?.lat ?? null;
++  const unidadeLongitude = unidade.address?.coordinates?.lon ?? null;
++
++  // Para unidades volantes, address e distância devem ser nulos
++  const distanciaReal = isVolante
++    ? null
++    : calcularDistanciaHaversine(
++      minhaLatitude,
++      minhaLongitude,
++      unidadeLatitude,
++      unidadeLongitude
++    );
++
++  const logo = unidade.photo ? `${BASE_URL}api/1/main/crm/ServiceUnit/_extGetPhotoLink/${unidade._id}` : null;
++
++  // unitType formatado
++  let unitTypeObj;
++  if (isInternal) {
++    unitTypeObj = { name: "Rede WeVets", id: "rede_wevets" };
++  } else if (isVolante) {
++    unitTypeObj = { name: "Volante", id: "volante" };
++  } else {
++    unitTypeObj = { name: "Rede Credenciada", id: "rede_credenciada" };
++  }
++
++  const mappedAddress = isVolante ? null : {
++    "country": unidade.address?.country?.name || null,
++    "state": unidade.address?.state || null,
++    "city": unidade.address?.city || null,
++    "quarter": unidade.address?.quarter || null,
++    "street": unidade.address?.street || null,
++    "number": unidade.address?.number || null,
++    "zipcode": unidade.address?.zipcode || null,
++    "complement": unidade.address?.complement || null,
++    "coordinates": isVolante ? { "lat": null, "lon": null } : { "lat": unidadeLatitude, "lon": unidadeLongitude }
++  };
++
++  return {
++    "_id": unidade._id,
++    "name": unidade.name || null,
++    "description": additional.description || null,
++    "logo": logo,
++    "address": mappedAddress,
++    "distanceInKm": distanciaReal,
++    "openingStatus": calcularStatusAbertura(unidade),
++    "unitType": unitTypeObj
++  };
++});

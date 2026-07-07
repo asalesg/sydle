@@ -1,0 +1,782 @@
+ //SCRIPT 1 — TESTE VIA PET
+
+ {
+  "data" : [ {
+    "tentativa_get_pet" : {
+      "specie" : null,
+      "ageRange" : null,
+      "hasChronicDisease" : null,
+      "_creationUser" : {
+        "_id" : "6a2ffe1e74805a4e8ab670d8",
+        "_classId" : "59136a2c116a1f0f8819ecbb"
+      },
+      "gender" : null,
+      "hasDateOfBirth" : false,
+      "_lastUpdateUser" : {
+        "_id" : "6a2ffe1e74805a4e8ab670d8",
+        "_classId" : "59136a2c116a1f0f8819ecbb"
+      },
+      "legacyFlocker" : false,
+      "legacyGuruvet" : false,
+      "_publishedObject" : null,
+      "_lastUpdateDate" : "2026-06-15T19:01:44.175Z",
+      "_protected" : false,
+      "_unprotectedFields" : [ ],
+      "chronicDiseaseDescription" : null,
+      "weightHistory" : null,
+      "externalCodeGuruvet" : "393391",
+      "_revision" : "1",
+      "tutors" : [ {
+        "_id" : "6a304b3e6d7acc5f03a60354",
+        "_classId" : "67d85235e32aa40170857724"
+      } ],
+      "informAge" : null,
+      "photo" : null,
+      "tutorsAcessConfigurations" : [ {
+        "mainTutor" : true,
+        "editPaymentData" : true,
+        "manageTutors" : true,
+        "_classRevision" : "2",
+        "_class" : {
+          "_id" : "67d1c44e1f20cb4d518f63dd",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a304c1674805a4e8abaaa50",
+        "editPetData" : true,
+        "editPlanData" : true,
+        "tutor" : {
+          "_id" : "6a304b3e6d7acc5f03a60354",
+          "_classId" : "67d85235e32aa40170857724"
+        }
+      } ],
+      "_classRevision" : "86",
+      "_creationDate" : "2026-06-15T19:01:42.589Z",
+      "birthDate" : null,
+      "breed" : null,
+      "size" : null,
+      "profileId" : null,
+      "name" : "Anakin",
+      "externalCodeWebook" : null,
+      "_class" : {
+        "_id" : "67cb1deb3e99751e7075351e",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a304c1674805a4e8abaaa60",
+      "normalizedName" : "ANAKIN",
+      "age" : null,
+      "status" : {
+        "_id" : "697cb17b995dd550655bd546",
+        "_classId" : "697cb169995dd5506541e222"
+      }
+    },
+    "pet" : {
+      "specie" : null,
+      "ageRange" : null,
+      "hasChronicDisease" : null,
+      "_creationUser" : {
+        "_id" : "6a2ffe1e74805a4e8ab670d8",
+        "_classId" : "59136a2c116a1f0f8819ecbb"
+      },
+      "gender" : null,
+      "_classId" : "67cb1deb3e99751e7075351e",
+      "hasDateOfBirth" : false,
+      "_lastUpdateUser" : {
+        "_id" : "6a2ffe1e74805a4e8ab670d8",
+        "_classId" : "59136a2c116a1f0f8819ecbb"
+      },
+      "legacyFlocker" : false,
+      "legacyGuruvet" : false,
+      "_publishedObject" : null,
+      "_lastUpdateDate" : "2026-06-15T19:01:44.175Z",
+      "_protected" : false,
+      "_unprotectedFields" : [ ],
+      "chronicDiseaseDescription" : null,
+      "weightHistory" : null,
+      "externalCodeGuruvet" : "393391",
+      "_revision" : "1",
+      "tutors" : [ {
+        "_id" : "6a304b3e6d7acc5f03a60354",
+        "_classId" : "67d85235e32aa40170857724"
+      } ],
+      "informAge" : null,
+      "photo" : null,
+      "tutorsAcessConfigurations" : [ {
+        "mainTutor" : true,
+        "editPaymentData" : true,
+        "manageTutors" : true,
+        "_classRevision" : "2",
+        "_class" : {
+          "_id" : "67d1c44e1f20cb4d518f63dd",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a304c1674805a4e8abaaa50",
+        "editPetData" : true,
+        "editPlanData" : true,
+        "tutor" : {
+          "_id" : "6a304b3e6d7acc5f03a60354",
+          "_classId" : "67d85235e32aa40170857724"
+        }
+      } ],
+      "_classRevision" : "86",
+      "_creationDate" : "2026-06-15T19:01:42.589Z",
+      "birthDate" : null,
+      "breed" : null,
+      "size" : null,
+      "profileId" : null,
+      "name" : "Anakin",
+      "externalCodeWebook" : null,
+      "_class" : {
+        "_id" : "67cb1deb3e99751e7075351e",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a304c1674805a4e8abaaa60",
+      "normalizedName" : "ANAKIN",
+      "age" : null,
+      "status" : {
+        "_id" : "697cb17b995dd550655bd546",
+        "_classId" : "697cb169995dd5506541e222"
+      }
+    },
+    "pet_id" : "6a304c1674805a4e8abaaa60"
+  }, {
+    "tentativa_get_pet" : {
+      "specie" : null,
+      "ageRange" : null,
+      "hasChronicDisease" : null,
+      "_creationUser" : {
+        "_id" : "6a2ffe1e74805a4e8ab670d8",
+        "_classId" : "59136a2c116a1f0f8819ecbb"
+      },
+      "gender" : null,
+      "hasDateOfBirth" : false,
+      "_lastUpdateUser" : {
+        "_id" : "6a2ffe1e74805a4e8ab670d8",
+        "_classId" : "59136a2c116a1f0f8819ecbb"
+      },
+      "legacyFlocker" : false,
+      "legacyGuruvet" : false,
+      "_publishedObject" : null,
+      "_lastUpdateDate" : "2026-06-15T19:01:41.541Z",
+      "_protected" : false,
+      "_unprotectedFields" : [ ],
+      "chronicDiseaseDescription" : null,
+      "weightHistory" : null,
+      "externalCodeGuruvet" : "745584",
+      "_revision" : "1",
+      "tutors" : [ {
+        "_id" : "6a304b3e6d7acc5f03a60354",
+        "_classId" : "67d85235e32aa40170857724"
+      } ],
+      "informAge" : null,
+      "photo" : null,
+      "tutorsAcessConfigurations" : [ {
+        "mainTutor" : true,
+        "editPaymentData" : true,
+        "manageTutors" : true,
+        "_classRevision" : "2",
+        "_class" : {
+          "_id" : "67d1c44e1f20cb4d518f63dd",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a304c1374805a4e8aba2a2e",
+        "editPetData" : true,
+        "editPlanData" : true,
+        "tutor" : {
+          "_id" : "6a304b3e6d7acc5f03a60354",
+          "_classId" : "67d85235e32aa40170857724"
+        }
+      } ],
+      "_classRevision" : "86",
+      "_creationDate" : "2026-06-15T19:01:39.679Z",
+      "birthDate" : null,
+      "breed" : null,
+      "size" : null,
+      "profileId" : null,
+      "name" : "Luke",
+      "externalCodeWebook" : null,
+      "_class" : {
+        "_id" : "67cb1deb3e99751e7075351e",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a304c1374805a4e8aba2a32",
+      "normalizedName" : "LUKE",
+      "age" : null,
+      "status" : {
+        "_id" : "697cb17b995dd550655bd546",
+        "_classId" : "697cb169995dd5506541e222"
+      }
+    },
+    "pet" : {
+      "specie" : null,
+      "ageRange" : null,
+      "hasChronicDisease" : null,
+      "_creationUser" : {
+        "_id" : "6a2ffe1e74805a4e8ab670d8",
+        "_classId" : "59136a2c116a1f0f8819ecbb"
+      },
+      "gender" : null,
+      "_classId" : "67cb1deb3e99751e7075351e",
+      "hasDateOfBirth" : false,
+      "_lastUpdateUser" : {
+        "_id" : "6a2ffe1e74805a4e8ab670d8",
+        "_classId" : "59136a2c116a1f0f8819ecbb"
+      },
+      "legacyFlocker" : false,
+      "legacyGuruvet" : false,
+      "_publishedObject" : null,
+      "_lastUpdateDate" : "2026-06-15T19:01:41.541Z",
+      "_protected" : false,
+      "_unprotectedFields" : [ ],
+      "chronicDiseaseDescription" : null,
+      "weightHistory" : null,
+      "externalCodeGuruvet" : "745584",
+      "_revision" : "1",
+      "tutors" : [ {
+        "_id" : "6a304b3e6d7acc5f03a60354",
+        "_classId" : "67d85235e32aa40170857724"
+      } ],
+      "informAge" : null,
+      "photo" : null,
+      "tutorsAcessConfigurations" : [ {
+        "mainTutor" : true,
+        "editPaymentData" : true,
+        "manageTutors" : true,
+        "_classRevision" : "2",
+        "_class" : {
+          "_id" : "67d1c44e1f20cb4d518f63dd",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a304c1374805a4e8aba2a2e",
+        "editPetData" : true,
+        "editPlanData" : true,
+        "tutor" : {
+          "_id" : "6a304b3e6d7acc5f03a60354",
+          "_classId" : "67d85235e32aa40170857724"
+        }
+      } ],
+      "_classRevision" : "86",
+      "_creationDate" : "2026-06-15T19:01:39.679Z",
+      "birthDate" : null,
+      "breed" : null,
+      "size" : null,
+      "profileId" : null,
+      "name" : "Luke",
+      "externalCodeWebook" : null,
+      "_class" : {
+        "_id" : "67cb1deb3e99751e7075351e",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a304c1374805a4e8aba2a32",
+      "normalizedName" : "LUKE",
+      "age" : null,
+      "status" : {
+        "_id" : "697cb17b995dd550655bd546",
+        "_classId" : "697cb169995dd5506541e222"
+      }
+    },
+    "pet_id" : "6a304c1374805a4e8aba2a32"
+  } ],
+  "success" : true,
+  "error" : null
+}
+
+//SCRIPT 2 — TESTE VIA CONTRACT
+
+{
+  "data" : [ {
+    "tentativa_get_contract" : {
+      "erro" : true,
+      "message" : "Cannot read property '_get' of undefined"
+    },
+    "contract_id" : "6a304c6c74805a4e8aede4fa",
+    "contract_ref" : {
+      "seller" : {
+        "_id" : "67cd7f0c91bef1265c883f16",
+        "_classId" : "591365fef5ca53284cd8d159"
+      },
+      "_creationUser" : {
+        "_id" : "6a2ffe1e74805a4e8ab670d8",
+        "_classId" : "59136a2c116a1f0f8819ecbb"
+      },
+      "externalCode" : null,
+      "_classId" : "597265a4ce027221e445351a",
+      "intermediateBeneficiary" : null,
+      "billingDays" : {
+        "expirationDay" : 15,
+        "invoicingDay" : 15,
+        "expirationOffSet" : 0,
+        "billingDay" : 15,
+        "invoicingAnticipation" : 0,
+        "_classRevision" : "7",
+        "_class" : {
+          "_id" : "59724e9cce027221e4453441",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a304c7074805a4e8aef6153"
+      },
+      "type" : "sale",
+      "moraType" : {
+        "_id" : "610c2022504afa7e364d160c",
+        "_classId" : "610c13fa504afa7e36f4607f"
+      },
+      "deliveryAddress" : null,
+      "billingGroup" : null,
+      "_unprotectedFields" : [ ],
+      "automaticInvoice" : true,
+      "originContract" : null,
+      "scheduleCancelDate" : null,
+      "productData" : [ {
+        "deal" : {
+          "allowsNegotiation" : true,
+          "rateRules" : {
+            "minimumValue" : null,
+            "_classRevision" : "7",
+            "_class" : {
+              "_id" : "5cac8445784f7f26a8d526eb",
+              "_classId" : "000000000000000000000000"
+            },
+            "_id" : "69f0b79297cef23c67172f37",
+            "value" : 99.9,
+            "maximumValue" : null
+          },
+          "rater" : {
+            "_id" : "5cac8445784f7f26a8d526eb",
+            "_classId" : "000000000000000000000000"
+          },
+          "allowsAdjustment" : true,
+          "prepaid" : true,
+          "_classRevision" : "7",
+          "proRata" : true,
+          "periodicity" : {
+            "_id" : "5cd475cc6535f8784a539c4c",
+            "_classId" : "5cd475936535f8784a5398ea"
+          },
+          "currency" : {
+            "_id" : "591b1686116a1f22487aa921",
+            "_classId" : "000000000000000000000059"
+          },
+          "_class" : {
+            "_id" : "59712d7cce02726babdbc686",
+            "_classId" : "000000000000000000000000"
+          },
+          "notApplyProrata" : null,
+          "_id" : "69f0b76760e1723333116bbb",
+          "value" : 99.9
+        },
+        "planComponent" : {
+          "_id" : "69f0b7b8c55bd670d5a6f586",
+          "_classId" : "5cb5bc9721dc1273415873e9"
+        },
+        "active" : true,
+        "discount" : null,
+        "_classRevision" : "9",
+        "serviceState" : null,
+        "discountData" : [ ],
+        "removed" : null,
+        "classificationParameters" : null,
+        "isOnPlan" : true,
+        "planComponentPricing" : null,
+        "_class" : {
+          "_id" : "5975facece027221e445352f",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a3553c30c0e24596f8481f9",
+        "activationDate" : "2026-06-19T14:35:47.512Z",
+        "referenceDate" : "2026-06-19T14:35:47.512Z"
+      } ],
+      "_creationDate" : "2026-06-15T19:03:08.597Z",
+      "trialData" : null,
+      "buyer" : {
+        "_id" : "6a2ffe1e74805a4e8ab670d8",
+        "_classId" : "59136a2c116a1f0f8819ecbb"
+      },
+      "contractReadjustmentData" : null,
+      "paymentMethod" : {
+        "_id" : "681e359ec1582147b10445b2",
+        "_classId" : "597244b8ce027221e44533fe"
+      },
+      "_class" : {
+        "_id" : "597265a4ce027221e445351a",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a304c6c74805a4e8aede4fa",
+      "activationDate" : "2026-06-15T19:03:12.181Z",
+      "scheduleSuspensionDate" : null,
+      "cancelDate" : null,
+      "code" : 469763,
+      "attachments" : null,
+      "suspensionDate" : null,
+      "_lastUpdateUser" : {
+        "_id" : "000000000002000000000001",
+        "_classId" : "000000000000000000000002"
+      },
+      "saleDate" : "2026-06-15T19:03:12.181Z",
+      "suspensionMode" : "total",
+      "scheduleActivationDate" : null,
+      "_publishedObject" : null,
+      "_lastUpdateDate" : "2026-06-19T14:35:48.089Z",
+      "_protected" : false,
+      "accountPaymentData" : {
+        "_id" : "6a304c1874805a4e8abb002f",
+        "_classId" : "5972519fce027221e445349f"
+      },
+      "defaultingData" : null,
+      "product" : {
+        "_id" : "69f0b7de8a57016588624656",
+        "_classId" : "5cb5bd2a21dc1273415874b1"
+      },
+      "_revision" : "4",
+      "contractValidity" : null,
+      "paymentCondition" : null,
+      "cancellationReason" : null,
+      "_classRevision" : "12",
+      "responsibleForSale" : {
+        "_id" : "6a2ffe1e74805a4e8ab670d8",
+        "_classId" : "59136a2c116a1f0f8819ecbb"
+      },
+      "contractStates" : {
+        "serviceState" : {
+          "_id" : "59726354ce027221e44534fb",
+          "_classId" : "597262c7ce027221e44534e1"
+        },
+        "financialState" : {
+          "_id" : "5972639bce027221e4453507",
+          "_classId" : "59726334ce027221e44534f7"
+        },
+        "serviceStateDate" : "2026-06-15T19:03:08.822Z",
+        "_classRevision" : "6",
+        "_class" : {
+          "_id" : "59777f6ace027227c4269cde",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a304c6c74805a4e8aede4fb",
+        "invoicingState" : {
+          "_id" : "5972637fce027221e4453503",
+          "_classId" : "59726305ce027221e44534ec"
+        },
+        "financialStateDate" : "2026-06-15T19:03:08.822Z",
+        "invoicingStateDate" : "2026-06-15T19:03:08.822Z"
+      },
+      "classificationParameters" : {
+        "legacyFlocker" : false,
+        "_classRevision" : "4",
+        "_class" : {
+          "_id" : "67d1c90a1f20cb4d51ee564d",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a304c6c74805a4e8aeddf2f",
+        "pet" : {
+          "_id" : "6a304c1674805a4e8abaaa60",
+          "_classId" : "67cb1deb3e99751e7075351e"
+        }
+      },
+      "migration" : null,
+      "costAssignment" : null,
+      "billingAddress" : {
+        "country" : {
+          "_id" : "590b71c2f5ca53091c89ea4e",
+          "_classId" : "000000000000000000000040"
+        },
+        "externalCode" : null,
+        "regional" : null,
+        "city" : "São Paulo",
+        "coordinates" : {
+          "type" : "Point",
+          "coordinates" : [ -46.6557692, -23.5365757 ]
+        },
+        "addressWasAutocompleted" : true,
+        "_classRevision" : "4",
+        "type" : {
+          "_id" : "591246a0116a1f1c90640d52",
+          "_classId" : "59124424116a1f15b8708ec9"
+        },
+        "zipcode" : "01232000",
+        "reference" : null,
+        "number" : "214",
+        "stateRef" : {
+          "_id" : "590b7f44f5ca5307c8e841d9",
+          "_classId" : "000000000000000000000047"
+        },
+        "file" : null,
+        "autocompleteAddress" : true,
+        "street" : "Alameda Barros",
+        "name" : null,
+        "cityRef" : {
+          "_id" : "590cb810116a1f208c6c9a50",
+          "_classId" : "000000000000000000000048"
+        },
+        "_class" : {
+          "_id" : "59134ad1116a1f13c85926fe",
+          "_classId" : "000000000000000000000000"
+        },
+        "state" : "São Paulo",
+        "additionalData" : null,
+        "_id" : "6a304c1374805a4e8aba07f7",
+        "complement" : "ap 31",
+        "quarter" : "Santa Cecília",
+        "territory" : null
+      }
+    },
+    "tentativa_get_generic" : {
+      "erro" : true,
+      "message" : "contract is not defined"
+    }
+  }, {
+    "tentativa_get_contract" : {
+      "erro" : true,
+      "message" : "Cannot read property '_get' of undefined"
+    },
+    "contract_id" : "6a304c1f74805a4e8abcae9e",
+    "contract_ref" : {
+      "seller" : {
+        "_id" : "67cd7f0c91bef1265c883f16",
+        "_classId" : "591365fef5ca53284cd8d159"
+      },
+      "_creationUser" : {
+        "_id" : "6a2ffe1e74805a4e8ab670d8",
+        "_classId" : "59136a2c116a1f0f8819ecbb"
+      },
+      "externalCode" : null,
+      "_classId" : "597265a4ce027221e445351a",
+      "intermediateBeneficiary" : null,
+      "billingDays" : {
+        "expirationDay" : 15,
+        "invoicingDay" : 15,
+        "expirationOffSet" : 0,
+        "billingDay" : 15,
+        "invoicingAnticipation" : 0,
+        "_classRevision" : "7",
+        "_class" : {
+          "_id" : "59724e9cce027221e4453441",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a304c6474805a4e8ae82b2b"
+      },
+      "type" : "sale",
+      "moraType" : {
+        "_id" : "610c2022504afa7e364d160c",
+        "_classId" : "610c13fa504afa7e36f4607f"
+      },
+      "deliveryAddress" : null,
+      "billingGroup" : null,
+      "_unprotectedFields" : [ ],
+      "automaticInvoice" : true,
+      "originContract" : null,
+      "scheduleCancelDate" : null,
+      "productData" : [ {
+        "deal" : {
+          "allowsNegotiation" : true,
+          "rateRules" : {
+            "minimumValue" : null,
+            "_classRevision" : "7",
+            "_class" : {
+              "_id" : "5cac8445784f7f26a8d526eb",
+              "_classId" : "000000000000000000000000"
+            },
+            "_id" : "69f0b79297cef23c67172f37",
+            "value" : 99.9,
+            "maximumValue" : null
+          },
+          "rater" : {
+            "_id" : "5cac8445784f7f26a8d526eb",
+            "_classId" : "000000000000000000000000"
+          },
+          "allowsAdjustment" : true,
+          "prepaid" : true,
+          "_classRevision" : "7",
+          "proRata" : true,
+          "periodicity" : {
+            "_id" : "5cd475cc6535f8784a539c4c",
+            "_classId" : "5cd475936535f8784a5398ea"
+          },
+          "currency" : {
+            "_id" : "591b1686116a1f22487aa921",
+            "_classId" : "000000000000000000000059"
+          },
+          "_class" : {
+            "_id" : "59712d7cce02726babdbc686",
+            "_classId" : "000000000000000000000000"
+          },
+          "notApplyProrata" : null,
+          "_id" : "69f0b76760e1723333116bbb",
+          "value" : 99.9
+        },
+        "planComponent" : {
+          "_id" : "69f0b7b8c55bd670d5a6f586",
+          "_classId" : "5cb5bc9721dc1273415873e9"
+        },
+        "active" : true,
+        "discount" : [ {
+          "_id" : "682c718b58bfa4407f72eba4",
+          "_classId" : "5a37ef09317f5a4ee79ab7e2"
+        } ],
+        "_classRevision" : "9",
+        "serviceState" : null,
+        "discountData" : [ {
+          "terminationDate" : null,
+          "beginDate" : "2026-06-19T14:34:00.215Z",
+          "discount" : {
+            "_id" : "682c718b58bfa4407f72eba4",
+            "_classId" : "5a37ef09317f5a4ee79ab7e2"
+          },
+          "_classRevision" : "6",
+          "_class" : {
+            "_id" : "5d2cbc65890466029d5df744",
+            "_classId" : "000000000000000000000000"
+          },
+          "fidelityEndDate" : null,
+          "_id" : "6a3553cc7dfb71237d4294b6"
+        } ],
+        "removed" : null,
+        "classificationParameters" : null,
+        "isOnPlan" : true,
+        "planComponentPricing" : null,
+        "_class" : {
+          "_id" : "5975facece027221e445352f",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a355358872fd82b1aeb5da2",
+        "activationDate" : "2026-06-19T14:34:00.215Z",
+        "referenceDate" : "2026-06-19T14:34:00.215Z"
+      } ],
+      "_creationDate" : "2026-06-15T19:01:51.634Z",
+      "trialData" : null,
+      "buyer" : {
+        "_id" : "6a2ffe1e74805a4e8ab670d8",
+        "_classId" : "59136a2c116a1f0f8819ecbb"
+      },
+      "contractReadjustmentData" : null,
+      "paymentMethod" : {
+        "_id" : "681e359ec1582147b10445b2",
+        "_classId" : "597244b8ce027221e44533fe"
+      },
+      "_class" : {
+        "_id" : "597265a4ce027221e445351a",
+        "_classId" : "000000000000000000000000"
+      },
+      "_id" : "6a304c1f74805a4e8abcae9e",
+      "activationDate" : "2026-06-15T19:03:00.295Z",
+      "scheduleSuspensionDate" : null,
+      "cancelDate" : null,
+      "code" : 469762,
+      "attachments" : null,
+      "suspensionDate" : null,
+      "_lastUpdateUser" : {
+        "_id" : "000000000002000000000001",
+        "_classId" : "000000000000000000000002"
+      },
+      "saleDate" : "2026-06-15T19:03:00.295Z",
+      "suspensionMode" : "total",
+      "scheduleActivationDate" : null,
+      "_publishedObject" : null,
+      "_lastUpdateDate" : "2026-06-19T14:35:56.037Z",
+      "_protected" : false,
+      "accountPaymentData" : {
+        "_id" : "6a304c1874805a4e8abb002f",
+        "_classId" : "5972519fce027221e445349f"
+      },
+      "defaultingData" : null,
+      "product" : {
+        "_id" : "69f0b7de8a57016588624656",
+        "_classId" : "5cb5bd2a21dc1273415874b1"
+      },
+      "_revision" : "4",
+      "contractValidity" : null,
+      "paymentCondition" : null,
+      "cancellationReason" : null,
+      "_classRevision" : "12",
+      "responsibleForSale" : {
+        "_id" : "6a2ffe1e74805a4e8ab670d8",
+        "_classId" : "59136a2c116a1f0f8819ecbb"
+      },
+      "contractStates" : {
+        "serviceState" : {
+          "_id" : "59726354ce027221e44534fb",
+          "_classId" : "597262c7ce027221e44534e1"
+        },
+        "financialState" : {
+          "_id" : "5972639bce027221e4453507",
+          "_classId" : "59726334ce027221e44534f7"
+        },
+        "serviceStateDate" : "2026-06-15T19:01:51.919Z",
+        "_classRevision" : "6",
+        "_class" : {
+          "_id" : "59777f6ace027227c4269cde",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a304c1f74805a4e8abcaea1",
+        "invoicingState" : {
+          "_id" : "5972637fce027221e4453503",
+          "_classId" : "59726305ce027221e44534ec"
+        },
+        "financialStateDate" : "2026-06-15T19:01:51.919Z",
+        "invoicingStateDate" : "2026-06-15T19:01:51.919Z"
+      },
+      "classificationParameters" : {
+        "legacyFlocker" : false,
+        "_classRevision" : "4",
+        "_class" : {
+          "_id" : "67d1c90a1f20cb4d51ee564d",
+          "_classId" : "000000000000000000000000"
+        },
+        "_id" : "6a304c1f74805a4e8abcab4f",
+        "pet" : {
+          "_id" : "6a304c1374805a4e8aba2a32",
+          "_classId" : "67cb1deb3e99751e7075351e"
+        }
+      },
+      "migration" : null,
+      "costAssignment" : null,
+      "billingAddress" : {
+        "country" : {
+          "_id" : "590b71c2f5ca53091c89ea4e",
+          "_classId" : "000000000000000000000040"
+        },
+        "externalCode" : null,
+        "regional" : null,
+        "city" : "São Paulo",
+        "coordinates" : {
+          "type" : "Point",
+          "coordinates" : [ -46.6557692, -23.5365757 ]
+        },
+        "addressWasAutocompleted" : true,
+        "_classRevision" : "4",
+        "type" : {
+          "_id" : "591246a0116a1f1c90640d52",
+          "_classId" : "59124424116a1f15b8708ec9"
+        },
+        "zipcode" : "01232000",
+        "reference" : null,
+        "number" : "214",
+        "stateRef" : {
+          "_id" : "590b7f44f5ca5307c8e841d9",
+          "_classId" : "000000000000000000000047"
+        },
+        "file" : null,
+        "autocompleteAddress" : true,
+        "street" : "Alameda Barros",
+        "name" : null,
+        "cityRef" : {
+          "_id" : "590cb810116a1f208c6c9a50",
+          "_classId" : "000000000000000000000048"
+        },
+        "_class" : {
+          "_id" : "59134ad1116a1f13c85926fe",
+          "_classId" : "000000000000000000000000"
+        },
+        "state" : "São Paulo",
+        "additionalData" : null,
+        "_id" : "6a304c1374805a4e8aba07f7",
+        "complement" : "ap 31",
+        "quarter" : "Santa Cecília",
+        "territory" : null
+      }
+    },
+    "tentativa_get_generic" : {
+      "erro" : true,
+      "message" : "contract is not defined"
+    }
+  } ],
+  "success" : true,
+  "error" : null
+}
